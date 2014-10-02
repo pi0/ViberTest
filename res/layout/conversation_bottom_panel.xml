@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.viber.voip.messages.ui.PttViewController android:id="@id/ptt_content" android:background="@color/dark_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/stickers_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_gravity="bottom" android:id="@id/stickers_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/sticker_menu_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_gravity="bottom" android:id="@id/btn_emoticons" android:background="@color/stickers_emoticon_button_color" android:layout_width="@dimen/sticker_menu_height" android:layout_height="@dimen/sticker_menu_height">
+                <ImageView android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/btn_emoticons" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <com.viber.voip.messages.ui.TabListIndicator android:layout_gravity="bottom|left|center" android:id="@id/indicator" android:background="@color/main" android:fadingEdge="horizontal" android:fadingEdgeLength="30.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/sticker_menu_height" android:layout_marginLeft="@dimen/sticker_menu_height" android:layout_marginRight="@dimen/sticker_menu_height" android:cacheColorHint="#ffffffff" android:requiresFadingEdge="horizontal" />
+            <FrameLayout android:layout_gravity="right" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <Button android:textSize="13.0sp" android:textColor="@color/white_purple" android:gravity="top|center" android:layout_gravity="bottom" android:id="@id/market_btn" android:background="@drawable/btn_stickers" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_stickers_market" android:singleLine="false" />
+                <com.viber.voip.ui.ViberTextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_gravity="top|right|center" android:id="@id/new_package_count" android:background="@drawable/new_sticker_pack_ring" android:layout_width="21.0dip" android:layout_height="21.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="1.0dip" android:singleLine="true" />
+            </FrameLayout>
+        </FrameLayout>
+    </FrameLayout>
+</merge>

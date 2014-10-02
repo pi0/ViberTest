@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="max_thumbnails_in_group_list_item">8</integer>
+    <integer name="favorites_columns">5</integer>
+    <integer name="favorites_columns_compose">5</integer>
+    <integer name="backgrounds_num_columns">5</integer>
+    <integer name="gallery_albums_per_row">3</integer>
+    <integer name="gallery_images_per_row">5</integer>
+    <integer name="error_no_connection_space_above_image">0</integer>
+    <integer name="error_no_connection_space_above_caption">0</integer>
+    <integer name="error_no_connection_space_above_text">1</integer>
+    <integer name="error_no_connection_space_above_try_again">13</integer>
+    <integer name="error_no_connection_space_below_try_again">20</integer>
+</resources>

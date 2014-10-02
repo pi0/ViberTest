@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.viber.voip.widget.AutoFitTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/negative" android:gravity="center" android:layout_gravity="center" android:id="@id/items_count" android:background="@drawable/tab_badge_bg" android:paddingLeft="4.0dip" android:paddingTop="1.5dip" android:paddingRight="4.0dip" android:paddingBottom="1.5dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginBottom="8.0dip" />
+</FrameLayout>

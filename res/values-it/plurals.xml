@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plural_msg_call_viber_out">
+        <item quantity="other">Chiamate Viber Out</item>
+        <item quantity="one">Chiamata Viber Out</item>
+    </plurals>
+    <plurals name="plural_msg_call_incoming">
+        <item quantity="other">Chiamate in entrata</item>
+        <item quantity="one">Chiamata in entrata</item>
+    </plurals>
+    <plurals name="plural_msg_call_outgoing">
+        <item quantity="other">Chiamate in uscita</item>
+        <item quantity="one">Chiamata in uscita</item>
+    </plurals>
+    <plurals name="plural_msg_call_missed">
+        <item quantity="other">Chiamate perse</item>
+        <item quantity="one">Chiamata persa</item>
+    </plurals>
+    <plurals name="plural_msg_call_transferred">
+        <item quantity="other">Chiamate trasferite</item>
+        <item quantity="one">Chiamata trasferita</item>
+    </plurals>
+    <plurals name="plural_msg_call_answered_on_another_device">
+        <item quantity="other">Chiamate con risposta su un altro dispositivo</item>
+        <item quantity="one">Ha risposto su un altro dispositivo</item>
+    </plurals>
+</resources>

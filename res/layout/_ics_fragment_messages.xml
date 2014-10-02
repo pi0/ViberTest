@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/messages_list" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.viber.voip.ui.ViberListView android:scrollbarStyle="outsideOverlay" android:id="@*android:id/list" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@*android:color/transparent" android:drawSelectorOnTop="false" android:cacheColorHint="#00000000" android:divider="@drawable/_ics_conversations_list_divider" android:dividerHeight="1.0px" android:fastScrollEnabled="false" android:smoothScrollbar="true" android:overScrollMode="never" android:fastScrollAlwaysVisible="false" />
+    <ScrollView android:id="@*android:id/empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" style="@style/NoItemsBackground">
+        <ViewStub android:id="@id/empty_stub" android:layout="@layout/_ics_layout_empty" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+    <ProgressBar android:id="@id/emptyProgress" android:layout_width="@dimen/empty_fragment_view_progress_dialog_size" android:layout_height="@dimen/empty_fragment_view_progress_dialog_size" android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="zoobe_image_story_width">216.0dip</dimen>
+    <dimen name="zoobe_image_story_height">263.0dip</dimen>
+    <dimen name="home_tabbar_border_zoobe">1.0dip</dimen>
+    <dimen name="home_tabbar_divider_zoobe">2.0dip</dimen>
+    <dimen name="home_tabbar_btn_height_zoobe">62.0dip</dimen>
+    <dimen name="home_tabbar_btn_width_zoobe">58.0dip</dimen>
+    <dimen name="home_tabbar_btn_new_height_zoobe">31.0dip</dimen>
+    <dimen name="home_tabbar_btn_new_width_zoobe">31.0dip</dimen>
+    <dimen name="home_pager_margin_top_zoobe">8.0dip</dimen>
+    <dimen name="home_pager_margin_bottom_zoobe">30.0dip</dimen>
+    <dimen name="home_pager_indic_margin_bottom_zoobe">13.0dip</dimen>
+    <dimen name="home_pager_indic_height_zoobe">5.0dip</dimen>
+    <dimen name="home_pager_indic_margin_top_zoobe">12.0dip</dimen>
+    <dimen name="home_pager_story_margin">45.0dip</dimen>
+    <dimen name="creator_fx_slider_margin_top">4.0dip</dimen>
+    <dimen name="creator_fx_slider_margin_bottom">4.0dip</dimen>
+    <dimen name="creator_bg_title_margin_bottom">8.0dip</dimen>
+    <dimen name="zv_creator_btns_height">95.0dip</dimen>
+    <dimen name="zv_creator_btns_margin_bottom">1.0dip</dimen>
+    <dimen name="zv_creator_btns_rec_width">90.0dip</dimen>
+    <dimen name="zv_creator_btns_opts_width">75.0dip</dimen>
+    <dimen name="zv_creator_bg_title_margin_bottom">2.0dip</dimen>
+    <dimen name="zv_creator_fx_slider_margin_top">2.0dip</dimen>
+    <dimen name="zv_creator_fx_slider_margin_bottom">2.0dip</dimen>
+</resources>

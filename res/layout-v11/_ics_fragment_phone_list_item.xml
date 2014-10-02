@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/root" android:layout_width="fill_parent" android:layout_height="77.0dip">
+        <com.viber.voip.widget.AvatarView android:id="@id/icon" android:background="@null" android:layout_width="61.0dip" android:layout_height="61.0dip" android:layout_marginLeft="@dimen/phone_item_left_padding" android:layout_marginTop="8.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="8.0dip" android:scaleType="centerCrop" android:layout_alignParentLeft="true" />
+        <RelativeLayout android:id="@id/call_button" android:background="?list_selector" android:clickable="true" android:layout_width="48.0dip" android:layout_height="77.0dip" android:layout_marginRight="@dimen/phone_item_right_padding" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+            <ImageView android:id="@id/call_image" android:duplicateParentState="true" android:layout_width="23.0dip" android:layout_height="24.0dip" android:src="@drawable/_ics_call_button" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/border" android:layout_width="1.0px" android:layout_height="31.0dip" android:src="@drawable/_ics_recent_call_border_selector" android:layout_toLeftOf="@id/call_button" android:layout_centerVertical="true" />
+        <View android:background="@drawable/_ics_recent_border_bg" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_toLeftOf="@id/call_button" android:layout_above="@id/border" />
+        <View android:background="@drawable/_ics_recent_border_bg" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_toLeftOf="@id/call_button" android:layout_below="@id/border" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toLeftOf="@id/call_button" android:layout_toRightOf="@id/icon" android:layout_alignWithParentIfMissing="true">
+            <LinearLayout android:orientation="horizontal" android:id="@id/name_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_alignParentTop="true">
+                <com.viber.voip.ui.ViberTextView android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:text="Contact name" android:singleLine="true" android:layout_weight="1.0" style="@style/recent_contact_item_name" />
+                <com.viber.voip.ui.ViberTextView android:id="@id/group_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:text="(?)" android:singleLine="true" android:layout_weight="0.0" style="@style/recent_contact_item_name" />
+            </LinearLayout>
+            <com.viber.voip.ui.ViberTextView android:id="@id/call_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/type_incoming" android:singleLine="true" android:drawableLeft="@drawable/ic_phone_type_incoming_call" android:drawablePadding="4.0dip" android:layout_below="@id/name_layout" style="@style/recent_contact_item_descr" />
+            <com.viber.voip.ui.ViberTextView android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="43 min ago" android:singleLine="true" android:layout_below="@id/call_type" style="@style/recent_contact_date" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:id="@id/divider" android:background="@color/dividers" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/phone_item_left_padding" android:layout_marginRight="@dimen/phone_item_right_padding" android:layout_below="@id/root" android:layout_alignParentBottom="true" />
+</RelativeLayout>

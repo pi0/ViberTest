@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plural_msg_call_viber_out">
+        <item quantity="other">Обаждания с Viber Out</item>
+        <item quantity="one">Обаждане с Viber Out</item>
+    </plurals>
+    <plurals name="plural_msg_call_incoming">
+        <item quantity="other">Входящи обаждания</item>
+        <item quantity="one">Входящо обаждане</item>
+    </plurals>
+    <plurals name="plural_msg_call_outgoing">
+        <item quantity="other">Изходящи обаждания</item>
+        <item quantity="one">Изходящо обаждане</item>
+    </plurals>
+    <plurals name="plural_msg_call_missed">
+        <item quantity="other">Пропуснати повиквания</item>
+        <item quantity="one">Пропуснато повикване</item>
+    </plurals>
+    <plurals name="plural_msg_call_transferred">
+        <item quantity="other">Прехвърлени обаждания</item>
+        <item quantity="one">Прехвърлено обаждане</item>
+    </plurals>
+    <plurals name="plural_msg_call_answered_on_another_device">
+        <item quantity="other">Обаждания, отговорени от друго устр.</item>
+        <item quantity="one">Отговорено от друго устройство</item>
+    </plurals>
+</resources>

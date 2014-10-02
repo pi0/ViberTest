@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/bottom_part" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/chat_head_bottom_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/cross_container" android:paddingLeft="67.0dip" android:paddingTop="150.0dip" android:layout_width="200.0dip" android:layout_height="fill_parent" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/cross_image" android:background="@drawable/chat_close_base" android:layout_width="69.0dip" android:layout_height="69.0dip" android:src="@drawable/chat_close_icon" android:scaleType="center" />
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <com.zoobe.sdk.ui.widgets.ZoobeTextView android:gravity="top|center" android:id="@id/bg_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="?zoobe_creator_bg_title_margin_bottom" android:text="@string/zoobe_message_background_tabtitle" style="?zoobe_creator_bg_tabtitle" />
+        <HorizontalScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="?zoobe_creator_bg_selector_margin_left" android:layout_marginRight="3.0dip" android:layout_marginBottom="4.0dip" android:layout_below="@id/bg_title">
+            <com.zoobe.sdk.ui.widgets.HorizontalListView android:layout_gravity="left|center" android:id="@id/pager_background" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </HorizontalScrollView>
+    </RelativeLayout>
+</RelativeLayout>

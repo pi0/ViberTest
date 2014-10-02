@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?attr/spinnerDropDownItemStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/white" android:ellipsize="marquee" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="title" android:singleLine="true" style="?android:attr/spinnerDropDownItemStyle" />
+    <TextView android:textSize="11.0sp" android:textColor="@color/white_30" android:ellipsize="marquee" android:id="@id/subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-4.0dip" android:text="subtitle" android:singleLine="true" style="?android:attr/spinnerDropDownItemStyle" />
+</LinearLayout>

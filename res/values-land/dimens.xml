@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abs__action_bar_default_height">40.0dip</dimen>
+    <dimen name="abs__action_bar_icon_vertical_padding">4.0dip</dimen>
+    <dimen name="abs__action_bar_title_text_size">16.0dip</dimen>
+    <dimen name="abs__action_bar_subtitle_text_size">12.0dip</dimen>
+    <dimen name="abs__action_bar_subtitle_top_margin">-2.0dip</dimen>
+    <dimen name="abs__action_bar_subtitle_bottom_margin">4.0dip</dimen>
+    <dimen name="message_options_button_height">112.0dip</dimen>
+    <dimen name="user_add_pic_text_view_padding_bottom">0.0dip</dimen>
+    <dimen name="floating_contact_top_position">-1.0px</dimen>
+    <item type="dimen" name="conversation_menu_scrollbar_width_percent">0.04</item>
+    <dimen name="pop_up_max_width">350.0dip</dimen>
+    <dimen name="web_view_max_height">-1.0px</dimen>
+    <dimen name="desktop_promo_height">69.0dip</dimen>
+    <dimen name="desktop_promo_offset">21.0dip</dimen>
+    <dimen name="desktop_promo_close_bottom_margin">0.0dip</dimen>
+    <dimen name="vibes_list_item_text_topbottom_padding">0.0dip</dimen>
+    <dimen name="pgroups_suggestionlist_divider_height">18.0dip</dimen>
+    <dimen name="pgroups_empty_description_padding">10.0dip</dimen>
+    <dimen name="pgroups_empty_titledescription_padding">0.0dip</dimen>
+    <dimen name="phone_3_keys_height">48.0dip</dimen>
+    <dimen name="welcome_text_size">38.0sp</dimen>
+    <dimen name="welcome_copyright_margin_top">0.0dip</dimen>
+    <dimen name="viber_intro_height">105.0dip</dimen>
+    <dimen name="viber_intro_width">420.0dip</dimen>
+    <dimen name="welcome_copyright_margin_bottom">6.0dip</dimen>
+    <dimen name="reg_title_margin_top">8.0dip</dimen>
+    <dimen name="reg_title_margin_bottom">10.0dip</dimen>
+    <dimen name="splash_viber_logo_height">53.0dip</dimen>
+    <item type="dimen" name="about_weight_1">0.08</item>
+    <item type="dimen" name="about_weight_2">0.08</item>
+    <item type="dimen" name="about_weight_3">0.1</item>
+    <item type="dimen" name="about_weight_4">0.08</item>
+    <item type="dimen" name="about_weight_5">0.66</item>
+    <dimen name="qr_code_margin_top">0.0dip</dimen>
+    <dimen name="qr_code_margin_bottom">0.0dip</dimen>
+    <dimen name="qr_button_margin_bottom">18.0dip</dimen>
+    <item type="dimen" name="dotted_scrollview.scrollbar_weight">0.04</item>
+    <item type="dimen" name="dotted_scrollview.container_weight">0.96</item>
+    <dimen name="tab_indicator_icon_padding">6.0dip</dimen>
+    <dimen name="pgroups_empty_title_top_padding">0.0dip</dimen>
+    <item type="dimen" name="pgroups_empty_title_top_weight">0.1</item>
+</resources>

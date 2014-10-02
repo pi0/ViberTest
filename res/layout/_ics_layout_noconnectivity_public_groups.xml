@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/no_connectivity" android:background="@color/dark_background" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_width="wrap_content" android:layout_height="0.0dip" android:minHeight="40.0dip" android:layout_weight="0.3" />
+    <ImageView android:id="@id/no_connectivity_cat" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/legcat_vibe_screen" />
+    <com.viber.voip.ui.ViberTextView android:layout_gravity="center" android:id="@id/noConnectivityTitle" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginBottom="10.0dip" android:text="@string/dialog_no_network_title" style="@style/NoItemsTitlePublicGroups" />
+    <com.viber.voip.ui.ViberTextView android:gravity="center" android:layout_gravity="center" android:id="@id/noConnectivityDescription" android:paddingLeft="@dimen/pgroups_empty_description_padding" android:paddingRight="@dimen/pgroups_empty_description_padding" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pgroups_noconnectivity_description" style="@style/NoItemsDescriptionPublicGroups" />
+    <View android:layout_width="wrap_content" android:layout_height="0.0dip" android:minHeight="39.0dip" android:layout_weight="0.2" />
+    <Button android:gravity="center" android:id="@id/retryButton" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contacts_sync_fail_dialog_retry_button" />
+    <View android:layout_width="wrap_content" android:layout_height="0.0dip" android:minHeight="40.0dip" android:layout_weight="0.2" />
+</LinearLayout>

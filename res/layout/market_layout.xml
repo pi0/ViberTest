@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <Button android:id="@id/change_market_url_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Change url" />
+        <com.viber.voip.widget.NullCatcherWebView android:id="@id/webview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <include layout="@layout/error_no_connection_layout" />
+</FrameLayout>

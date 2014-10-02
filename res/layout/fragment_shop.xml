@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zoobe.sdk.ui.widgets.ParallaxListView android:id="@id/bundles_list" android:background="?zoobe_shop_list" android:scrollbars="none" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scrollingCache="false" android:cacheColorHint="?zoobe_shop_list" android:divider="@null" android:dividerHeight="@dimen/shop_list_divider_height_zoobe" android:headerDividersEnabled="false" android:footerDividersEnabled="false" android:overScrollMode="never" />
+</RelativeLayout>

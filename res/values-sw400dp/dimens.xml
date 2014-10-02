@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="doodle_menu_width">80.0dip</dimen>
+    <dimen name="public_group_icon_width">219.0dip</dimen>
+</resources>

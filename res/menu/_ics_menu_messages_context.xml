@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/_ics_ic_cab_selectall" android:id="@id/menu_select_all" android:title="@string/select_all" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/_ics_ic_cab_delete" android:id="@id/menu_delete" android:title="@string/btn_msg_delete" android:showAsAction="ifRoom" />
+    <item android:id="@id/menu_conversation_system_info" android:visible="false" android:title="System Item (Debug only)" android:showAsAction="never" />
+</menu>

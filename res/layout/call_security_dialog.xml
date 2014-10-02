@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingTop="17.0dip" android:paddingRight="16.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="#ff666666" android:id="@id/txt_call_secure_dialog_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/secure_call_insecure_trusted_number" android:singleLine="false" />
+    <Button android:layout_gravity="center" android:id="@id/btn_call_secure_dialog_ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:text="@string/secure_call_trust_this_device" style="@style/ViberButtonStyle" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/main" android:layout_gravity="center" android:id="@id/txt_call_secure_dialog_learn_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="23.0dip" android:bufferType="spannable" android:text="@string/secure_call_learn_more" />
+</LinearLayout>

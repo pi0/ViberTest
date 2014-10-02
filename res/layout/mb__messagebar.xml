@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/mbContainer" style="?attr/messageBarContainerStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/mbProgress" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/_ics_ic_msg_clock_light" />
+    <ImageView android:id="@id/mbIcon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/_ics_ic_msg_clock_light" android:contentDescription="mbIcon" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@id/mbMessage" style="?attr/messageBarTextStyle" />
+        <TextView android:id="@id/mbMessageSecond" android:visibility="gone" android:text="Calls and messages are unavialable" style="?attr/messageBarButtonStyle" />
+    </LinearLayout>
+    <ImageView android:id="@id/mbButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/abs__ic_clear_disabled" android:layout_weight="0.0" android:contentDescription="mbButton" />
+</LinearLayout>

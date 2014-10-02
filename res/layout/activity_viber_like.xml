@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@color/z_viber_white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/error_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="78.0dip" android:src="@drawable/v_er_ic_al_enabled" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <Button android:textColor="@color/z_viber_white" android:id="@id/ok_btn" android:background="@color/z_viber_purple" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="72.0dip" android:minWidth="100.0dip" android:text="@string/zoobe_general_okbutton_text" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <TextView android:gravity="center" android:id="@id/error_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/shop_detail_description_margin_zoobe" android:layout_marginTop="68.0dip" android:text="" android:layout_below="@id/error_img" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/media_voice_container" android:paddingLeft="8.0dip" android:paddingRight="4.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/media_voice_control" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/voice_msg_control_play" android:scaleType="center" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="15.0dip">
+        <com.viber.voip.ui.ViberTextView android:textSize="16.0sp" android:textColor="@color/main_text" android:layout_gravity="center_vertical" android:id="@id/media_voice_duration" android:padding="0.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0:00" android:singleLine="true" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/media_voice_progressbar" android:visibility="gone" android:layout_width="19.0dip" android:layout_height="19.0dip" />
+    </FrameLayout>
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" layout="@layout/msg_list_time_location" />
+</LinearLayout>

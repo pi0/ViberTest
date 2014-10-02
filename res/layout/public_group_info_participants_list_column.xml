@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/row0" android:paddingBottom="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.viber.voip.messages.conversation.publicgroup.PublicGroupInfoParticipantView android:id="@id/item_0" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="11.0dip" />
+    <com.viber.voip.messages.conversation.publicgroup.PublicGroupInfoParticipantView android:id="@id/item_1" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

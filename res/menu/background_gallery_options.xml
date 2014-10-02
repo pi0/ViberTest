@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/_ics_ic_ab_gallery" android:id="@id/menu_photo_gallery" android:title="@string/conversation_info_msg_option_select" android:showAsAction="always" />
+    <item android:icon="@drawable/_ics_ic_ab_camera" android:id="@id/menu_take_photo" android:title="@string/options_take_photo" android:showAsAction="always" />
+    <item android:id="@id/menu_remove_background" android:title="@string/background_remove" android:showAsAction="ifRoom|withText" />
+    <item android:id="@id/menu_clear_backgrounds" android:title="(debug) Delete all backgrounds" android:showAsAction="never" />
+</menu>

@@ -1,0 +1,42 @@
+package com.viber.voip.a;
+
+import android.text.TextUtils;
+
+public class c
+{
+  private final String a;
+  private String b;
+  
+  private c(String paramString)
+  {
+    if (!TextUtils.isEmpty(paramString)) {}
+    for (;;)
+    {
+      this.a = paramString;
+      this.b = "";
+      return;
+      paramString = "";
+    }
+  }
+  
+  public String a()
+  {
+    return this.a;
+  }
+  
+  public void a(String paramString)
+  {
+    this.b = paramString;
+  }
+  
+  public String b()
+  {
+    return this.b;
+  }
+}
+
+
+/* Location:           C:\Users\pooya\Desktop\ac.jar
+ * Qualified Name:     com.viber.voip.a.c
+ * JD-Core Version:    0.7.0.1
+ */

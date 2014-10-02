@@ -1,0 +1,13 @@
+version: 1.5.2
+apkFileName: a.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '9'
+  targetSdkVersion: '15'
+packageInfo:
+  cur_package: com.viber.voip
+  orig_package: com.viber.voip
+compressionType: false

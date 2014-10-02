@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plural_msg_call_viber_out">
+        <item quantity="other">Trucades de Viber Out</item>
+        <item quantity="one">Trucada de Viber Out</item>
+    </plurals>
+    <plurals name="plural_msg_call_incoming">
+        <item quantity="other">"Trucades d'entrada"</item>
+        <item quantity="one">Trucada d′entrada</item>
+    </plurals>
+    <plurals name="plural_msg_call_outgoing">
+        <item quantity="other">Trucades de sortida</item>
+        <item quantity="one">Trucada de sortida</item>
+    </plurals>
+    <plurals name="plural_msg_call_missed">
+        <item quantity="other">Trucades perdudes</item>
+        <item quantity="one">Trucada perduda</item>
+    </plurals>
+    <plurals name="plural_msg_call_transferred">
+        <item quantity="other">Trucades transferides</item>
+        <item quantity="one">Trucada transferida</item>
+    </plurals>
+    <plurals name="plural_msg_call_answered_on_another_device">
+        <item quantity="other">Trucades respostes amb un altre dispositiu</item>
+        <item quantity="one">Respòs en un altre dispositiu</item>
+    </plurals>
+</resources>

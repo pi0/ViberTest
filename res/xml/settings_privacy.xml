@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:cacheColorHint="#00000000"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:viber="http://schemas.android.com/apk/res/com.viber.voip">
+    <com.viber.voip.widget.CustomPreferencesCheckbox android:layout="@layout/_ics_custom_checkbox_preference_layout" android:title="@string/pref_last_online" android:key="@string/pref_last_online_key" android:summary="@string/pref_last_online_summary_on" android:defaultValue="@string/pref_last_online_default" viber:title_max_lines="5" viber:summary_max_lines="10" />
+    <CheckBoxPreference android:layout="@layout/_ics_custom_checkbox_preference_layout" android:title="@string/pref_read_status" android:key="@string/pref_read_status_key" android:summary="@string/pref_read_status_summary" android:defaultValue="@string/pref_read_status_default" />
+    <Preference android:layout="@layout/_ics_custom_checkbox_preference_layout" android:title="@string/block_list" android:key="@string/pref_block_list_key">
+        <intent android:action="com.viber.voip.action.BLOCK_LIST" />
+    </Preference>
+    <CheckBoxPreference android:layout="@layout/_ics_custom_checkbox_preference_layout" android:title="@string/pref_google_analytics_title" android:key="@string/pref_google_analytics_key" android:summary="@string/pref_google_analytics_summary" android:defaultValue="@string/pref_google_analytics_default" />
+    <Preference android:layout="@layout/_ics_custom_checkbox_preference_layout" android:title="@string/pref_facebook_connect_title" android:key="@string/pref_facebook_connect_key" />
+    <Preference android:layout="@layout/_ics_custom_checkbox_preference_layout" android:title="@string/pref_twitter_connect_title" android:key="@string/pref_twitter_connect_key" />
+    <Preference android:layout="@layout/_ics_custom_checkbox_preference_layout" android:title="@string/pref_more_tab_privacy_policy_title" android:key="@string/pref_privacy_policy_key" />
+    <Preference android:layout="@layout/_ics_custom_checkbox_preference_layout" android:title="@string/pref_more_tab_deactivate_account_title" android:key="@string/pref_deactivate_key" />
+</PreferenceScreen>

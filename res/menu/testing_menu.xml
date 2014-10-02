@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/z_gen_ic_info_enabled" android:id="@id/actionbar_info" android:orderInCategory="10" android:title="@string/zoobe_info_screentitle" android:showAsAction="always" />
+    <item android:id="@id/actionbar_settings" android:orderInCategory="20" android:title="@string/zoobe_shop_settings_screentitle" android:showAsAction="ifRoom" />
+    <item android:id="@id/actionbar_shop" android:orderInCategory="30" android:title="@string/zoobe_shop_screentitle" android:showAsAction="ifRoom" />
+    <item android:id="@id/actionbar_close" android:orderInCategory="4" android:title="@string/zoobe_action_close_title" android:showAsAction="ifRoom" />
+    <item android:id="@id/actionbar_shop_settings" android:orderInCategory="8" android:title="@string/zoobe_action_shop_settings_title" android:showAsAction="ifRoom" />
+    <item android:id="@id/actionbar_test_forceclose" android:orderInCategory="99" android:title="Force close" android:showAsAction="ifRoom" /> />
+<item android:id="@id/actionbar_test_audiointerrupt" android:orderInCategory="99" android:title="Audio Interrupt" android:showAsAction="ifRoom" /> />
+<item android:id="@id/actionbar_test_crash" android:orderInCategory="99" android:title="Simulate crash" android:showAsAction="ifRoom" /> />
+<item android:id="@id/actionbar_test_videocreate" android:orderInCategory="99" android:title="Simulate video created" android:showAsAction="ifRoom" /> />
+</menu>

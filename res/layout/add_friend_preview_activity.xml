@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:paddingBottom="40.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/photo" android:layout_width="fill_parent" android:layout_height="172.0dip" android:src="@drawable/_ics_ic_contact_picture_big" android:scaleType="centerCrop" android:contentDescription="@null" />
+        <RelativeLayout android:id="@id/button_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignTop="@id/photo" android:layout_alignBottom="@id/photo">
+            <View android:id="@id/anchor" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginLeft="19.0dip" android:layout_marginRight="19.0dip" android:layout_centerHorizontal="true" />
+            <ImageView android:id="@id/open_camera" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/camera_icon" android:layout_toLeftOf="@id/anchor" android:layout_centerVertical="true" android:contentDescription="@null" />
+            <ImageView android:id="@id/open_gallery" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/gallery_icon" android:layout_toRightOf="@id/anchor" android:layout_centerVertical="true" android:contentDescription="@null" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/text_fields_container" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip" android:layout_below="@id/photo">
+            <com.viber.voip.widget.TextViewWithDescription android:description="@string/add_friend_description_name" android:id="@id/display_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textPersonName|textCapWords|textNoSuggestions" />
+            <com.viber.voip.widget.TextViewWithDescription android:description="@string/add_friend_description_phonetic_name" android:id="@id/phonetic_name" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textPhonetic|textCapWords|textNoSuggestions" />
+            <com.viber.voip.widget.TextViewWithDescription android:description="@string/add_friend_description_mobile" android:id="@id/phone_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="phone" app:editable="false" />
+            <com.viber.voip.widget.SpinnerWithDescription android:description="@string/add_friend_description_account" android:id="@id/account" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <com.viber.voip.ui.ViberButton android:id="@id/done" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:minWidth="126.0dip" android:text="@string/done" android:layout_below="@id/text_fields_container" android:layout_centerHorizontal="true" style="?android:attr/buttonStyleSmall" />
+    </RelativeLayout>
+</ScrollView>

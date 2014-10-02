@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plural_msg_call_viber_out">
+        <item quantity="other">Panggilan Viber Out</item>
+        <item quantity="one">Panggilan Viber Out</item>
+    </plurals>
+    <plurals name="plural_msg_call_incoming">
+        <item quantity="other">Panggilan Masuk</item>
+        <item quantity="one">Panggilan Masuk</item>
+    </plurals>
+    <plurals name="plural_msg_call_outgoing">
+        <item quantity="other">Panggilan Keluar</item>
+        <item quantity="one">Panggilan Keluar</item>
+    </plurals>
+    <plurals name="plural_msg_call_missed">
+        <item quantity="other">Panggilan Tidak Dijawab</item>
+        <item quantity="one">Panggilan Tidak Dijawab</item>
+    </plurals>
+    <plurals name="plural_msg_call_transferred">
+        <item quantity="other">Panggilan Dipindah</item>
+        <item quantity="one">Panggilan Dipindah</item>
+    </plurals>
+    <plurals name="plural_msg_call_answered_on_another_device">
+        <item quantity="other">Panggilan dijawab pada peranti lain</item>
+        <item quantity="one">Jawab pada peranti lain</item>
+    </plurals>
+</resources>

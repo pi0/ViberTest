@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.viber.voip.contacts.ui.SquareRelativeLayout android:gravity="center" android:layout_width="200.0dip" android:layout_height="200.0dip">
+        <com.viber.voip.messages.ui.RadialGradientView android:layout_gravity="center" android:id="@id/ptt_voice_level" android:padding="19.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <com.viber.voip.messages.ui.TimeFillView android:enabled="true" android:layout_gravity="center" android:id="@id/ptt_timer" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/ptt_talk" android:background="@drawable/btn_ptt" android:padding="10.0dip" android:visibility="visible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:id="@id/ptt_mic_icon" android:paddingBottom="9.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_ptt_mic" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/ptt_text" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/ptt_btn_text" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/verb_hold_talk" />
+                </LinearLayout>
+                <FrameLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/ptt_talk_error" android:background="@drawable/ptt_inactive_no_connection" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="16.0sp" android:textColor="@color/sub_text" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_no_network_title" />
+                </FrameLayout>
+            </com.viber.voip.messages.ui.TimeFillView>
+        </com.viber.voip.messages.ui.RadialGradientView>
+    </com.viber.voip.contacts.ui.SquareRelativeLayout>
+</LinearLayout>

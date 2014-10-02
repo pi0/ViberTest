@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/audio_main_view" android:layout_width="fill_parent" android:layout_height="@dimen/creator_audio_wave_height" style="?zoobe_creator_audio_wave_position">
+        <com.zoobe.sdk.ui.widgets.HorizTiledImageView android:id="@id/audio_wave_bg_grid" android:layout_width="fill_parent" android:layout_height="fill_parent" style="?zoobe_creator_audio_wave" />
+        <com.zoobe.sdk.ui.widgets.AudioLevelView android:id="@id/audio_level_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/play_btn" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:contentDescription="@string/zoobe_creator_btn_play" style="?zoobe_creator_audio_playBtn" />
+        <TextView android:gravity="center" android:id="@id/error_no_audio" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/creator_audio_noaudio_text_margin_horiz" android:layout_marginRight="@dimen/creator_audio_noaudio_text_margin_horiz" android:text="@string/zoobe_message_fx_norecordingyethint_text" android:layout_centerInParent="true" style="?zoobe_creator_audio_norecording_text" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/loading_bar" android:background="#cc000000" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

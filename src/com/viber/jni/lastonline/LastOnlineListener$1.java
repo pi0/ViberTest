@@ -1,0 +1,21 @@
+package com.viber.jni.lastonline;
+
+import com.viber.jni.OnlineContactInfo;
+import com.viber.jni.controller.ControllerListener.ControllerListenerAction;
+
+class LastOnlineListener$1
+  implements ControllerListener.ControllerListenerAction<LastOnlineDelegate>
+{
+  LastOnlineListener$1(LastOnlineListener paramLastOnlineListener, OnlineContactInfo[] paramArrayOfOnlineContactInfo, int paramInt) {}
+  
+  public void execute(LastOnlineDelegate paramLastOnlineDelegate)
+  {
+    paramLastOnlineDelegate.onLastOnline(this.val$onlineContactInfo, this.val$seq);
+  }
+}
+
+
+/* Location:           C:\Users\pooya\Desktop\ac.jar
+ * Qualified Name:     com.viber.jni.lastonline.LastOnlineListener.1
+ * JD-Core Version:    0.7.0.1
+ */

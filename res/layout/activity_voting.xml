@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="#ff413f3f" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/test_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TEST: reset selection" />
+        <TextView android:id="@id/header_text" android:paddingLeft="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zoobe_voting_title" style="?zoobe_voting_title" />
+        <TextView android:id="@id/subheader_text" android:paddingLeft="20.0dip" android:paddingTop="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zoobe_voting_subtitle" style="?zoobe_voting_subtitle" />
+        <RelativeLayout android:id="@id/images_loading" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="240.0dip">
+            <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <com.zoobe.sdk.ui.views.VotingTableLayout android:id="@id/image_selector" android:paddingTop="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/separator1" android:background="?zoobe_voting_item_separator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/info_sep_padding_left" android:layout_marginTop="12.0dip" android:layout_marginRight="@dimen/info_sep_padding_right" />
+        <TextView android:paddingLeft="20.0dip" android:paddingTop="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:text="@string/zoobe_voting_email_title" style="?zoobe_voting_title" />
+        <EditText android:gravity="top|left|center" android:id="@id/wish_text" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="160.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:hint="@string/zoobe_voting_hint_email" android:layout_weight="1.0" style="?zoobe_voting_inputText" />
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/info_sep_padding_left" android:layout_marginTop="12.0dip" android:layout_marginRight="@dimen/info_sep_padding_right" android:src="?zoobe_voting_item_separator" />
+        <TextView android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:text="@string/zoobe_voting_get_email" style="?zoobe_voting_title" />
+        <EditText android:id="@id/email" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:hint="@string/zoobe_voting_emailHint" style="?zoobe_voting_inputText" />
+        <Button android:id="@id/send_btn" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/creator_continue_height" android:layout_marginLeft="@dimen/creator_continue_margin_horizontal" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/creator_continue_margin_horizontal" android:layout_marginBottom="@dimen/creator_continue_margin_vertical" android:text="@string/zoobe_preview_sendbutton_text" style="?zoobe_creator_continueBtn" />
+    </LinearLayout>
+</ScrollView>

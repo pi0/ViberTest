@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plural_msg_call_viber_out">
+        <item quantity="other">Viber Outの通話履歴</item>
+        <item quantity="one">Viber Outの通話履歴</item>
+    </plurals>
+    <plurals name="plural_msg_call_incoming">
+        <item quantity="other">着信通話</item>
+        <item quantity="one">着信通話</item>
+    </plurals>
+    <plurals name="plural_msg_call_outgoing">
+        <item quantity="other">発信</item>
+        <item quantity="one">発信通話</item>
+    </plurals>
+    <plurals name="plural_msg_call_missed">
+        <item quantity="other">不在着信</item>
+        <item quantity="one">不在着信</item>
+    </plurals>
+    <plurals name="plural_msg_call_transferred">
+        <item quantity="other">転送済みの着信</item>
+        <item quantity="one">転送着信</item>
+    </plurals>
+    <plurals name="plural_msg_call_answered_on_another_device">
+        <item quantity="other">別のデバイスで応答済みの通話</item>
+        <item quantity="one">別のデバイスで返信</item>
+    </plurals>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plural_msg_call_viber_out">
+        <item quantity="other">Viber Out 통화</item>
+        <item quantity="one">Viber Out 통화</item>
+    </plurals>
+    <plurals name="plural_msg_call_incoming">
+        <item quantity="other">수신 전화</item>
+        <item quantity="one">수신 전화</item>
+    </plurals>
+    <plurals name="plural_msg_call_outgoing">
+        <item quantity="other">발신 전화</item>
+        <item quantity="one">발신 전화</item>
+    </plurals>
+    <plurals name="plural_msg_call_missed">
+        <item quantity="other">부재 중 전화</item>
+        <item quantity="one">부재 중 전화</item>
+    </plurals>
+    <plurals name="plural_msg_call_transferred">
+        <item quantity="other">전달된 통화</item>
+        <item quantity="one">전달된 통화</item>
+    </plurals>
+    <plurals name="plural_msg_call_answered_on_another_device">
+        <item quantity="other">다른 장치에서 받은 전화</item>
+        <item quantity="one">다른 장치에서 전화 받음</item>
+    </plurals>
+</resources>

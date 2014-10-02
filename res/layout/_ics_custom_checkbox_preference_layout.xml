@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/root" android:background="@drawable/_ics_custom_list_selector" android:paddingLeft="@dimen/preference_item_padding_side" android:paddingRight="?android:scrollbarSize" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minHeight="?android:listPreferredItemHeight">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="0.0dip">
+            <ImageView android:layout_gravity="center" android:id="@*android:id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="icon" />
+        </LinearLayout>
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="6.0dip" android:layout_weight="1.0">
+            <TextView android:textColor="@color/_ics_conversation_info_primary" android:ellipsize="marquee" android:id="@*android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="fdfsds" android:singleLine="true" style="@style/more_item_text_style" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/sub_text" android:id="@*android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="dddd" android:maxLines="4" android:layout_below="@*android:id/title" android:layout_alignLeft="@*android:id/title" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@*android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <View android:id="@id/bottom_divider" android:background="@color/dividers" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/root" android:layout_alignParentBottom="true" />
+</RelativeLayout>

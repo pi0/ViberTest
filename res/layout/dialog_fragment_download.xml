@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:orientation="vertical" android:background="?zoobe_download_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zoobe.sdk.cache.extra.LoadingImageView android:id="@id/download_thumb" android:layout_width="104.0dip" android:layout_height="117.0dip" android:scaleType="centerCrop" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <TextView android:id="@id/download_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:text="" android:layout_below="@id/download_thumb" android:layout_centerHorizontal="true" style="?zoobe_download_title" />
+    <RelativeLayout android:gravity="center" android:orientation="horizontal" android:id="@id/download_controls" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="31.0dip" android:layout_marginTop="158.0dip" android:layout_marginRight="31.0dip" android:layout_below="@id/download_title" android:layout_centerHorizontal="true">
+        <ImageButton android:id="@id/download_cancel" android:layout_width="?zoobe_download_cancel_size" android:layout_height="?zoobe_download_cancel_size" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="?zoobe_download_close" />
+        <ProgressBar android:id="@id/download_progress" android:layout_width="wrap_content" android:layout_height="?zoobe_download_progress_bar_height" android:layout_marginRight="5.0dip" android:indeterminate="false" android:progressDrawable="?zoobe_download_progress" android:layout_toLeftOf="@id/download_cancel" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="?android:attr/progressBarStyleHorizontal" />
+    </RelativeLayout>
+    <TextView android:id="@id/download_progress_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zoobe_shop_bundle_download_connecting_text" android:layout_below="@id/download_controls" android:layout_centerHorizontal="true" style="?zoobe_download_progress_details" />
+</RelativeLayout>

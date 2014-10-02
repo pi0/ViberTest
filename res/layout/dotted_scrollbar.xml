@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center_horizontal" android:layout_width="1.0dip" android:layout_height="0.0dip" android:layout_weight="0.5" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/dots_scroller_item1" android:layout_width="@dimen/dots_scroller_item_size" android:layout_height="@dimen/dots_scroller_item_size" android:layout_marginBottom="@dimen/dots_scroller_item_margin" android:scaleType="centerInside" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/dots_scroller_item2" android:layout_width="@dimen/dots_scroller_item_size" android:layout_height="@dimen/dots_scroller_item_size" android:layout_marginBottom="@dimen/dots_scroller_item_margin" android:scaleType="centerInside" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/dots_scroller_item3" android:layout_width="@dimen/dots_scroller_item_size" android:layout_height="@dimen/dots_scroller_item_size" android:layout_marginBottom="@dimen/dots_scroller_item_margin" android:scaleType="centerInside" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/dots_scroller_item4" android:layout_width="@dimen/dots_scroller_item_size" android:layout_height="@dimen/dots_scroller_item_size" android:scaleType="centerInside" />
+    <View android:layout_gravity="center_horizontal" android:layout_width="1.0dip" android:layout_height="0.0dip" android:layout_weight="0.5" />
+</merge>

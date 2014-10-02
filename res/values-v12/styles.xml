@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Viber.Edit.PhotoDescription" parent="@style/Viber.Edit">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/sub_text</item>
+        <item name="android:background">@drawable/_ics_edit_text_white</item>
+        <item name="android:maxLines">4</item>
+        <item name="android:maxLength">120</item>
+        <item name="android:inputType">textCapSentences|textAutoCorrect|textMultiLine</item>
+        <item name="android:imeOptions">actionDone</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+</resources>

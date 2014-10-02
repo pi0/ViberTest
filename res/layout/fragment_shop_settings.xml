@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?zoobe_settings_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/shop_settings_header_margin_left" android:layout_marginTop="@dimen/shop_settings_header_margin_top" android:layout_marginBottom="@dimen/shop_settings_header_margin_bottom" android:text="@string/zoobe_shop_settings_purchased_text" style="?zoobe_settings_title" />
+    <com.terlici.dragndroplist.DragNDropListView android:id="@id/purchases" android:scrollbars="none" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scrollingCache="false" android:cacheColorHint="@null" android:divider="@null" android:dividerHeight="@dimen/shop_list_divider_height_zoobe" android:headerDividersEnabled="false" android:footerDividersEnabled="false" android:overScrollMode="never" />
+</LinearLayout>

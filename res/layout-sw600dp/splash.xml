@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/welcome_tablet_bg" android:scaleType="centerCrop" android:layout_alignParentBottom="true" android:contentDescription="@null" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/welcome_logo_margin_top" android:src="@drawable/welcome_logo_purple" android:contentDescription="@null" />
+        <ScrollView android:layout_gravity="center_horizontal" android:id="@id/intro_scroll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:overScrollMode="never">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.viber.voip.ui.ViberTextView android:textSize="54.0sp" android:textColor="@color/negative" android:gravity="center_horizontal" android:id="@id/welcome_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/splash_welcome" />
+                <include android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" layout="@layout/splash_viber_intro" />
+            </LinearLayout>
+        </ScrollView>
+        <com.viber.voip.ui.ViberButton android:layout_gravity="center_horizontal" android:id="@id/okBtn" android:layout_width="202.0dip" android:layout_height="50.0dip" android:layout_marginTop="40.0dip" android:text="@string/btn_continue" />
+    </LinearLayout>
+    <include android:id="@id/view5" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginLeft="10.0dip" android:layout_marginBottom="@dimen/welcome_copyright_margin_bottom" android:layout_alignParentBottom="true" layout="@layout/layout_copyright_policy_light" />
+</RelativeLayout>

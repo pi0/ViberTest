@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerHorizontal="true">
+        <ImageButton android:id="@id/bg_btn" android:layout_width="@dimen/zv_creator_btns_opts_width" android:layout_height="@dimen/zv_creator_btns_opts_width" android:scaleType="fitCenter" android:contentDescription="@string/zoobe_creator_btn_bg" style="?zoobe_creator_bgBtn" />
+        <ImageButton android:id="@id/record_btn" android:layout_width="@dimen/zv_creator_btns_rec_width" android:layout_height="@dimen/zv_creator_btns_rec_width" android:layout_marginLeft="@dimen/zv_creator_btns_rec_margin_horiz" android:layout_marginRight="@dimen/zv_creator_btns_rec_margin_horiz" android:scaleType="fitCenter" android:contentDescription="@string/zoobe_creator_btn_rec" style="?zoobe_creator_recordBtn" />
+        <ImageButton android:id="@id/fx_btn" android:layout_width="@dimen/zv_creator_btns_opts_width" android:layout_height="@dimen/zv_creator_btns_opts_width" android:scaleType="fitCenter" android:contentDescription="@string/zoobe_creator_btn_fx" style="?zoobe_creator_fxBtn" />
+    </LinearLayout>
+    <View android:id="@id/click_capture" android:visibility="invisible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

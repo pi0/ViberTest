@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?zoobe_creator" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:name="com.zoobe.sdk.ui.fragments.CreatorSceneFragment" android:id="@id/creator_scene_fragment" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/creator_main" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/creator_scene_fragment" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ImageView android:id="@id/creator_separator" android:layout_width="fill_parent" android:layout_height="@dimen/creator_fragment_separator_height" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:src="?zoobe_creator_separator" android:scaleType="fitXY" android:layout_alignParentTop="true" />
+            <FrameLayout android:id="@id/main_fragment_holder" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" />
+            <fragment android:name="com.zoobe.sdk.ui.fragments.CreatorAudioCountdownFragment" android:id="@id/creator_countdown_fragment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:layout_alignBottom="@id/main_fragment_holder" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <fragment android:name="com.zoobe.sdk.viber.ui.fragments.ViberButtonFragment" android:id="@id/creator_btn_fragment" android:layout_width="fill_parent" android:layout_height="@dimen/zv_creator_btns_height" android:layout_marginBottom="@dimen/zv_creator_btns_margin_bottom" />
+    </LinearLayout>
+    <fragment android:name="com.zoobe.sdk.viber.ui.fragments.ViberUploadFragment" android:id="@id/creator_upload_progress" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/creator_scene_fragment" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

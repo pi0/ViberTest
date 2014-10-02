@@ -1,0 +1,166 @@
+package com.facebook;
+
+import android.app.Activity;
+import android.support.v4.app.Fragment;
+import java.io.InvalidObjectException;
+import java.io.ObjectInputStream;
+import java.io.Serializable;
+import java.util.Collections;
+import java.util.List;
+
+public class Session$AuthorizationRequest
+  implements Serializable
+{
+  private static final long serialVersionUID = 1L;
+  private String applicationId;
+  private SessionDefaultAudience defaultAudience = SessionDefaultAudience.FRIENDS;
+  private boolean isLegacy = false;
+  private SessionLoginBehavior loginBehavior = SessionLoginBehavior.SSO_WITH_FALLBACK;
+  private List<String> permissions = Collections.emptyList();
+  private int requestCode = 64206;
+  private final Session.StartActivityDelegate startActivityDelegate;
+  private Session.StatusCallback statusCallback;
+  private String validateSameFbidAsToken;
+  
+  Session$AuthorizationRequest(Activity paramActivity)
+  {
+    this.startActivityDelegate = new Session.AuthorizationRequest.1(this, paramActivity);
+  }
+  
+  Session$AuthorizationRequest(Fragment paramFragment)
+  {
+    this.startActivityDelegate = new Session.AuthorizationRequest.2(this, paramFragment);
+  }
+  
+  private Session$AuthorizationRequest(SessionLoginBehavior paramSessionLoginBehavior, int paramInt, List<String> paramList, String paramString1, boolean paramBoolean, String paramString2, String paramString3)
+  {
+    this.startActivityDelegate = new Session.AuthorizationRequest.3(this);
+    this.loginBehavior = paramSessionLoginBehavior;
+    this.requestCode = paramInt;
+    this.permissions = paramList;
+    this.defaultAudience = SessionDefaultAudience.valueOf(paramString1);
+    this.isLegacy = paramBoolean;
+    this.applicationId = paramString2;
+    this.validateSameFbidAsToken = paramString3;
+  }
+  
+  String getApplicationId()
+  {
+    return this.applicationId;
+  }
+  
+  AuthorizationClient.AuthorizationRequest getAuthorizationClientRequest()
+  {
+    Session.AuthorizationRequest.4 local4 = new Session.AuthorizationRequest.4(this);
+    return new AuthorizationClient.AuthorizationRequest(this.loginBehavior, this.requestCode, this.isLegacy, this.permissions, this.defaultAudience, this.applicationId, this.validateSameFbidAsToken, local4);
+  }
+  
+  Session.StatusCallback getCallback()
+  {
+    return this.statusCallback;
+  }
+  
+  SessionDefaultAudience getDefaultAudience()
+  {
+    return this.defaultAudience;
+  }
+  
+  SessionLoginBehavior getLoginBehavior()
+  {
+    return this.loginBehavior;
+  }
+  
+  List<String> getPermissions()
+  {
+    return this.permissions;
+  }
+  
+  int getRequestCode()
+  {
+    return this.requestCode;
+  }
+  
+  Session.StartActivityDelegate getStartActivityDelegate()
+  {
+    return this.startActivityDelegate;
+  }
+  
+  String getValidateSameFbidAsToken()
+  {
+    return this.validateSameFbidAsToken;
+  }
+  
+  boolean isLegacy()
+  {
+    return this.isLegacy;
+  }
+  
+  void readObject(ObjectInputStream paramObjectInputStream)
+  {
+    throw new InvalidObjectException("Cannot readObject, serialization proxy required");
+  }
+  
+  void setApplicationId(String paramString)
+  {
+    this.applicationId = paramString;
+  }
+  
+  AuthorizationRequest setCallback(Session.StatusCallback paramStatusCallback)
+  {
+    this.statusCallback = paramStatusCallback;
+    return this;
+  }
+  
+  AuthorizationRequest setDefaultAudience(SessionDefaultAudience paramSessionDefaultAudience)
+  {
+    if (paramSessionDefaultAudience != null) {
+      this.defaultAudience = paramSessionDefaultAudience;
+    }
+    return this;
+  }
+  
+  public void setIsLegacy(boolean paramBoolean)
+  {
+    this.isLegacy = paramBoolean;
+  }
+  
+  AuthorizationRequest setLoginBehavior(SessionLoginBehavior paramSessionLoginBehavior)
+  {
+    if (paramSessionLoginBehavior != null) {
+      this.loginBehavior = paramSessionLoginBehavior;
+    }
+    return this;
+  }
+  
+  AuthorizationRequest setPermissions(List<String> paramList)
+  {
+    if (paramList != null) {
+      this.permissions = paramList;
+    }
+    return this;
+  }
+  
+  AuthorizationRequest setRequestCode(int paramInt)
+  {
+    if (paramInt >= 0) {
+      this.requestCode = paramInt;
+    }
+    return this;
+  }
+  
+  void setValidateSameFbidAsToken(String paramString)
+  {
+    this.validateSameFbidAsToken = paramString;
+  }
+  
+  Object writeReplace()
+  {
+    return new Session.AuthorizationRequest.AuthRequestSerializationProxyV1(this.loginBehavior, this.requestCode, this.permissions, this.defaultAudience.name(), this.isLegacy, this.applicationId, this.validateSameFbidAsToken, null);
+  }
+}
+
+
+/* Location:           C:\Users\pooya\Desktop\ac.jar
+ * Qualified Name:     com.facebook.Session.AuthorizationRequest
+ * JD-Core Version:    0.7.0.1
+ */

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/main_view" android:background="@drawable/_ics_list_normal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false" android:weightSum="1.0" android:splitMotionEvents="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/contacts_phone_view" android:background="@drawable/_ics_list_normal_tablet" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <fragment android:id="@id/contact_details_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.viber.voip.contacts.ui.ContactDetailsFragment" />
+        <fragment android:id="@id/you_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.viber.voip.user.YouFragment" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/settings_headers" android:paddingRight="@dimen/shadow_width" android:visibility="visible" android:layout_width="@dimen/sliding_frame_width" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/shadow_width">
+        <fragment android:id="@id/settings_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.viber.voip.settings.ui.SettingsHeadersFragment" />
+    </FrameLayout>
+</LinearLayout>

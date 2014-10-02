@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/about_tablet_bg" android:scaleType="centerCrop" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="@dimen/about_weight_1" />
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/welcome_logo_purple" android:contentDescription="@null" />
+        <TextView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="@dimen/about_weight_2" />
+        <com.viber.voip.ui.ViberTextView android:textSize="24.0sp" android:textColor="@color/main" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/viber_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-light" />
+        <TextView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="@dimen/about_weight_3" />
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/instagram_btn" android:background="@drawable/instagram_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" />
+            <ImageView android:id="@id/twitter_btn" android:background="@drawable/twitter_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip" android:contentDescription="@null" />
+            <ImageView android:id="@id/facebook_btn" android:background="@drawable/fb_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip" android:contentDescription="@null" />
+        </LinearLayout>
+        <TextView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="@dimen/about_weight_4" />
+        <com.viber.voip.ui.ViberTextView android:textSize="16.0sp" android:textColor="@color/main" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/about_company_site" android:fontFamily="sans-serif-light" />
+        <TextView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="@dimen/about_weight_5" />
+        <include android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginBottom="@dimen/welcome_copyright_margin_bottom" layout="@layout/layout_copyright_policy_light" />
+    </LinearLayout>
+</FrameLayout>

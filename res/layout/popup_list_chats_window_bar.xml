@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/rounded_corner" android:layout_width="fill_parent" android:layout_height="@dimen/abs__action_bar_default_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/popup_chat_action_bar_layout" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/action_buttons_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+        <ImageView android:id="@id/btn_compose_group" android:background="@drawable/_ics_list_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/_ics_ic_ab_compose_group" style="@style/Widget.Sherlock.ActionButton" />
+        <ImageView android:id="@id/btn_compose_1to1" android:background="@drawable/_ics_list_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/_ics_ic_ab_compose" style="@style/Widget.Sherlock.ActionButton" />
+        <ImageView android:id="@id/btn_open_conversation" android:background="@drawable/_ics_list_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/_ics_popup_open_btn_glow" style="@style/Widget.Sherlock.ActionButton" />
+    </LinearLayout>
+</RelativeLayout>

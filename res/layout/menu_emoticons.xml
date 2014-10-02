@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:gravity="center" android:id="@id/emoticons_list_view" android:background="@*android:color/transparent" android:paddingLeft="18.0dip" android:paddingRight="60.0dip" android:paddingBottom="@dimen/sticker_menu_height" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/transparent" android:cacheColorHint="@*android:color/transparent" android:divider="@null" android:dividerHeight="0.0px" />
+    <ImageButton android:layout_gravity="top|right|center" android:id="@id/erase_button" android:background="@drawable/_ics_erase_button_bg" android:paddingLeft="8.0dip" android:paddingTop="16.0dip" android:paddingRight="8.0dip" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_emoticon_erase" android:scaleType="centerInside" />
+</FrameLayout>

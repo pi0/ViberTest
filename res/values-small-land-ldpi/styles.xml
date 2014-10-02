@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Viber.Conversation" parent="@style/Theme.Viber">
+        <item name="android:actionBarStyle">@style/ActionBarStyle.Conversation</item>
+        <item name="actionBarStyle">@style/ActionBarStyle.Conversation</item>
+    </style>
+    <style name="ActionBarTitleStyle.Conversation" parent="@style/TextAppearance.Sherlock.Widget.ActionBar.Title.Inverse">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+    <style name="ActionBarStyle.Conversation" parent="@style/ActionBarStyle">
+        <item name="android:titleTextStyle">@style/ActionBarTitleStyle.Conversation</item>
+        <item name="titleTextStyle">@style/ActionBarTitleStyle.Conversation</item>
+    </style>
+</resources>

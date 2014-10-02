@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="abs__background_holo_dark">#ff000000</color>
+    <color name="abs__background_holo_light">#fff3f3f3</color>
+    <item type="color" name="abs__bright_foreground_holo_dark">@color/abs__background_holo_light</item>
+    <item type="color" name="abs__bright_foreground_holo_light">@color/abs__background_holo_dark</item>
+    <color name="abs__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="abs__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <item type="color" name="abs__bright_foreground_inverse_holo_dark">@color/abs__bright_foreground_holo_light</item>
+    <item type="color" name="abs__bright_foreground_inverse_holo_light">@color/abs__bright_foreground_holo_dark</item>
+    <color name="abs__holo_blue_light">#ff33b5e5</color>
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <item type="color" name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</item>
+    <item type="color" name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</item>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <item type="color" name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</item>
+    <item type="color" name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</item>
+    <color name="default_circle_indicator_fill_color">#ffffffff</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#ffdddddd</color>
+    <color name="default_line_indicator_selected_color">#ff33b5e5</color>
+    <color name="default_line_indicator_unselected_color">#ffbbbbbb</color>
+    <color name="default_title_indicator_footer_color">#ff33b5e5</color>
+    <color name="default_title_indicator_selected_color">#ffffffff</color>
+    <color name="default_title_indicator_text_color">#bbffffff</color>
+    <color name="default_underline_indicator_selected_color">#ff33b5e5</color>
+    <color name="pressed_vzoobe">#cce2001a</color>
+    <color name="zoobe_abs_bg">#ff3d3d3d</color>
+    <color name="zoobe_abs_title">#fff2f2f2</color>
+    <color name="zoobe_shop_item_border_color">#ff5a5a5a</color>
+    <color name="zoobe_shop_item_border_pressed_color">#ff262626</color>
+    <color name="zoobe_shop_item_bg_color">#ff393939</color>
+    <color name="zoobe_shop_item_bg_pressed_color">#ff262626</color>
+    <color name="zoobe_upload_bg_color">#c0000000</color>
+    <color name="crop_overlay_frame">#ff000000</color>
+    <color name="crop_overlay_corner">#ff70bb33</color>
+    <color name="crop_overlay_mask">#ff3f3f3f</color>
+    <color name="zoobe_creator_bg_light">#ff3a3a3a</color>
+    <color name="zoobe_creator_bg_dark">#ff1f1f1f</color>
+    <color name="zoobe_creator_bg_overlay">#c0000000</color>
+    <color name="zoobe_creator_bg_light_overlay">#a03a3a3a</color>
+    <color name="zoobe_creator_bg_dark_overlay">#a01f1f1f</color>
+    <color name="zoobe_shop_tab_btn_light">#ff333333</color>
+    <color name="zoobe_shop_tab_btn_dark">#ff393939</color>
+    <color name="z_viber_white">#fff6f6f6</color>
+    <color name="z_viber_purple">#ff8558aa</color>
+    <color name="z_viber_text_grey">#ff777777</color>
+    <color name="z_viber_light_grey">#ffdddddd</color>
+    <color name="z_viber_bundle_thumb_bg_selected">#ffffffff</color>
+    <color name="z_viber_bundle_title">#ff2f2f2f</color>
+    <color name="z_viber_shop_tab_btn_dark">#fff6f6f6</color>
+    <color name="z_viber_shop_tab_btn_light">#ffcccccc</color>
+    <item type="color" name="common_signin_btn_dark_text_default">@*android:color/white</item>
+    <item type="color" name="common_signin_btn_dark_text_pressed">@*android:color/white</item>
+    <color name="common_signin_btn_dark_text_disabled">#ffaaaaaa</color>
+    <item type="color" name="common_signin_btn_dark_text_focused">@*android:color/white</item>
+    <color name="common_signin_btn_light_text_default">#ff737373</color>
+    <item type="color" name="common_signin_btn_light_text_pressed">@*android:color/white</item>
+    <color name="common_signin_btn_light_text_disabled">#ffaaaaaa</color>
+    <color name="common_signin_btn_light_text_focused">#ff737373</color>
+    <color name="common_signin_btn_default_background">#ffdd4b39</color>
+    <color name="common_action_bar_splitter">#ffd2d2d2</color>
+    <color name="red">#ffff0000</color>
+    <color name="scn_blue">#ff017dc5</color>
+    <color name="welcome_grey">#ffc1c1c1</color>
+    <color name="green">#ff0fa30f</color>
+    <color name="viber_purple">#ff704881</color>
+    <color name="purple_btn">#ff774f99</color>
+    <color name="purple_btn_dark">#ff5e367f</color>
+    <color name="purple_btn_pressed">#ffa76fd7</color>
+    <color name="green_btn">#ff377c27</color>
+    <color name="green_btn_pressed">#ff346a25</color>
+    <color name="grey_light">#ffe1e1e1</color>
+    <color name="grey">#ff919291</color>
+    <color name="dialer_name">#ffbc99c9</color>
+    <color name="recent_call_name">#ff343434</color>
+    <color name="recents_secondary_unfocused">#ff7c7c7c</color>
+    <color name="tab_header_text">#ffeeeeee</color>
+    <color name="call_screen_general_bg">#ff8b8a8a</color>
+    <color name="toggle_bg">#ffdbdbdb</color>
+    <color name="msg_link">#ff0060fe</color>
+    <color name="msg_info">#ff7a7482</color>
+    <color name="no_contacts_text">#ff727272</color>
+    <color name="higtlight_text_color">#ff9fdaff</color>
+    <color name="participants_count_color">#ffaaaaaa</color>
+    <color name="date_color_pressed">#ffc0a1cc</color>
+    <color name="date_color">#ffa381c1</color>
+    <color name="descr_color_pressed">#ffc0a1cc</color>
+    <color name="name_color">#ff323232</color>
+    <color name="invite_color">#ff6a438a</color>
+    <color name="pref_category_bg">#ff717171</color>
+    <color name="popup_group_color">#ffcab7da</color>
+    <color name="popup_name_color">#ffffffff</color>
+    <color name="popup_text_color">#ff000000</color>
+    <color name="popup_background">#99000000</color>
+    <color name="popup_sms_color">#ffd6d6d6</color>
+    <color name="map_accuracy_border">#ff8956af</color>
+    <color name="map_accuracy">#88e1e1e1</color>
+    <color name="participant_item">#ff343434</color>
+    <color name="participant_item_focused">#ffffffff</color>
+    <color name="section_header_divider">#ff999999</color>
+    <color name="three_way_targets_red">#ffcb3333</color>
+    <color name="three_way_targets_purple">#ff774f99</color>
+    <color name="three_way_targets_green">#ff377c27</color>
+    <color name="actionbar_dark_bg">#ff1f1f1f</color>
+    <color name="actionbar_bg">#ff7b519d</color>
+    <color name="actionbar_bg_split">#ff7f7f7f</color>
+    <color name="actionbar_select">#ffa76fd7</color>
+    <color name="actionbar_subtitle">#ffcfb2e8</color>
+    <color name="btn_default_normal">#ff333333</color>
+    <item type="color" name="btn_viber_normal">@*android:color/white</item>
+    <item type="color" name="btn_pressed">@*android:color/white</item>
+    <color name="btn_disabled">#ffb9b9b9</color>
+    <color name="excelent">#ff39b54a</color>
+    <color name="average">#ffff7800</color>
+    <color name="poor">#fff60622</color>
+    <color name="contact_count_text_color">#ffaaaaaa</color>
+    <color name="pref_divider_text">#ff999999</color>
+    <color name="selectable_item_pressed">#7fa76fd7</color>
+    <color name="options_menu_bg">#ffe2e2e2</color>
+    <color name="copyright_light">#66ffffff</color>
+    <color name="policy_light">#9affffff</color>
+    <color name="activation_text">#ff7f7f7f</color>
+    <color name="call_quality_text">#ffbca6cf</color>
+    <color name="incall_menu_normal_text">#ff898989</color>
+    <color name="incall_menu_disabled_text">#ffcdcdcd</color>
+    <color name="contacts_name_normal">#ff343434</color>
+    <item type="color" name="contacts_name_pressed">@*android:color/white</item>
+    <color name="contacts_filter_color">#ff7f7f7f</color>
+    <color name="registration_sub_title_normal">#ff222222</color>
+    <item type="color" name="registration_sub_title_pressed">@*android:color/white</item>
+    <color name="registration_country_normal">#ff777777</color>
+    <color name="registration_country_pressed">#ffcfb2e8</color>
+    <color name="call_type_normal">#ff222222</color>
+    <color name="call_type_missed">#ffff0030</color>
+    <color name="tab_items_count">#ffe1d5eb</color>
+    <color name="you_edit_name_bar">#55000000</color>
+    <item type="color" name="new_message_white">@color/solid_10</item>
+    <item type="color" name="new_message_black">@color/solid_25</item>
+    <item type="color" name="notification_white">@color/white_50</item>
+    <item type="color" name="notification_black">@color/solid_20</item>
+    <color name="conversation_bg">#fff6f6f6</color>
+    <color name="btn_end_call_color">#ffcd3333</color>
+    <color name="message_call_text_missed">#ffff0000</color>
+    <color name="message_call_text_default">#ff5a5a5a</color>
+    <color name="message_call_text_custom">#ffffffff</color>
+    <color name="message_call_item_text_date_time">#ff777777</color>
+    <color name="message_call_item_text_type_default">#ff222222</color>
+    <color name="message_call_item_text_type_missed">#ffff0030</color>
+    <color name="btn_end_call_color_dwn">#ffd93e3e</color>
+    <color name="activate_secondary_here">#ff80539e</color>
+    <color name="doodle_color_picker_border">#ffdddddd</color>
+    <color name="gallery_image_pressed">#6fa76fd7</color>
+    <color name="desktop_promo">#ff4c3262</color>
+    <color name="stickers_emoticon_button_color">#ff643b85</color>
+    <color name="tablet_call_quality">#ffbcbcbc</color>
+    <color name="tablet_call_hangup_bg">#ffda0f0f</color>
+    <color name="unselected_packages">#fff8f8f8</color>
+    <color name="chat_head_border">#ff9c9c9c</color>
+    <color name="search_hint_text">#ffa084b8</color>
+    <color name="msg_call_bg_black_opasity">#2e000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="white_30">#77ffffff</color>
+    <color name="white_50">#7fffffff</color>
+    <color name="white_60">#99ffffff</color>
+    <color name="white_80">#ccffffff</color>
+    <color name="white_90">#e5ffffff</color>
+    <color name="solid">#ff000000</color>
+    <color name="solid_10">#19000000</color>
+    <color name="solid_20">#33000000</color>
+    <color name="solid_25">#3f000000</color>
+    <color name="solid_30">#4c000000</color>
+    <color name="solid_35">#59000000</color>
+    <color name="solid_40">#66000000</color>
+    <color name="solid_55">#8c000000</color>
+    <color name="solid_65">#a5000000</color>
+    <color name="solid_70">#b2000000</color>
+    <color name="solid_50">#7f000000</color>
+    <color name="solid_60">#99000000</color>
+    <color name="solid_75">#bf000000</color>
+    <color name="solid_80">#cc000000</color>
+    <color name="main_text">#ff323232</color>
+    <color name="main_text_40">#66323232</color>
+    <color name="alt_main_95">#f24c3263</color>
+    <color name="sub_text">#ff777777</color>
+    <color name="main">#ff7b519d</color>
+    <color name="main_pressed_color">#ff9965c4</color>
+    <color name="main_pressed_color_95">#f29965c4</color>
+    <color name="options">#ff7f7f7f</color>
+    <color name="options_30">#4c7f7f7f</color>
+    <color name="pressed_color">#ffc9e4ee</color>
+    <color name="pressed_color_30">#4cc9e4ee</color>
+    <color name="weak_text">#ffa3a3a3</color>
+    <color name="alt_weak_text">#ffb1b1b1</color>
+    <color name="alt_weak_text_30">#4cb1b1b1</color>
+    <color name="main_weak">#ffcab7da</color>
+    <color name="dividers">#ffd1d1d1</color>
+    <color name="dark_background">#ffe0e0e0</color>
+    <color name="dark_background_95">#f2e0e0e0</color>
+    <color name="selected">#ffe1eef6</color>
+    <color name="main_background">#fff3f3f3</color>
+    <color name="main_background_60">#99f3f3f3</color>
+    <color name="main_background_40">#66f3f3f3</color>
+    <color name="alert">#ffff0000</color>
+    <color name="negative">#ffffffff</color>
+    <color name="negative_60">#99ffffff</color>
+    <color name="negative_15">#26ffffff</color>
+    <color name="pressed_options">#ff8f8f8f</color>
+    <color name="text_field_pressed">#ffe8e8e8</color>
+    <color name="overlay_selected_color">#ff5db0d1</color>
+    <color name="overlay_selected_color_40">#665db0d1</color>
+    <color name="generic_image_color">#fff3f3f3</color>
+    <color name="overlay_paint">#59000000</color>
+    <color name="mandatory_field_red_color">#ffff3d30</color>
+    <color name="public_group_suggestion_image_bg">#ffc2c2c2</color>
+    <color name="formatted_headline">#ff032322</color>
+</resources>

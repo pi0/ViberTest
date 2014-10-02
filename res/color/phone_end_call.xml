@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <color android:color="@color/btn_end_call_color_dwn" />
+    </item>
+    <item>
+        <color android:color="@color/btn_end_call_color" />
+    </item>
+</selector>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/countdown" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zoobe.sdk.ui.widgets.ZoobeTextView android:id="@id/countdown_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zoobe_message_recording_timelabel_text" app:textCase="word" style="?zoobe_creator_audio_countdown_title" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=": " style="?zoobe_creator_audio_countdown_title" />
+    <TextView android:id="@id/countdown_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="30" style="?zoobe_creator_audio_countdown_time" />
+    <TextView android:id="@id/countdown_total" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="/30s" style="?zoobe_creator_audio_countdown_total" />
+</LinearLayout>

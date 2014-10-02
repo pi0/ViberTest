@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/statistic_net_category_title" android:key="data_statistic">
+        <android.preference.Preference android:title="@string/statistic_3g_title" android:key="3g_data" />
+        <android.preference.Preference android:title="@string/statistic_wifi_title" android:key="wifi_data" />
+        <android.preference.Preference android:enabled="false" android:widgetLayout="@layout/statistic_warning_msg" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/statistic_msg_category_title">
+        <android.preference.Preference android:title="@string/statistic_msg_sent_title" android:key="msg_sent" />
+        <android.preference.Preference android:title="@string/statistic_msg_received_title" android:key="msg_received" />
+    </PreferenceCategory>
+</PreferenceScreen>

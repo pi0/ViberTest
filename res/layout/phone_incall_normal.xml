@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/solid_65" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="100.0" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.viber.voip.ui.ViberTextView android:gravity="bottom" android:id="@id/phone_caller_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" android:layout_weight="20.0" style="@style/PhoneCaller.Big" />
+    <com.viber.voip.ui.ViberTextView android:textSize="@dimen/phone_call_status" android:textColor="@color/negative" android:gravity="center" android:id="@id/phone_call_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/type_incoming" android:singleLine="true" android:layout_weight="20.0" />
+    <FrameLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:enabled="false" android:layout_gravity="center" android:id="@id/phone_call_viber_out" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/viber_out" style="@style/PhoneViberOutBage" />
+        <ImageButton android:layout_gravity="center" android:id="@id/phone_call_secure" android:background="@null" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_call_secure_trusted" android:text="@string/viber_out" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/phone_call_quality_pane" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="30.0">
+        <com.viber.voip.ui.ViberTextView android:textSize="@dimen/phone_network_quality" android:textColor="@color/alt_weak_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="@string/call_quality" android:singleLine="true" />
+        <com.viber.voip.ui.ViberTextView android:textSize="@dimen/phone_network_quality" android:textStyle="bold" android:textColor="@color/alt_weak_text" android:id="@id/phone_call_quality" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/excellent" />
+    </LinearLayout>
+    <include android:layout_width="fill_parent" android:layout_height="@dimen/phone_menu" layout="@layout/phone_incall_menu" />
+    <View android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

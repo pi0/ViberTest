@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/preview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/forward_via_viber" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_forward_via_viber" android:layout_alignTop="@id/preview" android:layout_alignRight="@id/preview" />
+    <ImageView android:id="@id/play_btn" android:paddingBottom="20.0dip" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="60.0dip" android:src="@drawable/_ics_video_balloon_v2" android:layout_centerInParent="true" />
+    <com.viber.voip.ui.ViberTextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/time" android:paddingTop="40.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:01" android:layout_centerInParent="true" />
+    <ViewStub android:id="@id/media_time_location_stub" android:layout="@layout/msg_list_time_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_marginBottom="4.0dip" android:layout_alignRight="@id/preview" android:layout_alignBottom="@id/preview" />
+    <View android:id="@id/location_clickable_view" android:visibility="visible" android:layout_width="27.0dip" android:layout_height="27.0dip" android:layout_marginRight="4.0dip" android:layout_alignRight="@id/preview" android:layout_alignBottom="@id/preview" />
+    <ProgressBar android:id="@id/progress" android:visibility="gone" android:layout_width="51.0dip" android:layout_height="51.0dip" android:indeterminateDrawable="@drawable/viber_indeterminate_progress_inverse" android:layout_centerInParent="true" />
+</RelativeLayout>

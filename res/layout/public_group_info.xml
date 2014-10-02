@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/main_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:background="@color/white" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.viber.voip.widget.AvatarView android:id="@id/icon" android:layout_width="@dimen/create_public_group_icon_size" android:layout_height="@dimen/create_public_group_icon_size" android:layout_marginTop="24.0dip" android:scaleType="centerCrop" />
+            <com.viber.voip.widget.VibeGroupNameTextView android:textSize="26.0sp" android:textColor="@color/main_text" android:id="@id/group_name" android:paddingLeft="18.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_toRightOf="@id/icon" android:layout_alignTop="@id/icon" android:fontFamily="sans-serif-light" />
+            <com.viber.voip.ui.ViberTextView android:textSize="14.0sp" android:id="@id/watcher_count" android:paddingLeft="18.0dip" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_toRightOf="@id/icon" android:layout_below="@id/group_name" />
+            <Button android:id="@id/btn_invite" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="16.0dip" android:text="@string/public_group_info_invite" android:layout_toRightOf="@id/icon" android:layout_below="@id/watcher_count" style="?android:attr/buttonStyleSmall" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.viber.voip.messages.conversation.publicgroup.ParticipantControlsContainer android:layout_gravity="center" android:id="@id/participant_controls_container" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.viber.voip.ui.ViberTextView android:textSize="16.0sp" android:textColor="@color/sub_text" android:id="@id/participant_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.viber.voip.ui.ViberTextView android:textSize="16.0sp" android:textColor="@color/public_group_info_add_participants" android:ellipsize="end" android:gravity="right" android:id="@id/btn_add_participants" android:paddingLeft="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/public_group_info_add_participants" android:singleLine="true" android:layout_weight="1.0" />
+            </com.viber.voip.messages.conversation.publicgroup.ParticipantControlsContainer>
+            <com.viber.voip.messages.ui.PositioningAwareFrameLayout android:id="@id/participant_controls_separator" android:background="@drawable/public_group_info_separator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip" android:layout_marginRight="22.0dip" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="7.0dip">
+                <com.viber.voip.messages.conversation.publicgroup.PublicGroupInfoSmallParticipantList android:id="@id/small_participant_list" android:paddingLeft="@dimen/public_group_info_participant_list_side_padding" android:paddingRight="@dimen/public_group_info_participant_list_side_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@null" />
+                <it.sephiroth.android.library.widget.HListView android:id="@id/participant_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:listSelector="@color/transparent" />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingLeft="22.0dip" android:paddingRight="22.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.viber.voip.widget.TextViewWithDescription android:id="@id/about" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:inputType="textNoSuggestions" app:editable="false" />
+            <com.viber.voip.widget.TextViewWithDescription android:id="@id/tags" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:inputType="textNoSuggestions" app:editable="false" />
+            <com.viber.voip.widget.TextViewWithDescription android:id="@id/location" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:inputType="textNoSuggestions" app:editable="false" />
+            <com.viber.voip.widget.TextViewWithDescription android:id="@id/id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:inputType="textNoSuggestions" app:editable="false" />
+            <com.viber.voip.widget.TextViewWithDescription android:id="@id/background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:inputType="textNoSuggestions" app:editable="false" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@color/main_background" android:paddingLeft="22.0dip" android:paddingRight="22.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/notification_view" android:background="@drawable/_ics_custom_list_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="64.0dip">
+                <LinearLayout android:id="@id/notification_checker_container" android:layout_width="21.0dip" android:layout_height="21.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                    <CheckBox android:id="@id/notification_checker" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <RelativeLayout android:gravity="center_vertical" android:paddingLeft="6.0dip" android:paddingTop="8.0dip" android:paddingRight="2.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="48.0dip" android:layout_toLeftOf="@id/notification_checker_container">
+                    <com.viber.voip.widget.AutoFitTextView android:ellipsize="marquee" android:id="@id/notification_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/conversation_info_pref_notify_title" android:singleLine="true" style="@style/conversation_info_primary_text" />
+                    <com.viber.voip.ui.ViberTextView android:id="@id/notification_subtitle" android:paddingTop="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/conversation_info_pref_group_name_title_1v1" android:maxLines="4" android:layout_below="@id/notification_title" style="@style/conversation_info_secondary_text" />
+                </RelativeLayout>
+                <View android:layout_alignParentBottom="true" style="@style/PublicGroupInfoSeparator" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/mute_group_view" android:background="@drawable/_ics_custom_list_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="64.0dip">
+                <LinearLayout android:id="@id/mute_checker_container" android:layout_width="21.0dip" android:layout_height="21.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                    <CheckBox android:id="@id/mute_checker" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <RelativeLayout android:gravity="center_vertical" android:paddingLeft="6.0dip" android:paddingTop="10.0dip" android:paddingRight="2.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:layout_toLeftOf="@id/mute_checker_container">
+                    <com.viber.voip.widget.AutoFitTextView android:ellipsize="marquee" android:id="@id/mute_vibe_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/vibe_info_pref_mute_group_title" android:singleLine="true" style="@style/conversation_info_primary_text" />
+                    <com.viber.voip.ui.ViberTextView android:id="@id/mute_vibe_subtitle" android:paddingTop="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/vibe_info_pref_mute_group_description" android:maxLines="4" android:layout_below="@id/mute_vibe_title" style="@style/conversation_info_secondary_text" />
+                </RelativeLayout>
+                <View android:layout_alignParentBottom="true" style="@style/PublicGroupInfoSeparator" />
+            </RelativeLayout>
+            <Button android:layout_gravity="center" android:id="@id/btn_exit_vibe" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="@string/public_group_info_exit_vibe" style="?android:attr/buttonStyle" />
+            <com.viber.voip.ui.ViberTextView android:gravity="center" android:id="@id/report_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="33.0dip" android:layout_marginBottom="20.0dip" android:text="@string/vibe_info_report_public_chat" style="@style/Viber.Text.PublicGroup.ReportLink" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

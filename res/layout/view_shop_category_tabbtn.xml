@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:textColor="@color/button_dark_text" android:id="@id/category_btn" android:background="@drawable/zoobe_shop_tab_btn" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

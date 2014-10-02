@@ -1,0 +1,8 @@
+.class public interface abstract Lcom/viber/voip/messages/ui/p;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract a(Lcom/viber/voip/messages/ui/bf;)V
+.end method

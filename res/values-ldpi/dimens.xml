@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="quick_compose_size">80.0dip</dimen>
+    <dimen name="quick_compose_photo_padding">25.0dip</dimen>
+    <dimen name="quick_compose_padding_top">8.0dip</dimen>
+    <dimen name="quick_compose_padding_bottom">8.0dip</dimen>
+    <item type="dimen" name="call_photo_ratio">0.3</item>
+    <dimen name="splash_logo_wave_height">0.0dip</dimen>
+    <dimen name="vo_promo_splash_grow_upgrade_margin_vo_logo">5.0dip</dimen>
+    <dimen name="vo_promo_splash_grow_upgrade_margin_promo_text">5.0dip</dimen>
+    <dimen name="vo_promo_splash_grow_upgrade_margin_btn_try">5.0dip</dimen>
+    <dimen name="vo_promo_splash_grow_upgrade_margin_picture">5.0dip</dimen>
+    <item type="dimen" name="user_picture_ratio">0.5625</item>
+    <dimen name="min_non_keyboard_menu_height">200.0dip</dimen>
+    <dimen name="pgroups_search_no_internet_image_size">180.0dip</dimen>
+    <dimen name="phone_12_keys_height">200.0dip</dimen>
+    <dimen name="phone_3_keys_height">40.0dip</dimen>
+    <dimen name="welcome_text_size">29.0sp</dimen>
+    <dimen name="welcome_copyright_margin_top">40.0dip</dimen>
+    <dimen name="viber_intro_text_size">17.0sp</dimen>
+    <dimen name="viber_intro_height">120.0dip</dimen>
+    <dimen name="reg_title_margin_top">8.0dip</dimen>
+    <dimen name="reg_title_margin_bottom">0.0dip</dimen>
+    <dimen name="phone_caller_photo">140.0dip</dimen>
+    <dimen name="phone_caller_name">32.0sp</dimen>
+    <dimen name="phone_call_status">18.0sp</dimen>
+    <dimen name="phone_network_quality">11.0sp</dimen>
+    <dimen name="phone_menu">210.0dip</dimen>
+    <dimen name="phone_menu_margin">0.0dip</dimen>
+    <dimen name="splash_scroll_height">90.0dip</dimen>
+    <dimen name="your_photo_image_size">120.0dip</dimen>
+    <dimen name="your_photo_margin_top">21.0dip</dimen>
+    <dimen name="your_photo_margin_left">0.0dip</dimen>
+    <dimen name="your_info_margin_top">14.0dip</dimen>
+    <dimen name="your_info_margin_left">16.0dip</dimen>
+    <dimen name="your_info_padding">6.0dip</dimen>
+    <dimen name="your_info_categoty_title_margin_top">9.0dip</dimen>
+    <dimen name="public_group_welcome_text">24.0sp</dimen>
+    <item type="dimen" name="user_details_fb_btn_width">@integer/custom_match_parent</item>
+    <item type="dimen" name="user_details_continue_btn_width">@integer/custom_match_parent</item>
+    <dimen name="qr_code_margin_top">0.0dip</dimen>
+    <dimen name="qr_code_margin_bottom">0.0dip</dimen>
+    <dimen name="qr_button_margin_bottom">18.0dip</dimen>
+    <dimen name="welcome_text_margin_top">29.0sp</dimen>
+</resources>

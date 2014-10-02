@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/shop_list_feature_height_zoobe"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/feature_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/shop_list_feature_text_padding_zoobe" android:text="@string/zoobe_shop_loading_feature" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="?zoobe_shop_list_feature_loading" />
+        <com.zoobe.sdk.cache.extra.ExtendedImageView android:id="@id/feature_image" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="?zoobe_shop_list_feature_bg" android:scaleType="centerCrop" />
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:src="?zoobe_shop_list_item_separator" android:layout_below="@id/feature_image" android:layout_alignLeft="@id/feature_image" android:layout_alignRight="@id/feature_image" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+            <TextView android:ellipsize="end" android:gravity="left" android:id="@id/feature_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" style="?zoobe_shop_list_feature_subtitle" />
+            <TextView android:ellipsize="end" android:gravity="left" android:id="@id/feature_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" style="?zoobe_shop_list_feature_title" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

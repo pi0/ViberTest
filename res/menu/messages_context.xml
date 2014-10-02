@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_message_copy" android:title="@string/menu_message_copy" />
+    <item android:id="@id/menu_message_view" android:title="@string/menu_message_view" />
+    <item android:id="@id/menu_message_delete" android:title="@string/btn_msg_delete" />
+    <item android:id="@id/menu_message_forward" android:title="@string/menu_map_forward" />
+    <item android:id="@id/menu_view_image_facebook" android:title="@string/menu_view_image_facebook" />
+    <item android:id="@id/menu_share_on_twitter" android:title="@string/menu_share_on_twitter" />
+    <item android:id="@id/menu_get_sticker" android:title="@string/menu_get_sticker" />
+    <item android:id="@id/menu_system_info" android:title="System Info" />
+</menu>

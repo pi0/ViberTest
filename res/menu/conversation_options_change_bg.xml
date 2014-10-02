@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/group_conversation_bg">
+        <item android:id="@id/menu_options_photo" android:title="@string/options_take_photo" />
+        <item android:id="@id/menu_options_load_photo" android:title="@string/conversation_info_msg_option_select" />
+        <item android:id="@id/menu_options_remove" android:title="@string/conversation_info_msg_option_remove" />
+    </group>
+</menu>

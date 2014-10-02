@@ -1,2 +1,0 @@
-Viber Test Project
-==================

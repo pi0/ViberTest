@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abs__action_bar_default_height">56.0dip</dimen>
+    <dimen name="abs__action_bar_icon_vertical_padding">4.0dip</dimen>
+    <dimen name="abs__action_bar_title_text_size">18.0dip</dimen>
+    <dimen name="abs__action_bar_subtitle_text_size">14.0dip</dimen>
+    <dimen name="abs__action_bar_subtitle_top_margin">-3.0dip</dimen>
+    <dimen name="abs__action_bar_subtitle_bottom_margin">9.0dip</dimen>
+    <dimen name="contacts_item_root_left_margin">32.0dip</dimen>
+    <dimen name="contacts_item_root_right_margin">0.0dip</dimen>
+    <dimen name="contacts_item_root_right_padding">24.0dip</dimen>
+    <dimen name="contacts_item_dir_left_margin">32.0dip</dimen>
+    <dimen name="contacts_item_dir_right_margin">24.0dip</dimen>
+    <dimen name="contacts_item_filter_left_padding">32.0dip</dimen>
+    <dimen name="contacts_item_filter_right_padding">24.0dip</dimen>
+    <dimen name="contacts_item_fav_left_padding">32.0dip</dimen>
+    <dimen name="contacts_item_fav_right_padding">24.0dip</dimen>
+    <dimen name="you_item_right_margin">16.0dip</dimen>
+    <dimen name="you_left_margin">16.0dip</dimen>
+    <dimen name="phone_list_left_padding">16.0dip</dimen>
+    <dimen name="phone_list_right_padding">0.0dip</dimen>
+    <dimen name="phone_item_left_padding">16.0dip</dimen>
+    <dimen name="phone_item_right_padding">16.0dip</dimen>
+    <item type="dimen" name="conversation_menu_scrollbar_width_percent">0.04</item>
+    <item type="dimen" name="conversation_sticker_cell_percent">0.13</item>
+    <dimen name="default_button_text_size">20.0sp</dimen>
+    <dimen name="default_button_min_width">162.0dip</dimen>
+    <item type="dimen" name="user_picture_ratio">0.8</item>
+    <dimen name="user_picture_height">-2.0px</dimen>
+    <dimen name="pop_up_max_width">350.0dip</dimen>
+    <dimen name="viber_buttons_width">0.0dip</dimen>
+    <dimen name="viber_buttons_height">46.0dip</dimen>
+    <dimen name="viber_buttons_text_size">18.0sp</dimen>
+    <dimen name="sliding_frame_width">300.0dip</dimen>
+    <dimen name="details_name_text_size">26.0sp</dimen>
+    <item type="dimen" name="conversation_gallery_empty_space">0.35</item>
+    <dimen name="block_number_button_width">162.0dip</dimen>
+    <dimen name="msg_border_padding">15.0dip</dimen>
+    <dimen name="msg_list_balloon_max_width">354.0dip</dimen>
+    <dimen name="edit_icon_size">52.0dip</dimen>
+    <dimen name="contacts_filter_corner_radius">14.0dip</dimen>
+    <dimen name="add_photo_text_size">26.0sp</dimen>
+    <dimen name="action_button_min_width">64.0dip</dimen>
+    <item type="dimen" name="girl_weight_left">0.5</item>
+    <item type="dimen" name="girl_weight_right">0.5</item>
+    <item type="dimen" name="home_weight_left">0.47</item>
+    <item type="dimen" name="home_weight_right">0.53</item>
+    <item type="dimen" name="home_weight_right_land">0.67</item>
+    <dimen name="default_registration_padding_top">28.0dip</dimen>
+    <dimen name="tablet_call_info_width">134.0dip</dimen>
+    <dimen name="tablet_call_height">108.0dip</dimen>
+    <dimen name="tablet_call_hangup_width">118.0dip</dimen>
+    <dimen name="welcome_logo_margin_top">120.0dip</dimen>
+    <dimen name="your_country_margin_top">122.0dip</dimen>
+</resources>

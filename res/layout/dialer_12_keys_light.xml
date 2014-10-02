@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.viber.voip">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.25">
+        <com.viber.voip.calls.ui.KeypadButton android:id="@id/one" app:keySrc="@drawable/_ics_dial_num_1_pressed" app:keyTextColor="@color/phone_num_letter" app:keyTextPrior="@string/keypad_latters_button_1" app:keyNumber="1" style="@style/KeypadButton.Light" />
+        <com.viber.voip.calls.ui.KeypadButton android:id="@id/two" app:keySrc="@drawable/_ics_dial_num_2_pressed" app:keyTextColor="@color/phone_num_letter" app:keyTextPrior="@string/keypad_latters_button_2" app:keyNumber="2" style="@style/KeypadButton.Light" />
+        <com.viber.voip.calls.ui.KeypadButton android:id="@id/three" app:keySrc="@drawable/_ics_dial_num_3_pressed" app:keyTextColor="@color/phone_num_letter" app:keyTextPrior="@string/keypad_latters_button_3" app:keyNumber="3" style="@style/KeypadButton.Light" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.25">
+        <com.viber.voip.calls.ui.KeypadButton android:id="@id/four" app:keySrc="@drawable/_ics_dial_num_4_pressed" app:keyTextColor="@color/phone_num_letter" app:keyTextPrior="@string/keypad_latters_button_4" app:keyNumber="4" style="@style/KeypadButton.Light" />
+        <com.viber.voip.calls.ui.KeypadButton android:id="@id/five" app:keySrc="@drawable/_ics_dial_num_5_pressed" app:keyTextColor="@color/phone_num_letter" app:keyTextPrior="@string/keypad_latters_button_5" app:keyNumber="5" style="@style/KeypadButton.Light" />
+        <com.viber.voip.calls.ui.KeypadButton android:id="@id/six" app:keySrc="@drawable/_ics_dial_num_6_pressed" app:keyTextColor="@color/phone_num_letter" app:keyTextPrior="@string/keypad_latters_button_6" app:keyNumber="6" style="@style/KeypadButton.Light" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.25">
+        <com.viber.voip.calls.ui.KeypadButton android:id="@id/seven" app:keySrc="@drawable/_ics_dial_num_7_pressed" app:keyTextColor="@color/phone_num_letter" app:keyTextPrior="@string/keypad_latters_button_7" app:keyNumber="7" style="@style/KeypadButton.Light" />
+        <com.viber.voip.calls.ui.KeypadButton android:id="@id/eight" app:keySrc="@drawable/_ics_dial_num_8_pressed" app:keyTextColor="@color/phone_num_letter" app:keyTextPrior="@string/keypad_latters_button_8" app:keyNumber="8" style="@style/KeypadButton.Light" />
+        <com.viber.voip.calls.ui.KeypadButton android:id="@id/nine" app:keySrc="@drawable/_ics_dial_num_9_pressed" app:keyTextColor="@color/phone_num_letter" app:keyTextPrior="@string/keypad_latters_button_9" app:keyNumber="9" style="@style/KeypadButton.Light" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.25">
+        <com.viber.voip.calls.ui.KeypadButton android:id="@id/star" app:keySrc="@drawable/_ics_dial_num_star_pressed" style="@style/KeypadButton.Light" />
+        <com.viber.voip.calls.ui.KeypadButton android:id="@id/zero" app:keySrc="@drawable/_ics_dial_num_0_pressed" app:keyNumber="0" style="@style/KeypadButton.Light" />
+        <com.viber.voip.calls.ui.KeypadButton android:id="@id/pound" app:keySrc="@drawable/_ics_dial_num_pound_pressed" style="@style/KeypadButton.Light" />
+    </LinearLayout>
+</LinearLayout>

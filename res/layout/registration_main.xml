@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/main_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.viber.voip.registration.RegistrationScrollView android:id="@id/scroll_view_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/fragCont" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <include android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginBottom="9.0dip" layout="@layout/layout_copyright_policy" />
+        </LinearLayout>
+    </com.viber.voip.registration.RegistrationScrollView>
+</LinearLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.viber.voip.widget.CheckableImageView android:id="@id/image" android:layout_width="100.0dip" android:layout_height="100.0dip" android:scaleType="centerCrop" android:cropToPadding="true" android:contentDescription="@null" app:checkMark="@drawable/selected_gallery_item" app:drawSelectorOnTop="true" app:selectorDrawable="@drawable/gallery_image_selector"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

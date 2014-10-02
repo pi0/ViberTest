@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@*android:id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/NoItemsBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/filter" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/contacts_filter_layout" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:id="@id/first_progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ProgressBar android:layout_gravity="center" android:layout_width="@dimen/empty_fragment_view_progress_dialog_size" android:layout_height="@dimen/empty_fragment_view_progress_dialog_size" />
+            </FrameLayout>
+            <RelativeLayout android:id="@id/sync_in_progress_view" style="@style/empty_contacts_layout_style_base">
+                <com.viber.voip.ui.ViberTextView android:id="@id/image_sync_text" android:text="@string/contacts_sync" style="@style/empty_contacts_text_view_status_style" />
+                <ImageView android:id="@id/image_sync" android:src="@drawable/empty_syncing_contacts" android:layout_below="@id/image_sync_text" style="@style/empty_contacts_layout_image_style_base" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/sync_viber_contacts_faild_view" style="@style/empty_contacts_layout_style_base">
+                <com.viber.voip.ui.ViberTextView android:id="@id/text" android:text="@string/msg_syncing_failed" style="@style/empty_contacts_text_view_status_style" />
+                <com.viber.voip.ui.ViberTextView android:textSize="14.0sp" android:textColor="@color/main_text" android:id="@id/text_details" android:layout_marginTop="30.0dip" android:layout_marginBottom="30.0dip" android:text="@string/msg_syncing_failed_detailes" android:layout_below="@id/text" android:fontFamily="sans-serif-light" style="@style/empty_contacts_text_view_status_style" />
+                <Button android:id="@id/sync_contact_btn" android:text="@string/btn_sync_contacts" android:layout_below="@id/text_details" style="@style/empty_contacts_layout_button_style" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/no_contacts_found_view" style="@style/empty_contacts_layout_style_base">
+                <com.viber.voip.ui.ViberTextView android:id="@id/no_contacts_found_text" android:text="@string/no_contacts_found" style="@style/empty_contacts_text_view_status_style" />
+                <ImageView android:id="@id/image_not_found" android:src="@drawable/_ics_ic_no_messages_or_contacts" android:layout_below="@id/no_contacts_found_text" style="@style/empty_contacts_layout_image_style_base" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/no_contacts_view" style="@style/empty_contacts_layout_style_base">
+                <com.viber.voip.ui.ViberTextView android:id="@id/no_contacts_text" android:text="@string/no_contacts" style="@style/empty_contacts_text_view_status_style" />
+                <ImageView android:id="@id/image_no_contacts" android:src="@drawable/empty_no_contacts" android:layout_below="@id/no_contacts_text" style="@style/empty_contacts_layout_image_style_base" />
+                <Button android:id="@id/add_contact_btn" android:text="@string/menu_call_add" android:layout_below="@id/image_no_contacts" style="@style/empty_contacts_layout_button_style" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/no_viber_contacts_view" style="@style/empty_contacts_layout_style_base">
+                <com.viber.voip.ui.ViberTextView android:layout_gravity="center_horizontal" android:id="@id/empty_contacts_text_view" android:text="@string/noViberContacts" style="@style/empty_contacts_text_view_status_style" />
+                <ImageView android:id="@id/image_no_viber_contacts" android:src="@drawable/empty_no_viber_contacts" android:layout_below="@id/empty_contacts_text_view" style="@style/empty_contacts_layout_image_style_base" />
+                <Button android:id="@id/invite_contact_btn" android:text="@string/conversation_info_invite_btn_text" android:layout_below="@id/image_no_viber_contacts" style="@style/empty_contacts_layout_button_style" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/all_viber_view" style="@style/empty_contacts_layout_style_base">
+                <com.viber.voip.ui.ViberTextView android:layout_gravity="center_horizontal" android:id="@id/all_viber_text" android:text="@string/filter_text_all_viber" style="@style/empty_contacts_text_view_status_style" />
+                <ImageView android:id="@id/image_no_viber_contacts" android:src="@drawable/empty_no_viber_contacts" android:layout_below="@id/all_viber_text" style="@style/empty_contacts_layout_image_style_base" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

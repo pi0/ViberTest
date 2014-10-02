@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/shop_list_feature_height_zoobe"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v4.view.ViewPager android:id="@id/features_pager" android:layout_width="fill_parent" android:layout_height="@dimen/shop_list_feature_height_zoobe" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <com.viewpagerindicator.CirclePageIndicator android:id="@id/features_indicator" android:background="@null" android:padding="5.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" app:strokeWidth="1.0dip" app:fillColor="#ffd2d2d2" app:pageColor="#ff5a5a5a" app:radius="7.0dip" app:innerRadius="5.5dip" app:snap="false" app:strokeColor="#ff333333" />
+</RelativeLayout>

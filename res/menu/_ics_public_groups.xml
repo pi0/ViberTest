@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/menu_public_group_web_search_icon" android:id="@id/menu_search_in_web" android:orderInCategory="2" android:title="@string/menu_search" android:showAsAction="always" />
+    <item android:icon="@drawable/menu_public_group_create_icon" android:id="@id/menu_compose_group" android:orderInCategory="1" android:title="@string/btn_msg_compose" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_menu_more" android:id="@id/menu_more_options" android:orderInCategory="3" android:title="@string/more_options" android:showAsAction="always" />
+</menu>

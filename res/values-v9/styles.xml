@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NotificationText" parent="@*android:style/TextAppearance.StatusBar.EventContent" />
+    <style name="NotificationTitle" parent="@*android:style/TextAppearance.StatusBar.EventContent.Title" />
+    <style name="Theme.Viber.Call.Fullscreen" parent="@style/Theme.Viber.Translucent.NoActionBar" />
+</resources>

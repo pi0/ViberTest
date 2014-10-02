@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.viber.voip">
+    <view android:id="@id/view" android:layout_width="200.0dip" android:layout_height="200.0dip" app:direction="widthToHeight" class="com.viber.voip.widget.ProportionalLayout">
+        <include layout="@layout/_ics_layout_photo_selector" />
+    </view>
+</LinearLayout>

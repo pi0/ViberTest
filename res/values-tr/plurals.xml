@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plural_msg_call_viber_out">
+        <item quantity="other">Viber Out Aramaları</item>
+        <item quantity="one">Viber Out Araması</item>
+    </plurals>
+    <plurals name="plural_msg_call_incoming">
+        <item quantity="other">Gelen Aramalar</item>
+        <item quantity="one">Gelen Arama</item>
+    </plurals>
+    <plurals name="plural_msg_call_outgoing">
+        <item quantity="other">Giden Aramalar</item>
+        <item quantity="one">Giden Arama</item>
+    </plurals>
+    <plurals name="plural_msg_call_missed">
+        <item quantity="other">Cevapsız Aramalar</item>
+        <item quantity="one">Cevapsız arama</item>
+    </plurals>
+    <plurals name="plural_msg_call_transferred">
+        <item quantity="other">Aktarılan Aramalar</item>
+        <item quantity="one">Arama Aktarıldı</item>
+    </plurals>
+    <plurals name="plural_msg_call_answered_on_another_device">
+        <item quantity="other">Başka bir cihazdan cevaplanan aramalar</item>
+        <item quantity="one">Başka bir cihazda cevapladı</item>
+    </plurals>
+</resources>

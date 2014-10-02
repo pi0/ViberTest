@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="glowpadview_outerring_diameter">200.0dip</dimen>
+    <dimen name="glowpadview_target_placement_radius">100.0dip</dimen>
+    <dimen name="splash_logo_wave_height">66.0dip</dimen>
+    <item type="dimen" name="user_picture_ratio">0.5625</item>
+    <dimen name="min_non_keyboard_menu_height">200.0dip</dimen>
+</resources>

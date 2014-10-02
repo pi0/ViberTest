@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bg_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/welcome_tablet_bg" android:scaleType="centerCrop" android:layout_alignParentBottom="true" android:contentDescription="@null" />
+    <FrameLayout android:id="@id/fragCont" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/view5" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginLeft="10.0dip" android:layout_marginBottom="@dimen/welcome_copyright_margin_bottom" android:layout_alignParentBottom="true" layout="@layout/layout_copyright_policy" />
+</RelativeLayout>

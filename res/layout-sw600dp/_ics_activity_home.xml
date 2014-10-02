@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.viber.voip.messages.ui.PositioningAwareFrameLayout android:id="@id/activity_home_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/main_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false" android:weightSum="1.0" android:splitMotionEvents="true">
+        <com.slidingmenu.lib.SlidingMenu android:id="@id/messages_sliding_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.slidingmenu.lib.SlidingMenu android:id="@id/settings_sliding_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/messages_browse_view" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    </LinearLayout>
+</com.viber.voip.messages.ui.PositioningAwareFrameLayout>

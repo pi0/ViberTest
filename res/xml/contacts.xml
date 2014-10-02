@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContactsSource
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ContactsDataKind android:icon="@drawable/ic_sync_account_viber_msg" android:mimeType="vnd.android.cursor.item/vnd.com.viber.voip.viber_number_message" android:summaryColumn="data2" android:detailColumn="data3" android:detailSocialSummary="true" />
+    <ContactsDataKind android:icon="@drawable/ic_sync_account_viber_call" android:mimeType="vnd.android.cursor.item/vnd.com.viber.voip.viber_number_call" android:summaryColumn="data2" android:detailColumn="data3" android:detailSocialSummary="true" />
+    <ContactsDataKind android:icon="@drawable/ic_sync_account_viber_out_call" android:mimeType="vnd.android.cursor.item/vnd.com.viber.voip.viber_out_call_viber" android:summaryColumn="data2" android:detailColumn="data3" android:detailSocialSummary="true" />
+    <ContactsDataKind android:icon="@drawable/ic_sync_account_viber_out_call" android:mimeType="vnd.android.cursor.item/vnd.com.viber.voip.viber_out_call_none_viber" android:summaryColumn="data2" android:detailColumn="data3" android:detailSocialSummary="true" />
+</ContactsSource>

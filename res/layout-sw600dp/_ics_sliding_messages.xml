@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/_ics_list_normal_tablet" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:id="@id/messages_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.viber.voip.messages.ui.MessagesFragment" />
+</FrameLayout>

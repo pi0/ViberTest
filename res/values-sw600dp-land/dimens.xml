@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="viber_buttons_width">162.0dip</dimen>
+    <dimen name="phone_3_keys_height">54.0dip</dimen>
+    <item type="dimen" name="girl_weight_left">0.4</item>
+    <item type="dimen" name="girl_weight_right">0.6</item>
+    <item type="dimen" name="home_weight_left">0.33</item>
+    <item type="dimen" name="home_weight_right">0.67</item>
+    <dimen name="welcome_logo_margin_top">64.0dip</dimen>
+    <dimen name="your_country_margin_top">96.0dip</dimen>
+</resources>

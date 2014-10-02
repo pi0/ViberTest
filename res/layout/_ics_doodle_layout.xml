@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:paddingBottom="45.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.viber.voip.messages.extras.doodle.DoodleDrawingPanel android:id="@id/panel" android:layout_width="100.0dip" android:layout_height="100.0dip" />
+    </FrameLayout>
+    <include android:id="@id/doodle_menu" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_alignParentBottom="true" layout="@layout/doodle_tools_panel" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/doodle_menu" android:layout_centerHorizontal="true">
+        <include android:layout_gravity="center_horizontal" android:id="@id/colors_menu" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/_ics_doodle_colors_layout" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/doodle_menu">
+        <include android:id="@id/brush_size_menu" android:visibility="invisible" layout="@layout/_ics_doodle_brushes_layout" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/doodle_menu">
+        <include android:id="@id/eraser_size_menu" android:visibility="invisible" layout="@layout/_ics_doodle_erasers_layout" />
+    </FrameLayout>
+</RelativeLayout>

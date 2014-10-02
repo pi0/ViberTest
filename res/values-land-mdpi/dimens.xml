@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="menu_options_btn_size">90.0dip</dimen>
+    <dimen name="menu_options_btn_padding_top">22.0dip</dimen>
+    <dimen name="menu_options_btn_padding_bottom">14.0dip</dimen>
+</resources>

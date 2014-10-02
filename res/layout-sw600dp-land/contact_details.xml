@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/main_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/photo_container" android:paddingLeft="@dimen/contact_details_photo_top_left_margin" android:paddingTop="@dimen/contact_details_photo_top_left_margin" android:paddingRight="9.0dip" android:layout_width="219.0dip" android:layout_height="210.0dip">
+        <com.viber.voip.widget.AvatarView android:id="@id/photo" android:layout_width="180.0dip" android:layout_height="180.0dip" android:src="@drawable/_ics_ic_contact_picture_big" android:scaleType="centerCrop" app:tint="@color/avatar_tint_selector" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/title_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/photo_container">
+        <TextView android:textSize="26.0sp" android:textColor="@color/solid" android:ellipsize="end" android:id="@id/title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" android:singleLine="true" />
+        <TextView android:textColor="#ff777777" android:ellipsize="end" android:id="@id/subtitle" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:singleLine="true" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/photo_container" android:layout_below="@id/title_container">
+        <include layout="@layout/contact_details_list" />
+        <include layout="@layout/contact_details_empty" />
+    </FrameLayout>
+</RelativeLayout>

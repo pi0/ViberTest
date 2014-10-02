@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="abs__dialog_min_width_major">55.000008%</item>
+    <item type="dimen" name="abs__dialog_min_width_minor">79.99999%</item>
+    <dimen name="shop_list_feature_height_zoobe">220.0dip</dimen>
+    <dimen name="zv_creator_btns_margin_bottom">90.0dip</dimen>
+    <dimen name="zv_creator_bg_title_margin_bottom">45.0dip</dimen>
+    <dimen name="zv_creator_fx_slider_margin_top">45.0dip</dimen>
+    <dimen name="soft_input_controller_estimated_keyboard_height">400.0dip</dimen>
+</resources>

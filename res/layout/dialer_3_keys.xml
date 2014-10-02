@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/addButton" android:background="@color/phone_options_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/_ics_dial_btn_add_contact" android:layout_weight="0.1" android:hapticFeedbackEnabled="false" />
+    <ImageButton android:id="@id/dialButton" android:background="@color/phone_options_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/_ics_dial_btn_call" android:layout_weight="0.1" android:hapticFeedbackEnabled="false" />
+    <ImageButton android:id="@id/deleteButton" android:background="@color/phone_options_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/_ics_dial_btn_backspace" android:layout_weight="0.1" android:hapticFeedbackEnabled="false" />
+</LinearLayout>
