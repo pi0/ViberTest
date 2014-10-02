@@ -268,7 +268,7 @@ public final class AccessToken
 }
 
 
-/* Location:           C:\Users\pooya\Desktop\bc.jar
+/* Location:           C:\Users\pooya\Desktop\ac.jar
  * Qualified Name:     com.facebook.AccessToken
  * JD-Core Version:    0.7.0.1
  */
