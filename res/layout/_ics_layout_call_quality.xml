@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/callQualityIcon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:src="@drawable/ic_call_quality_excellent" android:layout_centerVertical="true" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/callQualityIcon" android:layout_centerVertical="true">
+        <com.viber.voip.ui.ViberTextView android:textSize="12.0sp" android:textColor="@color/call_quality_text" android:id="@id/callQualityText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/call_quality" />
+        <com.viber.voip.ui.ViberTextView android:textSize="12.0sp" android:textColor="@*android:color/white" android:id="@id/call_quality_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/excellent" android:layout_below="@id/callQualityText" android:layout_alignLeft="@id/callQualityText" />
+    </RelativeLayout>
+</RelativeLayout>

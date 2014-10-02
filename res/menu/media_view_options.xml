@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_forward" android:id="@id/menu_view_image_forward" android:title="@string/menu_map_forward" android:showAsAction="always" />
+    <item android:icon="@drawable/_ics_ic_ab_share" android:id="@id/menu_social" android:title="@string/menu_contact_share" android:showAsAction="always">
+        <menu>
+            <item android:id="@id/menu_view_image_mail" android:title="@string/menu_map_send_mail" />
+            <item android:id="@id/menu_share_on_twitter" android:title="@string/menu_share_on_twitter" />
+            <item android:id="@id/menu_facebook" android:title="@string/menu_view_image_facebook" />
+        </menu>
+    </item>
+    <item android:icon="@*android:drawable/ic_menu_save" android:id="@id/menu_save_to_gallery" android:visible="false" android:title="@string/menu_save_to_gallery" android:showAsAction="ifRoom" />
+    <item android:id="@id/delete_menu" android:visible="false" android:title="@string/btn_msg_delete" />
+    <item android:id="@id/menu_set_lock_screen" android:visible="false" android:title="@string/set_as_lock_screen" />
+    <item android:id="@id/menu_set_wallpaper_screen" android:visible="false" android:title="@string/set_as_home_screen" />
+    <item android:id="@id/menu_view_image_background" android:visible="false" android:title="@string/menu_view_image_c_background" />
+    <item android:id="@id/menu_doodle" android:visible="false" android:title="@string/menu_doodle_it" />
+</menu>

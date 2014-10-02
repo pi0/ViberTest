@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plural_msg_call_viber_out">
+        <item quantity="other">Viber Out 通話</item>
+        <item quantity="one">Viber Out 通話</item>
+    </plurals>
+    <plurals name="plural_msg_call_incoming">
+        <item quantity="other">來電</item>
+        <item quantity="one">來電</item>
+    </plurals>
+    <plurals name="plural_msg_call_outgoing">
+        <item quantity="other">撥出電話</item>
+        <item quantity="one">撥出電話</item>
+    </plurals>
+    <plurals name="plural_msg_call_missed">
+        <item quantity="other">未接來電</item>
+        <item quantity="one">未接來電</item>
+    </plurals>
+    <plurals name="plural_msg_call_transferred">
+        <item quantity="other">已轉接電話</item>
+        <item quantity="one">轉接來電</item>
+    </plurals>
+    <plurals name="plural_msg_call_answered_on_another_device">
+        <item quantity="other">已在其他裝置上接聽來電</item>
+        <item quantity="one">在其他裝置上接聽</item>
+    </plurals>
+</resources>

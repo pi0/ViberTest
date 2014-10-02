@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plural_msg_call_viber_out">
+        <item quantity="other">Viber Out hívások</item>
+        <item quantity="one">Viber Out hívás</item>
+    </plurals>
+    <plurals name="plural_msg_call_incoming">
+        <item quantity="other">Bejövő hívások</item>
+        <item quantity="one">Bejövő hívás</item>
+    </plurals>
+    <plurals name="plural_msg_call_outgoing">
+        <item quantity="other">Kimenő hívások</item>
+        <item quantity="one">Kimenő hívás</item>
+    </plurals>
+    <plurals name="plural_msg_call_missed">
+        <item quantity="other">Nem fogadott hívások</item>
+        <item quantity="one">Nem fogadott hívás</item>
+    </plurals>
+    <plurals name="plural_msg_call_transferred">
+        <item quantity="other">Átirányított hívások</item>
+        <item quantity="one">Átirányított hívás</item>
+    </plurals>
+    <plurals name="plural_msg_call_answered_on_another_device">
+        <item quantity="other">Más készüléken fogadott hívások</item>
+        <item quantity="one">Más készüléken fogadva</item>
+    </plurals>
+</resources>

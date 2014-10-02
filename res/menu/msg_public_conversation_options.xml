@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_edit_public_conversation" android:id="@id/menu_edit" android:visible="false" android:title="@string/messages_edit_header" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_invite_icon" android:id="@id/menu_invite" android:title="@string/public_group_info_invite" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_public_conversation_info" android:id="@id/menu_conversation_info" android:title="@string/conversation_info_title" android:showAsAction="always" />
+</menu>

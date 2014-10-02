@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/phone_photo" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/phone_incall" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/phone_end_call" android:layout_alignParentTop="true" />
+    <ImageButton android:layout_gravity="bottom" android:id="@id/phone_end_call" android:background="@color/phone_end_call" android:layout_width="fill_parent" android:layout_height="64.0dip" android:src="@drawable/phone_end_call_icon" android:layout_alignParentBottom="true" />
+</RelativeLayout>

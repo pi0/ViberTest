@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root" android:background="@color/solid_50" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:background="@drawable/vo_grow_promo_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/vo_promo_grow_bg_gradient" android:layout_width="@dimen/vo_promo_splash_grow_upgrade_inner_width" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/vo_promo_splash_grow_upgrade_margin_vo_logo" android:src="@drawable/vo_grow_promo_logo" />
+            <com.viber.voip.ui.ViberTextView android:textSize="28.0sp" android:textColor="#ff404040" android:gravity="center" android:id="@id/promo_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="@dimen/vo_promo_splash_grow_upgrade_margin_promo_text" android:layout_marginRight="16.0dip" android:text="@string/vo_promo_grow_upgrade_promo_text" android:shadowColor="@color/white_90" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="1.0" />
+            <Button android:layout_gravity="center" android:id="@id/btn_try" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/vo_promo_splash_grow_upgrade_margin_btn_try" android:text="@string/vo_promo_grow_upgrade_btn_try" style="@style/ViberButtonStyle" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/vo_promo_splash_grow_upgrade_margin_picture">
+                <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="127.0" />
+                <com.viber.voip.viberout.promotion.ui.AutoHeightImageView android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/vo_promo_thank_you_picture" android:scaleType="fitXY" android:layout_weight="398.0" />
+                <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="39.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:layout_gravity="top|right|center" android:id="@id/btn_close_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:src="@drawable/vo_grow_promo_close" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="top|left|center" android:id="@id/btn_close" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+</FrameLayout>

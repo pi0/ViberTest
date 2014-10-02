@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@*android:id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="wrap_content" android:layout_height="6.0dip" />
+    <ImageView android:id="@id/emptyImage" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:src="@drawable/_ics_ic_no_messages_or_contacts" style="@style/no_item_image_style" />
+    <com.viber.voip.ui.ViberTextView android:layout_gravity="center" android:id="@id/emptyText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/noMessages" style="@style/NoItemsTitle" />
+    <View android:layout_width="wrap_content" android:layout_height="2.0dip" />
+    <ViewStub android:id="@id/compose_stub" android:layout="@layout/_ics_layout_empty_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <View android:layout_width="wrap_content" android:layout_height="2.0dip" />
+    <Button android:gravity="center" android:id="@id/emptyButton" android:visibility="gone" android:layout_width="@dimen/messages_empty_btn_compose_width" android:layout_height="@dimen/messages_empty_btn_compose_height" android:text="@string/btn_msg_compose" />
+    <View android:layout_width="wrap_content" android:layout_height="2.0dip" />
+</LinearLayout>

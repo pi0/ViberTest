@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.viber.voip.contacts.ui.ContactDetailsButtonsLayout android:id="@id/viber_buttons_layout" android:paddingLeft="16.0dip" android:paddingTop="24.0dip" android:paddingRight="16.0dip" android:paddingBottom="18.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/viber_buttons_divider" android:background="?android:listDivider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+</LinearLayout>

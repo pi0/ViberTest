@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:id="@id/recents_empty_root" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/NoItemsBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.viber.voip.ui.ViberTextView android:gravity="center" android:layout_gravity="center" android:id="@id/emptyText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/noCallHistory" style="@style/NoItemsTitle" />
+    <RelativeLayout android:id="@id/add_to_contacts_view" android:background="@color/main_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/_ics_fragment_phone_list_item" />
+    </RelativeLayout>
+</FrameLayout>

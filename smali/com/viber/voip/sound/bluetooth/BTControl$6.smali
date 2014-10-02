@@ -1,0 +1,99 @@
+.class Lcom/viber/voip/sound/bluetooth/BTControl$6;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field final synthetic this$0:Lcom/viber/voip/sound/bluetooth/BTControl;
+
+.field final synthetic val$device:Landroid/bluetooth/BluetoothDevice;
+
+
+# direct methods
+.method constructor <init>(Lcom/viber/voip/sound/bluetooth/BTControl;Landroid/bluetooth/BluetoothDevice;)V
+    .locals 0
+    .parameter
+    .parameter
+
+    .prologue
+    .line 322
+    iput-object p1, p0, Lcom/viber/voip/sound/bluetooth/BTControl$6;->this$0:Lcom/viber/voip/sound/bluetooth/BTControl;
+
+    iput-object p2, p0, Lcom/viber/voip/sound/bluetooth/BTControl$6;->val$device:Landroid/bluetooth/BluetoothDevice;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public run()V
+    .locals 4
+
+    .prologue
+    .line 325
+    iget-object v0, p0, Lcom/viber/voip/sound/bluetooth/BTControl$6;->this$0:Lcom/viber/voip/sound/bluetooth/BTControl;
+
+    #getter for: Lcom/viber/voip/sound/bluetooth/BTControl;->mListeners:Ljava/util/Set;
+    invoke-static {v0}, Lcom/viber/voip/sound/bluetooth/BTControl;->access$700(Lcom/viber/voip/sound/bluetooth/BTControl;)Ljava/util/Set;
+
+    move-result-object v1
+
+    monitor-enter v1
+
+    .line 326
+    :try_start_0
+    iget-object v0, p0, Lcom/viber/voip/sound/bluetooth/BTControl$6;->this$0:Lcom/viber/voip/sound/bluetooth/BTControl;
+
+    #getter for: Lcom/viber/voip/sound/bluetooth/BTControl;->mListeners:Ljava/util/Set;
+    invoke-static {v0}, Lcom/viber/voip/sound/bluetooth/BTControl;->access$700(Lcom/viber/voip/sound/bluetooth/BTControl;)Ljava/util/Set;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+
+    move-result-object v2
+
+    :goto_0
+    invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/viber/voip/sound/bluetooth/BTControl$IBluetoothDeviceListener;
+
+    .line 327
+    iget-object v3, p0, Lcom/viber/voip/sound/bluetooth/BTControl$6;->val$device:Landroid/bluetooth/BluetoothDevice;
+
+    invoke-interface {v0, v3}, Lcom/viber/voip/sound/bluetooth/BTControl$IBluetoothDeviceListener;->onDeviceDisconnected(Landroid/bluetooth/BluetoothDevice;)V
+
+    goto :goto_0
+
+    .line 328
+    :catchall_0
+    move-exception v0
+
+    monitor-exit v1
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw v0
+
+    :cond_0
+    :try_start_1
+    monitor-exit v1
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    .line 329
+    return-void
+.end method

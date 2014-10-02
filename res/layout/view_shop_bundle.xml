@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zoobe.sdk.cache.extra.LoadingImageView android:id="@id/bundle_image_thumb" android:layout_width="90.0dip" android:layout_height="90.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="1.0dip" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="26.0dip" android:layout_toRightOf="@id/bundle_image_thumb" android:layout_centerVertical="true">
+        <TextView android:gravity="left" android:id="@id/bundle_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="4" android:lineSpacingExtra="-2.0sp" style="?zoobe_shop_list_item_title" />
+        <TextView android:gravity="left" android:id="@id/bundle_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" style="?zoobe_shop_list_item_price" />
+    </LinearLayout>
+    <ImageView android:id="@id/bundle_is_new" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="3.0dip" android:src="?zoobe_shop_list_item_isNew" android:layout_alignTop="@id/bundle_image_thumb" android:layout_alignRight="@id/bundle_image_thumb" />
+    <ImageView android:id="@id/shop_bundle_separator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:src="?zoobe_shop_list_item_separator" android:layout_below="@id/bundle_image_thumb" />
+</RelativeLayout>

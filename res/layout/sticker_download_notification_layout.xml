@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/custom_notification" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/image_container" android:background="@color/solid_30" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginRight="5.0dip">
+        <ImageView android:id="@id/notification_image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView android:id="@id/notification_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Downloading" android:layout_toRightOf="@id/image_container" android:layout_alignTop="@id/image_container" style="@style/NotificationTitle" />
+    <ProgressBar android:id="@id/notification_progress" android:layout_width="fill_parent" android:layout_height="10.0dip" android:progressDrawable="@drawable/seekbar_progress" android:layout_toRightOf="@id/image_container" android:layout_below="@id/notification_title" style="@android:style/Widget.ProgressBar.Horizontal" />
+    <TextView android:id="@id/notification_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Estimating" android:layout_toRightOf="@id/image_container" android:layout_below="@id/notification_progress" style="@style/NotificationText" />
+    <TextView android:id="@id/notification_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10%" android:layout_below="@id/notification_progress" android:layout_alignParentRight="true" style="@style/NotificationText" />
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/header_viewstub" android:layout="@layout/msg_list_header" android:inflatedId="@id/msg_header_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/message_container" android:paddingRight="4.0dip" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.viber.voip.messages.extras.map.BalloonLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/content_call" android:background="@drawable/bg_msg_call" android:paddingLeft="@dimen/msg_call_bg_left_right_padding" android:paddingRight="@dimen/msg_call_bg_left_right_padding" android:layout_width="wrap_content" android:layout_height="33.0dip" android:layout_centerInParent="true">
+            <com.viber.voip.ui.ViberTextView android:id="@id/call_type" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Incoming call" style="@style/call_log_text" />
+            <com.viber.voip.ui.ViberTextView android:gravity="center_vertical" android:id="@id/call_descr" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="(21)" style="@style/call_log_text" />
+            <ImageView android:id="@id/call_exp_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="2.0dip" android:src="@drawable/ic_call_exp" />
+            <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" layout="@layout/msg_list_time_location" />
+        </com.viber.voip.messages.extras.map.BalloonLayout>
+        <CheckBox android:id="@id/check" android:padding="0.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:button="?android:listChoiceIndicatorMultiple" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

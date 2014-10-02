@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/upload_progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/upload_progress_bar_margin_horizontal" android:layout_marginTop="50.0dip" android:layout_marginRight="@dimen/upload_progress_bar_margin_horizontal" android:layout_alignParentTop="true">
+        <ProgressBar android:id="@id/upload_progress_bar" android:layout_width="0.0dip" android:layout_height="2.0dip" android:progressDrawable="?zoobe_upload_progress" android:layout_weight="1.0" style="?android:attr/progressBarStyleHorizontal" />
+        <ImageButton android:id="@id/upload_cancel_btn" android:padding="6.0dip" android:layout_width="@dimen/upload_progress_bar_cancel_btn_size" android:layout_height="@dimen/upload_progress_bar_cancel_btn_size" android:layout_marginLeft="@dimen/upload_progress_bar_cancel_btn_margin_left" android:scaleType="fitCenter" android:contentDescription="@string/zoobe_upload_btn_cancel" style="?zoobe_upload_close" />
+    </LinearLayout>
+    <com.zoobe.sdk.ui.widgets.ZoobeTextView android:id="@id/upload_progress_details" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_below="@id/upload_progress" android:layout_centerHorizontal="true" app:textCase="word" style="?zoobe_upload_progress_details" />
+</RelativeLayout>

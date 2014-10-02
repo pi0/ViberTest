@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.viber.voip.messages.ui.UnpressableLinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/header_viewstub" android:layout="@layout/msg_list_header" android:inflatedId="@id/msg_header_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@id/message_container" android:paddingLeft="@dimen/msg_border_padding" android:paddingRight="@dimen/msg_border_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.viber.voip.widget.AvatarView android:id="@id/avatar" android:layout_width="@dimen/conversation_user_photo_size" android:layout_height="@dimen/conversation_user_photo_size" android:layout_marginRight="4.0dip" android:scaleType="centerCrop" android:layout_alignParentTop="true" />
+        <com.viber.voip.ui.ViberTextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/negative" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Loading..." android:singleLine="true" android:maxLength="30" android:shadowColor="@color/solid_40" android:shadowDy="1.0" android:shadowRadius="1.0" android:layout_toRightOf="@id/avatar" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/sticker_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/avatar" android:layout_below="@id/contact_name">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <include layout="@layout/sticker_view" />
+                <include android:layout_gravity="right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginRight="6.0dip" layout="@layout/msg_list_time_location" />
+            </LinearLayout>
+            <include layout="@layout/msg_list_right_controls" />
+        </LinearLayout>
+        <Button android:textSize="@dimen/msg_get_sticker_btn_text_size" android:textColor="@color/white" android:id="@id/get_sticker_btn" android:background="@drawable/_ics_btn_get_sticker_selector" android:paddingRight="@dimen/msg_get_sticker_btn_left_right_paddings" android:layout_width="wrap_content" android:layout_height="@dimen/msg_get_sticker_btn_height" android:text="@string/msg_get_sticker_btn_text" android:layout_below="@id/sticker_layout" android:layout_alignLeft="@id/sticker_layout" />
+    </RelativeLayout>
+</com.viber.voip.messages.ui.UnpressableLinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plural_msg_call_viber_out">
+        <item quantity="other">Chamadas Viber Out</item>
+        <item quantity="one">Chamada Viber Out</item>
+    </plurals>
+    <plurals name="plural_msg_call_incoming">
+        <item quantity="other">Chamadas recebidas</item>
+        <item quantity="one">Chamada recebida</item>
+    </plurals>
+    <plurals name="plural_msg_call_outgoing">
+        <item quantity="other">Chamadas efetuadas</item>
+        <item quantity="one">Chamada efetuada</item>
+    </plurals>
+    <plurals name="plural_msg_call_missed">
+        <item quantity="other">Chamadas não atendidas</item>
+        <item quantity="one">Chamada não atendida</item>
+    </plurals>
+    <plurals name="plural_msg_call_transferred">
+        <item quantity="other">Chamadas Transferidas</item>
+        <item quantity="one">Chamada transferida</item>
+    </plurals>
+    <plurals name="plural_msg_call_answered_on_another_device">
+        <item quantity="other">Chamadas atendidas noutro dispositivo</item>
+        <item quantity="one">Atendida noutro dispositivo</item>
+    </plurals>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plural_msg_call_viber_out">
+        <item quantity="other">שיחות Viber Out</item>
+        <item quantity="one">שיחת Viber Out</item>
+    </plurals>
+    <plurals name="plural_msg_call_incoming">
+        <item quantity="other">שיחות נכנסות</item>
+        <item quantity="one">שיחה נכנסת</item>
+    </plurals>
+    <plurals name="plural_msg_call_outgoing">
+        <item quantity="other">שיחות יוצאות</item>
+        <item quantity="one">שיחה יוצאת</item>
+    </plurals>
+    <plurals name="plural_msg_call_missed">
+        <item quantity="other">שיחות שלא נענו</item>
+        <item quantity="one">שיחה שלא נענתה</item>
+    </plurals>
+    <plurals name="plural_msg_call_transferred">
+        <item quantity="other">שיחות שהועברו</item>
+        <item quantity="one">שיחה שהועברה</item>
+    </plurals>
+    <plurals name="plural_msg_call_answered_on_another_device">
+        <item quantity="other">שיחות שנענו בהתקן אחר</item>
+        <item quantity="one">נענה בהתקן אחר</item>
+    </plurals>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plural_msg_call_viber_out">
+        <item quantity="other">การโทรผ่าน Viber Out</item>
+        <item quantity="one">การโทรผ่าน Viber Out</item>
+    </plurals>
+    <plurals name="plural_msg_call_incoming">
+        <item quantity="other">สายโทรเข้า</item>
+        <item quantity="one">สายโทรเข้า</item>
+    </plurals>
+    <plurals name="plural_msg_call_outgoing">
+        <item quantity="other">สายโทรออก</item>
+        <item quantity="one">สายโทรออก</item>
+    </plurals>
+    <plurals name="plural_msg_call_missed">
+        <item quantity="other">สายที่ไม่ได้รับ</item>
+        <item quantity="one">สายที่ไม่ได้รับ</item>
+    </plurals>
+    <plurals name="plural_msg_call_transferred">
+        <item quantity="other">สายที่โอนสายมา</item>
+        <item quantity="one">โอนสายแล้ว</item>
+    </plurals>
+    <plurals name="plural_msg_call_answered_on_another_device">
+        <item quantity="other">สายที่รับบนอุปกรณ์เครื่องอื่น</item>
+        <item quantity="one">รับสายบนอุปกรณ์เครื่องอื่นแล้ว</item>
+    </plurals>
+</resources>

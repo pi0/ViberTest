@@ -1,0 +1,54 @@
+<errors>
+	<error code="9999">zoobe_server_unknown</error>
+	<error code="9000">zoobe_server_serivceunavailable</error>
+
+	<error code="1000">zoobe_server_requestmalformed</error>
+	<error code="1001">zoobe_server_requestinvalid</error>
+	<error code="1002">zoobe_server_requestmethodnotfound</error>
+
+	<error code="1010">zoobe_server_unknownapplication</error>
+	<error code="1020">zoobe_server_invalidapplication</error>
+	<error code="1030">zoobe_server_localeunsupported</error>
+	<error code="1040">zoobe_server_contryunsupported</error>
+
+	<error code="1100">zoobe_server_unauthorizedaccess</error>
+
+	<error code="1050">zoobe_server_imagenotfound</error>
+	<error code="1051">zoobe_server_imagecorrupted</error>
+	<error code="1052">zoobe_server_imageunsupported</error>
+
+	<error code="1055">zoobe_server_audionotfound</error>
+	<error code="1056">zoobe_server_audiocorrupted</error>
+	<error code="1057">zoobe_server_audiounsupported</error>
+
+
+	<error code="2000">zoobe_server_tts</error>
+	<error code="2100">zoobe_server_ttstimeout</error>
+	<error code="2200">zoobe_server_ttsbusy</error>
+	<error code="2300">zoobe_server_ttsunavailable</error>
+
+	<error code="3000">zoobe_server_audioanalysis</error>
+	<error code="3100">zoobe_server_audioanalysistimeout</error>
+	<error code="3200">zoobe_server_audioanalysisbusy</error>
+	<error code="3300">zoobe_server_audioanalysisunavailable</error>
+
+	<error code="4000">zoobe_server_audiomixing</error>
+	<error code="4100">zoobe_server_audiomixingtimeout</error>
+	<error code="4200">zoobe_server_audiomixingbusy</error>
+	<error code="4300">zoobe_server_audiomixingunavailable</error>
+
+	<error code="5000">zoobe_server_videopreview</error>
+	<error code="5100">zoobe_server_videopreviewtimeout</error>
+	<error code="5200">zoobe_server_videopreviewbusy</error>
+	<error code="5300">zoobe_server_videopreviewunavailable</error>
+
+	<error code="6000">zoobe_server_videofinal</error>
+	<error code="6100">zoobe_server_videofinaltimeout</error>
+	<error code="6200">zoobe_server_videofinalbusy</error>
+	<error code="6300">zoobe_server_videofinalunavailable</error>
+
+	<error code="7000">zoobe_server_videohd</error>
+	<error code="7100">zoobe_server_videohdtimeout</error>
+	<error code="7200">zoobe_server_videohdbusy</error>
+	<error code="7300">zoobe_server_videohdunavailable</error>
+</errors>

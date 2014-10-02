@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="message_general_text_size">18.0sp</dimen>
+    <item type="dimen" name="conversation_menu_scrollbar_width_percent">0.03</item>
+    <item type="dimen" name="conversation_menu_buttons_padding_percent">0.025</item>
+    <item type="dimen" name="conversation_sticker_cell_percent">0.1</item>
+    <dimen name="user_picture_height">-2.0px</dimen>
+    <dimen name="sliding_frame_width">400.0dip</dimen>
+    <dimen name="default_registration_padding_top">38.0dip</dimen>
+    <dimen name="tablet_call_info_width">224.0dip</dimen>
+    <dimen name="tablet_call_height">122.0dip</dimen>
+    <dimen name="tablet_call_hangup_width">186.0dip</dimen>
+    <dimen name="girl_width_left">520.0dip</dimen>
+</resources>

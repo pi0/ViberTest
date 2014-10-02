@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:cacheColorHint="#00000000"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:viber="http://schemas.android.com/apk/res/com.viber.voip">
+    <com.viber.voip.widget.LongSummaryCheckbBoxPreference android:layout="@layout/_ics_custom_checkbox_preference_layout" android:title="@string/pref_viber_in_calls_title" android:key="@string/pref_viber_calls_in_key" android:summary="@string/pref_viber_in_calls_description" android:defaultValue="@string/pref_viber_calls_in_default" />
+    <com.viber.voip.widget.CustomPreferencesCheckbox android:layout="@layout/_ics_custom_checkbox_preference_layout" android:title="@string/sms_reply_settings_text" android:key="@string/pref_use_viber_for_sms_key" android:summary="@string/sms_reply_settings_sub_text" viber:title_max_lines="5" />
+    <Preference android:layout="@layout/_ics_custom_checkbox_preference_layout" android:title="@string/pref_email_msg_history_title" android:key="@string/pref_email_msg_history_key" />
+    <Preference android:layout="@layout/_ics_custom_checkbox_preference_layout" android:title="@string/pref_clear_msg_history_title" android:key="@string/pref_clear_msg_history_key" />
+    <Preference android:layout="@layout/_ics_custom_checkbox_preference_layout" android:title="@string/secure_call_pref_clear_trusted" android:key="@string/pref_secure_calls_clear_trusted" android:summary="@string/secure_call_pref_clear_trusted_description" />
+    <ListPreference android:entries="@array/sound_settings_video_entries" android:layout="@layout/_ics_custom_checkbox_preference_layout" android:title="@string/pref_video_calls_title" android:key="sound_settings_video" android:defaultValue="1" android:entryValues="@array/sound_settings_video_values" />
+</PreferenceScreen>

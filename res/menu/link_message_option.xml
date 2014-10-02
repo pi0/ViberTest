@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_message_call" android:title="@string/menu_call" />
+    <item android:id="@id/menu_message_send" android:title="@string/phone_type_send_message" />
+    <item android:id="@id/menu_message_add" android:title="@string/add_to_contacts" />
+</menu>

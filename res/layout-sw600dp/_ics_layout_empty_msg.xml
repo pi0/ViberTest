@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/compose_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/emptyContactsText" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_msg_empty_some_contacts" style="@style/NoItemsDescribe" />
+    <TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/quick_compose_padding_top" android:layout_marginBottom="@dimen/quick_compose_padding_bottom">
+        <TableRow>
+            <include android:id="@id/contact_photo_first" android:layout_width="@dimen/quick_compose_size" android:layout_height="@dimen/quick_compose_size" layout="@layout/contact_favorites_item" />
+            <View android:layout_width="@dimen/quick_compose_photo_padding" android:layout_height="@dimen/quick_compose_photo_padding" />
+            <include android:id="@id/contact_photo_second" android:layout_width="@dimen/quick_compose_size" android:layout_height="@dimen/quick_compose_size" android:layout_marginLeft="@dimen/quick_compose_photo_padding" layout="@layout/contact_favorites_item" />
+        </TableRow>
+        <TableRow android:id="@id/second_row" android:layout_marginTop="@dimen/quick_compose_photo_padding">
+            <include android:id="@id/contact_photo_third" android:layout_width="@dimen/quick_compose_size" android:layout_height="@dimen/quick_compose_size" layout="@layout/contact_favorites_item" />
+            <View android:layout_width="@dimen/quick_compose_photo_padding" android:layout_height="@dimen/quick_compose_photo_padding" />
+            <include android:id="@id/contact_photo_fourth" android:layout_width="@dimen/quick_compose_size" android:layout_height="@dimen/quick_compose_size" android:layout_marginLeft="@dimen/quick_compose_photo_padding" layout="@layout/contact_favorites_item" />
+        </TableRow>
+    </TableLayout>
+    <TextView android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_msg_empty_more_contacts" style="@style/NoItemsDescribe" />
+</LinearLayout>

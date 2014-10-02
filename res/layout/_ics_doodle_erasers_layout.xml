@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="@dimen/doodle_menu_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/doodle_size_5" android:background="@drawable/doodle_brush_sizes_bg" android:layout_width="fill_parent" android:layout_height="@dimen/doodle_menu_height" android:onClick="onEraserSizeSelected">
+        <ImageView android:layout_gravity="center" android:background="@drawable/doodle_brush_size" android:layout_width="35.0dip" android:layout_height="35.0dip" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/doodle_size_4" android:background="@drawable/doodle_brush_sizes_bg" android:layout_width="fill_parent" android:layout_height="@dimen/doodle_menu_height" android:onClick="onEraserSizeSelected">
+        <ImageView android:layout_gravity="center" android:layout_width="27.0dip" android:layout_height="27.0dip" android:src="@drawable/doodle_brush_size" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/doodle_size_3" android:background="@drawable/doodle_brush_sizes_bg" android:layout_width="fill_parent" android:layout_height="@dimen/doodle_menu_height" android:onClick="onEraserSizeSelected">
+        <ImageView android:layout_gravity="center" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/doodle_brush_size" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/doodle_size_2" android:background="@drawable/doodle_brush_sizes_bg" android:layout_width="fill_parent" android:layout_height="@dimen/doodle_menu_height" android:onClick="onEraserSizeSelected">
+        <ImageView android:layout_gravity="center" android:layout_width="13.0dip" android:layout_height="13.0dip" android:src="@drawable/doodle_brush_size" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/doodle_size_1" android:background="@drawable/doodle_brush_sizes_bg" android:layout_width="fill_parent" android:layout_height="@dimen/doodle_menu_height" android:onClick="onEraserSizeSelected">
+        <ImageView android:layout_gravity="center" android:layout_width="5.0dip" android:layout_height="5.0dip" android:src="@drawable/doodle_brush_size" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="keypad_letters_left_padding">31.0dip</dimen>
+    <dimen name="keypad_letters_bottom_padding">15.0dip</dimen>
+    <dimen name="min_non_keyboard_menu_height">200.0dip</dimen>
+    <dimen name="soft_input_controller_estimated_keyboard_height">200.0dip</dimen>
+</resources>

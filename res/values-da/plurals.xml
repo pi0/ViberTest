@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plural_msg_call_viber_out">
+        <item quantity="other">Viber Out-opkald</item>
+        <item quantity="one">Viber Out-opkald</item>
+    </plurals>
+    <plurals name="plural_msg_call_incoming">
+        <item quantity="other">Indgående opkald</item>
+        <item quantity="one">Indgående opkald</item>
+    </plurals>
+    <plurals name="plural_msg_call_outgoing">
+        <item quantity="other">Udgående opkald</item>
+        <item quantity="one">Udgående opkald</item>
+    </plurals>
+    <plurals name="plural_msg_call_missed">
+        <item quantity="other">Mistede opkald</item>
+        <item quantity="one">Mistet opkald</item>
+    </plurals>
+    <plurals name="plural_msg_call_transferred">
+        <item quantity="other">Viderestillede opkald</item>
+        <item quantity="one">Viderestillet opkald</item>
+    </plurals>
+    <plurals name="plural_msg_call_answered_on_another_device">
+        <item quantity="other">Opkald besvaret på en anden enhed</item>
+        <item quantity="one">Besvaret på en anden enhed</item>
+    </plurals>
+</resources>

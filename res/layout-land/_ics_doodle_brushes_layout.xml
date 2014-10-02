@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/main_background" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TableRow>
+            <ImageView android:id="@id/regular" android:background="@drawable/doodle_brushes_bg" android:layout_width="@dimen/doodle_menu_width" android:layout_height="@dimen/doodle_menu_height" android:src="@drawable/doodle_brush_regular" android:scaleType="center" android:onClick="onBrushSelected" />
+            <ImageView android:id="@id/splat" android:background="@drawable/doodle_brushes_bg" android:layout_width="@dimen/doodle_menu_width" android:layout_height="@dimen/doodle_menu_height" android:src="@drawable/doodle_brush_splat" android:scaleType="center" android:onClick="onBrushSelected" />
+            <ImageView android:id="@id/star" android:background="@drawable/doodle_brushes_bg" android:layout_width="@dimen/doodle_menu_width" android:layout_height="@dimen/doodle_menu_height" android:src="@drawable/doodle_brush_star" android:scaleType="center" android:onClick="onBrushSelected" />
+            <ImageView android:id="@id/moustache" android:background="@drawable/doodle_brushes_bg" android:layout_width="@dimen/doodle_menu_width" android:layout_height="@dimen/doodle_menu_height" android:src="@drawable/doodle_brush_moustache" android:scaleType="center" android:onClick="onBrushSelected" />
+            <ImageView android:id="@id/flower" android:background="@drawable/doodle_brushes_bg" android:layout_width="@dimen/doodle_menu_width" android:layout_height="@dimen/doodle_menu_height" android:src="@drawable/doodle_brush_flower" android:scaleType="center" android:onClick="onBrushSelected" />
+        </TableRow>
+        <TableRow>
+            <ImageView android:id="@id/spray" android:background="@drawable/doodle_brushes_bg" android:layout_width="@dimen/doodle_menu_width" android:layout_height="@dimen/doodle_menu_height" android:layout_marginBottom="@dimen/doodle_size_brush_divider" android:src="@drawable/doodle_brush_spray" android:scaleType="center" android:onClick="onBrushSelected" />
+            <ImageView android:id="@id/brush" android:background="@drawable/doodle_brushes_bg" android:layout_width="@dimen/doodle_menu_width" android:layout_height="@dimen/doodle_menu_height" android:layout_marginBottom="@dimen/doodle_size_brush_divider" android:src="@drawable/doodle_brush_brush" android:scaleType="center" android:onClick="onBrushSelected" />
+            <ImageView android:id="@id/heart" android:background="@drawable/doodle_brushes_bg" android:layout_width="@dimen/doodle_menu_width" android:layout_height="@dimen/doodle_menu_height" android:layout_marginBottom="@dimen/doodle_size_brush_divider" android:src="@drawable/doodle_brush_heart" android:scaleType="center" android:onClick="onBrushSelected" />
+            <ImageView android:id="@id/butterfly" android:background="@drawable/doodle_brushes_bg" android:layout_width="@dimen/doodle_menu_width" android:layout_height="@dimen/doodle_menu_height" android:layout_marginBottom="@dimen/doodle_size_brush_divider" android:src="@drawable/doodle_brush_butterfly" android:scaleType="center" android:onClick="onBrushSelected" />
+            <ImageView android:id="@id/lips" android:background="@drawable/doodle_brushes_bg" android:layout_width="@dimen/doodle_menu_width" android:layout_height="@dimen/doodle_menu_height" android:layout_marginBottom="@dimen/doodle_size_brush_divider" android:src="@drawable/doodle_brush_lips" android:scaleType="center" android:onClick="onBrushSelected" />
+        </TableRow>
+        <TableRow>
+            <FrameLayout android:id="@id/doodle_size_1" android:background="@drawable/doodle_brush_sizes_bg" android:layout_width="@dimen/doodle_menu_width" android:layout_height="@dimen/doodle_menu_height" android:onClick="onBrushSizeSelected">
+                <ImageView android:layout_gravity="center" android:background="@drawable/doodle_brush_size" android:layout_width="5.0dip" android:layout_height="5.0dip" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/doodle_size_2" android:background="@drawable/doodle_brush_sizes_bg" android:layout_width="@dimen/doodle_menu_width" android:layout_height="@dimen/doodle_menu_height" android:onClick="onBrushSizeSelected">
+                <ImageView android:layout_gravity="center" android:background="@drawable/doodle_brush_size" android:layout_width="13.0dip" android:layout_height="13.0dip" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/doodle_size_3" android:background="@drawable/doodle_brush_sizes_bg" android:layout_width="@dimen/doodle_menu_width" android:layout_height="@dimen/doodle_menu_height" android:onClick="onBrushSizeSelected">
+                <ImageView android:layout_gravity="center" android:background="@drawable/doodle_brush_size" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/doodle_size_4" android:background="@drawable/doodle_brush_sizes_bg" android:layout_width="@dimen/doodle_menu_width" android:layout_height="@dimen/doodle_menu_height" android:onClick="onBrushSizeSelected">
+                <ImageView android:layout_gravity="center" android:background="@drawable/doodle_brush_size" android:layout_width="27.0dip" android:layout_height="27.0dip" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/doodle_size_5" android:background="@drawable/doodle_brush_sizes_bg" android:layout_width="@dimen/doodle_menu_width" android:layout_height="@dimen/doodle_menu_height" android:onClick="onBrushSizeSelected">
+                <ImageView android:layout_gravity="center" android:background="@drawable/doodle_brush_size" android:layout_width="35.0dip" android:layout_height="35.0dip" />
+            </FrameLayout>
+        </TableRow>
+    </TableLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="@dimen/doodle_menu_width" android:layout_height="fill_parent">
+        <com.viber.voip.ui.ViberTextView android:textSize="14.0dip" android:textColor="@color/sub_text" android:gravity="center" android:background="@drawable/doodle_brush_sizes_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/doodle_size_brush_divider" android:text="@string/brush" android:layout_weight="1.0" />
+        <com.viber.voip.ui.ViberTextView android:textSize="14.0dip" android:textColor="@color/sub_text" android:gravity="center" android:background="@drawable/doodle_brush_sizes_bg" android:layout_width="fill_parent" android:layout_height="@dimen/doodle_menu_height" android:text="@string/size" />
+    </LinearLayout>
+</LinearLayout>

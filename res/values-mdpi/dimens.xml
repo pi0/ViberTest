@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="quick_compose_photo_padding">25.0dip</dimen>
+    <dimen name="splash_logo_wave_height">0.0dip</dimen>
+    <item type="dimen" name="user_picture_ratio">0.5625</item>
+    <dimen name="min_non_keyboard_menu_height">200.0dip</dimen>
+    <dimen name="soft_input_controller_estimated_keyboard_height">200.0dip</dimen>
+    <dimen name="public_group_participant_details_top_margin">70.0dip</dimen>
+</resources>

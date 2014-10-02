@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image" android:layout_width="wrap_content" android:layout_height="@dimen/message_options_icon_height" android:layout_marginBottom="6.0dip" android:layout_centerHorizontal="true" style="@style/MessageOptionsButton.IconStyle" />
+    <com.viber.voip.ui.ViberTextView android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MessageOptionsButton.TextStyle" />
+</merge>

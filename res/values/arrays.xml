@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="incoming_call_widget_3way_targets">
+        <item>@drawable/_ics_ic_in_call_decline</item>
+        <item>@drawable/_ics_ic_in_call_send_msg</item>
+        <item>@drawable/_ics_ic_in_call_answer</item>
+    </array>
+    <string-array name="quick_message_actions">
+        <item>@string/quick_message_cant_talk</item>
+        <item>@string/quick_message_call_you_later</item>
+        <item>@string/quick_message_right_back</item>
+        <item>@string/quick_message_on_my_way</item>
+        <item>@string/quick_message_compose_message</item>
+    </string-array>
+    <string-array name="forward_menu_items">
+        <item>@string/forward_conversations</item>
+        <item>@string/forward_comopose</item>
+    </string-array>
+    <string-array name="viber_type_platform_full">
+        <item>iPhone</item>
+        <item>Android</item>
+        <item>iPad</item>
+        <item>Android Tablet</item>
+    </string-array>
+    <string-array name="group_notification_selector">
+        <item>@string/conversation_info_pref_group_notify_mute</item>
+        <item>@string/conversation_info_pref_notify_title</item>
+        <item>@string/conversation_info_pref_group_notify_smart_off</item>
+    </string-array>
+    <string-array name="sound_settings_audio_driver_entries">
+        <item>Native</item>
+        <item>OpenSL ES</item>
+        <item>Java</item>
+    </string-array>
+    <string-array name="sound_settings_audio_driver_values">
+        <item>2</item>
+        <item>1</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="sound_settings_hw_agc_entries">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="sound_settings_hw_agc_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="sound_settings_hw_iir_entries">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="sound_settings_hw_iir_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="sound_settings_hw_ns_entries">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="sound_settings_hw_ns_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="sound_settings_sw_agc_entries">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="sound_settings_sw_agc_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="sound_settings_sw_aec_entries">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="sound_settings_sw_aec_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="sound_settings_sw_ns_entries">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="sound_settings_sw_ns_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="sound_settings_vad_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="sound_settings_vad_entries">
+        <item>VadConventional</item>
+        <item>VadAggressiveLow</item>
+        <item>VadAggressiveMid</item>
+        <item>VadAggressiveHigh</item>
+    </string-array>
+    <string-array name="sound_settings_aec_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="sound_settings_aec_entries">
+        <item>AecDisabled</item>
+        <item>AecmQuietEarpieceOrHeadset</item>
+        <item>AecmEarpiece</item>
+        <item>AecmLoudEarpiece</item>
+        <item>AecmSpeakerphone</item>
+        <item>AecmLoudSpeakerphone</item>
+    </string-array>
+    <string-array name="sound_settings_agc_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="sound_settings_agc_entries">
+        <item>AgcDisabled</item>
+        <item>AgcAdaptiveAnalog</item>
+        <item>AgcAdaptiveDigital</item>
+        <item>AgcFixedDigital</item>
+    </string-array>
+    <string-array name="sound_settings_ns_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="sound_settings_ns_entries">
+        <item>NsDisabled</item>
+        <item>NsConference</item>
+        <item>NsLowSuppression</item>
+        <item>NsModerateSuppression</item>
+        <item>NsHighSuppression</item>
+        <item>NsVeryHighSuppression</item>
+    </string-array>
+    <string-array name="sound_settings_htc_hwaec_entries">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="sound_settings_htc_hwaec_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="sound_settings_video_entries">
+        <item>On</item>
+        <item>Off</item>
+    </string-array>
+    <string-array name="sound_settings_video_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="vve_debug_voice_rtpdebug_entries">
+        <item>Disabled</item>
+        <item>Enabled</item>
+    </string-array>
+    <string-array name="vve_debug_voice_rtpdebug_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="vve_debug_video_rtpdebug_entries">
+        <item>Disabled</item>
+        <item>Enabled</item>
+    </string-array>
+    <string-array name="vve_debug_video_rtpdebug_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="vve_debug_video_capture_entries">
+        <item>Disabled</item>
+        <item>Enabled</item>
+    </string-array>
+    <string-array name="vve_debug_video_capture_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="tzintuk_country_codes">
+        <item>44</item>
+        <item>49</item>
+        <item>33</item>
+        <item>93</item>
+        <item>54</item>
+        <item>61</item>
+    </string-array>
+</resources>

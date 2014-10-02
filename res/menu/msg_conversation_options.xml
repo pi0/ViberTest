@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/_ics_ic_ab_viber_call" android:id="@id/menu_viber_call" android:title="@string/menu_free_call" android:showAsAction="always" />
+    <item android:icon="@drawable/_ics_ic_ab_conversation_info" android:id="@id/menu_conversation_info" android:title="@string/conversation_info_title" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_ab_new_contact" android:id="@id/menu_add" android:visible="false" android:title="@string/add_to_contacts" />
+    <item android:icon="@drawable/_ics_ic_ab_viber_call" android:id="@id/menu_viber_out_call" android:visible="false" android:title="@string/menu_viber_out_call" />
+    <item android:icon="@drawable/ic_menu_edit" android:id="@id/menu_edit" android:visible="false" android:title="@string/messages_edit_header" />
+    <item android:icon="@drawable/ic_menu_details_delete" android:id="@id/menu_delete" android:visible="false" android:title="@string/btn_msg_delete" />
+    <item android:id="@id/menu_block" android:visible="false" android:title="@string/block" android:showAsAction="never" />
+    <item android:id="@id/menu_pop_to_chat_head" android:title="@string/pop_to_chat_head" android:showAsAction="never" />
+</menu>

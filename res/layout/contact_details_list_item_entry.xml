@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.viber.voip.ui.ViberTextView android:id="@id/contact_entry_header" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/contact_details_header" />
+    <View android:id="@id/header_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <View android:id="@id/item_divider" android:background="@color/msg_call_bg_black_opasity" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/contact_entry_content" android:background="?list_selector" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_marginTop="11.0dip" android:layout_marginBottom="8.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/info_layout" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.viber.voip.ui.ViberTextView android:textSize="18.0sp" android:textColor="@color/main_text" android:gravity="left" android:id="@*android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:singleLine="true" />
+            <com.viber.voip.ui.ViberTextView android:textSize="14.0sp" android:textColor="@color/sub_text" android:layout_gravity="center_vertical" android:id="@*android:id/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="number/info" />
+        </LinearLayout>
+        <ImageView android:id="@id/viber_out_action_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/ic_contact_details_viber_out" android:text="@string/viber_out" />
+        <ImageView android:gravity="center" android:id="@id/action_icon" android:background="@drawable/contact_details_item_bg" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_regular_message" />
+        <com.viber.voip.ui.ViberTextView android:textSize="18.0dip" android:gravity="center" android:id="@id/no_data" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/not_available_details" />
+    </LinearLayout>
+</LinearLayout>

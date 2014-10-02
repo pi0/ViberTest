@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clickable="true" android:layout_width="@dimen/zv_creator_bg_thumb_width" android:layout_height="@dimen/zv_creator_bg_thumb_height" android:layout_marginRight="@dimen/zv_creator_bg_thumb_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zoobe.sdk.cache.extra.ExtendedImageView android:id="@id/bg_thumb_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/selection_indicator" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="?zoobe_creator_bg_thumb_selected" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+</RelativeLayout>

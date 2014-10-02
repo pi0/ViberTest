@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_ab_favorite_not" android:id="@id/menu_favorite" android:title="@string/menu_add_to_fav" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_ab_edit" android:id="@id/menu_contact_edit" android:title="@string/menu_contact_edit" android:alphabeticShortcut="e" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_ab_new_contact" android:id="@id/menu_add" android:title="@string/menu_add" android:showAsAction="always" />
+    <item android:id="@id/menu_contact_delete" android:title="@string/btn_msg_delete" android:showAsAction="never" />
+    <item android:id="@id/menu_block" android:title="@string/block" android:showAsAction="never" />
+</menu>

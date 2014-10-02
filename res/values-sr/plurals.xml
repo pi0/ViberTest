@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plural_msg_call_viber_out">
+        <item quantity="other">Viber Out pozivi</item>
+        <item quantity="one">Viber Out poziv</item>
+    </plurals>
+    <plurals name="plural_msg_call_incoming">
+        <item quantity="other">Dolazni pozivi</item>
+        <item quantity="one">Dolazni poziv</item>
+    </plurals>
+    <plurals name="plural_msg_call_outgoing">
+        <item quantity="other">Odlazni pozivi</item>
+        <item quantity="one">Odlazni poziv</item>
+    </plurals>
+    <plurals name="plural_msg_call_missed">
+        <item quantity="other">Propušteni pozivi</item>
+        <item quantity="one">Propušteni poziv</item>
+    </plurals>
+    <plurals name="plural_msg_call_transferred">
+        <item quantity="other">Preusmereni pozivi</item>
+        <item quantity="one">Preusmereni poziv</item>
+    </plurals>
+    <plurals name="plural_msg_call_answered_on_another_device">
+        <item quantity="other">Na pozive je odgovoreno na drugom uređaju</item>
+        <item quantity="one">Odgovoreno na drugom uređaju</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.viber.voip.ui.ViberTextView android:textStyle="bold" android:ellipsize="marquee" android:id="@*android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/section_header_text_style" />
+    <View android:id="@id/contact_tile_horizontal_divider" android:background="@color/weak_text" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

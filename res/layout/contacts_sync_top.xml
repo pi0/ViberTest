@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/contacts_sync_top_view" android:background="@color/alt_main_95" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="44.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.viber.voip.ui.ViberTextView android:textSize="16.0sp" android:textColor="@color/main_weak" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/sync_progress_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="19.0dip" android:text="@string/contacts_sync_incomplete" android:singleLine="true" android:layout_toLeftOf="@id/right_layout" android:layout_alignParentLeft="true" />
+    <FrameLayout android:id="@id/right_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="30.0dip" android:layout_marginRight="19.0dip" android:layout_alignParentRight="true">
+        <com.viber.voip.ui.ViberTextView android:layout_gravity="center_vertical" android:id="@id/sync_retry" android:layout_width="wrap_content" android:layout_height="24.0dip" android:text="@string/btn_retry" android:singleLine="true" style="@style/Widget.Viber.Button.Inset.Small" />
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/sync_progress" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+    </FrameLayout>
+</RelativeLayout>

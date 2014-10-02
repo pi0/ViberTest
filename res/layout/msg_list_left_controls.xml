@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.viber.voip.messages.ui.UnpressableLinearLayout android:gravity="center" android:layout_gravity="left|center" android:orientation="horizontal" android:id="@id/left_location_and_timestamp_container" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/like_stub" android:layout="@layout/msg_list_like_control" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:layout_gravity="center" android:id="@id/resend_button" android:paddingRight="6.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/_ics_ic_msg_btn_resend" android:scaleType="center" />
+    <ImageView android:layout_gravity="center" android:id="@id/cancel_sent" android:paddingRight="6.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/_ics_ic_msg_btn_cancel" android:scaleType="center" />
+</com.viber.voip.messages.ui.UnpressableLinearLayout>

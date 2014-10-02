@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<proximitywhitelist>
+    <device manufacturer="Samsung" model="GT-I9100" model_name="Galaxy S II" />
+    <device manufacturer="Samsung" model="SGH-T999" model_name="Galaxy SIII" />
+    <device manufacturer="Samsung" model="GT-I8190" model_name="Galaxy SIII mini" />
+    <device manufacturer="Samsung" model="GT-I8190L" model_name="Galaxy SIII mini" />
+    <device manufacturer="Samsung" model="GT-I8190N" model_name="Galaxy SIII mini" />
+    <device manufacturer="Samsung" model="GT-N7100" model_name="Galaxy Note II" />
+    <device manufacturer="Samsung" model="GT-N7105" model_name="Galaxy Note II" />
+    <device manufacturer="Samsung" model="GT-N7000" model_name="Galaxy Note" />
+    <device manufacturer="Samsung" model="GT-I9000" model_name="Galaxy S" />
+    <device manufacturer="Samsung" model="SGH-T989" model_name="Galaxy SII" />
+    <device manufacturer="Samsung" model="Galaxy Nexus" model_name="Galaxy Nexus" />
+    <device manufacturer="Samsung" model="GT-I9300" model_name="Galaxy SIII" />
+    <device manufacturer="Samsung" model="GT-I9500" model_name="Galaxy S4" />
+    <device manufacturer="Samsung" model="SM-G900F" model_name="Galaxy S5" />
+    <device manufacturer="Samsung" model="SM-N9000" model_name="Galaxy Note 3" />
+    <device manufacturer="SonyEricsson" model="ST25i" model_name="Xperia U" />
+    <device manufacturer="SonyEricsson" model="LT18i" model_name="Xperia Arc" />
+    <device manufacturer="LGE" model="Nexus 5" model_name="Nexus 5" />
+    <device manufacturer="LGE" model="Nexus 4" model_name="Nexus 4" />
+    <device manufacturer="LGE" model="LG-E435" model_name="LG Optimus L3II" />
+    <device manufacturer="LGE" model="LG-P715" model_name="LG Optimus L7II" />
+    <device manufacturer="LGE" model="LG-D800" model_name="LG G2" />
+    <device manufacturer="LGE" model="LG-D802" model_name="LG G2" />
+    <device manufacturer="LGE" model="LG-D803T" model_name="LG G2" />
+    <device manufacturer="LGE" model="LG-D855" model_name="LG G3" />
+    <device manufacturer="LGE" model="LG-D851" model_name="LG G3" />
+    <device manufacturer="LGE" model="LG-D850" model_name="LG G3" />
+    <device manufacturer="LGE" model="LG-D985" model_name="LG G3" />
+    <device manufacturer="LGE" model="LG-D990" model_name="LG G3" />
+    <device manufacturer="Motorola" model="MOTXT912B" model_name="Droid Razr 4G" />
+    <device manufacturer="Motorola" model="XT890" model_name="MOTOROLA RAZR XT890" />
+    <device manufacturer="Motorola" model="XT1032" model_name="Motorola Moto G" />
+    <device manufacturer="Motorola" model="XT1052" model_name="Motorola Moto X" />
+    <device manufacturer="Motorola" model="XT1053" model_name="Motorola Moto X" />
+    <device manufacturer="Motorola" model="XT1055" model_name="Motorola Moto X" />
+    <device manufacturer="Motorola" model="XT1056" model_name="Motorola Moto X" />
+    <device manufacturer="Motorola" model="XT1058" model_name="Motorola Moto X" />
+    <device manufacturer="Motorola" model="XT1060" model_name="Motorola Moto X" />
+    <device manufacturer="HTC" model="HTC One" model_name="HTC One" />
+    <device manufacturer="HTC" model="Incredible S" model_name="HTC Incredible S" />
+    <device manufacturer="HTC" model="HTC Desire" model_name="HTC Desire S" />
+    <device manufacturer="HTC" model="HTC Desire S" model_name="HTC Desire S" />
+    <device manufacturer="HTC" model="HTC Desire HD" model_name="HTC Desire HD" />
+    <device manufacturer="HTC" model="HTC Desire C" model_name="HTC Desire C" />
+    <device manufacturer="HTC" model="HTC One_M8" model_name="HTC One M8" />
+    <device manufacturer="TCT" model="ALCATEL ONE TOUCH 6040D" model_name="ALCATEL ONE TOUCH IDOL X 6040D" />
+    <device manufacturer="TCT" model="ALCATEL ONE TOUCH 6040X" model_name="ALCATEL ONE TOUCH IDOL X 6040X" />
+    <device manufacturer="TCT" model="ALCATEL ONE TOUCH 6032X" model_name="ALCATEL ONE TOUCH IDOL α 6032X" />
+    <device manufacturer="TCT" model="ALCATEL ONE TOUCH 6012X" model_name="ALCATEL ONE TOUCH IDOL IDOL MINI 6012X" />
+    <device manufacturer="TCT" model="ALCATEL ONE TOUCH 6012D" model_name="ALCATEL ONE TOUCH IDOL IDOL MINI 6012D" />
+</proximitywhitelist>

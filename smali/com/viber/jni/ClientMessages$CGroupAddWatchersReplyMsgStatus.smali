@@ -1,0 +1,31 @@
+.class public Lcom/viber/jni/ClientMessages$CGroupAddWatchersReplyMsgStatus;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final GROUP_ADD_TOO_MANY_GROUPS:I = 0x4
+
+.field public static final GROUP_ADD_WATCHERS_ALREADY_WATCHING:I = 0x2
+
+.field public static final GROUP_ADD_WATCHERS_FAILED:I = 0x5
+
+.field public static final GROUP_ADD_WATCHERS_NOT_IN_GROUP:I = 0x3
+
+.field public static final GROUP_ADD_WATCHERS_NOT_VIBER:I = 0x1
+
+.field public static final GROUP_ADD_WATCHERS_OK:I = 0x0
+
+.field public static final GROUP_ADD_WATCHERS_TIMEOUT:I = 0x6
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .prologue
+    .line 225
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

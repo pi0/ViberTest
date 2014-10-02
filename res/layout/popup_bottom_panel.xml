@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/sticker_panel_container" android:layout_width="@dimen/pop_up_max_width" android:layout_height="wrap_content">
+        <com.viber.voip.messages.ui.popup.view.PopupStickerQuickReply android:gravity="center" android:orientation="horizontal" android:id="@id/sticker_panel" android:background="@drawable/popup_message_footer" android:paddingLeft="8.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.viber.voip.widget.AutoFitTextView android:textSize="24.0sp" android:textStyle="normal" android:textColor="@color/main" android:gravity="center" android:id="@id/sticker_panel_overlay" android:background="@drawable/popup_message_sticker_bg" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/pop_up_stickers_height" android:text="@string/tap_to_send_sticker" android:singleLine="true" android:shadowColor="@color/white_50" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="20.0" />
+    </FrameLayout>
+    <com.viber.voip.messages.ui.PttViewController android:id="@id/ptt_content" android:background="@drawable/popup_message_ptt_bg" android:visibility="gone" android:layout_width="@dimen/pop_up_max_width" android:layout_height="200.0dip" />
+</merge>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:cacheColorHint="#00000000"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:viber="http://schemas.android.com/apk/res/com.viber.voip">
+    <com.viber.voip.widget.CustomPreferencesCheckbox android:layout="@layout/_ics_custom_checkbox_preference_layout" android:title="@string/pref_auto_receive_photo" android:key="@string/pref_auto_receive_photos_key" android:defaultValue="@string/pref_auto_receive_photos_default" viber:title_max_lines="5" viber:summary_max_lines="10" />
+    <com.viber.voip.widget.CustomPreferencesCheckbox android:layout="@layout/_ics_custom_checkbox_preference_layout" android:title="@string/pref_auto_receive_videos" android:key="@string/pref_auto_receive_videos_key" android:defaultValue="@string/pref_auto_receive_videos_default" viber:title_max_lines="5" viber:summary_max_lines="10" />
+    <com.viber.voip.widget.CustomPreferencesCheckbox android:layout="@layout/_ics_custom_checkbox_preference_layout" android:title="@string/pref_ptt_autoclean" android:key="@string/pref_ptt_autoclean_key" android:summary="@string/pref_ptt_autoclean_summary" />
+    <Preference android:layout="@layout/_ics_custom_checkbox_preference_layout" android:title="@string/pref_ptt_forceclean" android:key="@string/pref_ptt_forceclean_key" android:summary="@string/pref_ptt_forceclean_summary" />
+</PreferenceScreen>

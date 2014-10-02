@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:background="@color/main_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/welcome_bg" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:contentDescription="@null" style="@style/welcome_image_style" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <ImageView android:id="@id/logo" android:layout_width="wrap_content" android:layout_height="@dimen/splash_viber_logo_height" android:src="@drawable/welcome_logo_purple" android:contentDescription="@null" style="@style/welcome_logo_style" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <ScrollView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/splash_scroll_height">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/viber_intro_width" android:layout_height="wrap_content">
+                <com.viber.voip.ui.ViberTextView android:textSize="@dimen/welcome_text_size" android:textColor="@color/main_text" android:gravity="center_horizontal" android:id="@id/welcome_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/splash_welcome" android:fontFamily="sans-serif-light" />
+                <include android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/splash_viber_intro" />
+            </LinearLayout>
+        </ScrollView>
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <com.viber.voip.ui.ViberButton android:layout_gravity="center_horizontal" android:id="@id/okBtn" android:layout_width="160.0dip" android:layout_height="50.0dip" android:text="@string/btn_continue" />
+        <TextView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0" />
+        <include android:layout_gravity="center_horizontal" android:id="@id/view5" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginTop="@dimen/welcome_copyright_margin_top" android:layout_marginBottom="@dimen/welcome_copyright_margin_bottom" layout="@layout/layout_copyright_policy_light" />
+    </LinearLayout>
+</RelativeLayout>

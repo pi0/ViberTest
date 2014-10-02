@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plural_msg_call_viber_out">
+        <item quantity="other">Viber Out कॉल</item>
+        <item quantity="one">Viber Out कॉल</item>
+    </plurals>
+    <plurals name="plural_msg_call_incoming">
+        <item quantity="other">आवक कॉल</item>
+        <item quantity="one">आवक कॉल</item>
+    </plurals>
+    <plurals name="plural_msg_call_outgoing">
+        <item quantity="other">जावक कॉल</item>
+        <item quantity="one">जावक कॉल</item>
+    </plurals>
+    <plurals name="plural_msg_call_missed">
+        <item quantity="other">छूटीं कॉल</item>
+        <item quantity="one">छूटी कॉल</item>
+    </plurals>
+    <plurals name="plural_msg_call_transferred">
+        <item quantity="other">स्थानांतरित कॉलें</item>
+        <item quantity="one">स्थानांतरित कॉल</item>
+    </plurals>
+    <plurals name="plural_msg_call_answered_on_another_device">
+        <item quantity="other">कॉलों का उत्तर दूसरे डिवाइस पर दिया है</item>
+        <item quantity="one">दूसरी डिवाइस पर उत्तर दिया है</item>
+    </plurals>
+</resources>

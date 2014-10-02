@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/msg_header_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/msg_new_messages_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/msg_header_new_messages_padding_top" android:layout_marginBottom="@dimen/msg_header_new_messages_padding_bottom">
+        <View android:background="@color/negative" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <com.viber.voip.ui.ViberTextView android:id="@id/new_msg_label_text" android:layout_width="wrap_content" android:layout_height="@dimen/unread_messages_btn_height" android:text="@string/new_messages_header" style="@style/msg_new_messages_button" />
+        <View android:background="@color/negative" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <com.viber.voip.ui.ViberTextView android:textStyle="bold" android:gravity="center" android:id="@id/date" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/msg_header_date_padding_top" android:layout_marginBottom="@dimen/msg_header_date_padding_bottom" android:text="12.12.2012" style="@style/msg_text_date_header" />
+</LinearLayout>

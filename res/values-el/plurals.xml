@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plural_msg_call_viber_out">
+        <item quantity="other">Κλήσεις Viber Out</item>
+        <item quantity="one">Κλήση Viber Out</item>
+    </plurals>
+    <plurals name="plural_msg_call_incoming">
+        <item quantity="other">Εισερχόμενες κλήσεις</item>
+        <item quantity="one">Εισερχόμενη κλήση</item>
+    </plurals>
+    <plurals name="plural_msg_call_outgoing">
+        <item quantity="other">Εξερχόμενες κλήσεις</item>
+        <item quantity="one">Εξερχόμενη κλήση</item>
+    </plurals>
+    <plurals name="plural_msg_call_missed">
+        <item quantity="other">Αναπάντητες κλήσεις</item>
+        <item quantity="one">Αναπάντητη κλήση</item>
+    </plurals>
+    <plurals name="plural_msg_call_transferred">
+        <item quantity="other">Κλήσεις που μεταφέρθηκαν</item>
+        <item quantity="one">Κλήση που μεταφέρθηκε</item>
+    </plurals>
+    <plurals name="plural_msg_call_answered_on_another_device">
+        <item quantity="other">Κλήσεις που απαντήθηκαν σε μια άλλη συσκευή</item>
+        <item quantity="one">Απάντησε σε μια άλλη συσκευή</item>
+    </plurals>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/_ics_ic_ab_conversation_info" android:id="@id/menu_settings" android:title="@string/market_settings_title" android:showAsAction="always" />
+</menu>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/header_viewstub" android:layout="@layout/msg_list_header" android:inflatedId="@id/msg_header_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/message_container" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.viber.voip.messages.extras.map.BalloonLayout android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/notification_container" android:background="@drawable/bg_msg_notification" android:paddingLeft="6.0dip" android:paddingTop="@dimen/msg_list_notification_topbottom_padding" android:paddingRight="14.0dip" android:paddingBottom="@dimen/msg_list_notification_topbottom_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/msg_list_notification_leftright_padding" android:layout_marginRight="@dimen/msg_list_notification_leftright_padding" android:minHeight="46.0dip">
+            <com.viber.voip.widget.AvatarView android:id="@id/notification_user_icon" android:layout_width="@dimen/conversation_notification_photo_size" android:layout_height="@dimen/conversation_notification_photo_size" android:layout_marginLeft="4.0dip" android:scaleType="centerCrop" />
+            <com.viber.voip.ui.ViberTextView android:gravity="center" android:id="@id/notification_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="Notification text" android:includeFontPadding="false" style="@style/msg_text_notification" />
+        </com.viber.voip.messages.extras.map.BalloonLayout>
+        <CheckBox android:layout_gravity="right|center" android:id="@id/check" android:paddingRight="6.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="20.0dip" android:button="?android:listChoiceIndicatorMultiple" />
+    </FrameLayout>
+</LinearLayout>

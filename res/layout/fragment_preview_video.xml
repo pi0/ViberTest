@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zoobe.sdk.ui.views.PreviewVideoView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <VideoView android:id="@id/videoview" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.volley.toolbox.NetworkImageView android:id="@id/thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <ImageButton android:id="@id/play_btn" android:background="@null" android:layout_width="@dimen/preview_play_btn_width" android:layout_height="@dimen/preview_play_btn_height" android:src="?zoobe_preview_video_playBtn" android:layout_centerInParent="true" android:contentDescription="@string/zoobe_creator_btn_play" />
+    <ImageButton android:id="@id/fullscreen_btn" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?zoobe_preview_video_fullscreenBtn" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:contentDescription="@string/zoobe_preview_btn_fullscreen" />
+    <ProgressBar android:id="@id/loading_bar" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</com.zoobe.sdk.ui.views.PreviewVideoView>

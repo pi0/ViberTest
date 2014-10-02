@@ -1,0 +1,20 @@
+package com.viber.jni.ptt;
+
+import com.viber.jni.controller.ControllerListener.ControllerListenerAction;
+
+class PttPlayerListener$5
+  implements ControllerListener.ControllerListenerAction<PttControllerDelegate.Player>
+{
+  PttPlayerListener$5(PttPlayerListener paramPttPlayerListener, String paramString) {}
+  
+  public void execute(PttControllerDelegate.Player paramPlayer)
+  {
+    paramPlayer.onPttBufferingStopped(this.val$pttID);
+  }
+}
+
+
+/* Location:           C:\Users\pooya\Desktop\bc.jar
+ * Qualified Name:     com.viber.jni.ptt.PttPlayerListener.5
+ * JD-Core Version:    0.7.0.1
+ */

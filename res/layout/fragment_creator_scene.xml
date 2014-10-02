@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zoobe.sdk.ui.views.CreatorSceneView android:background="#ff000000" android:clickable="true" android:layout_width="fill_parent" android:layout_height="0.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zoobe.sdk.cache.extra.ExtendedImageView android:id="@id/image_preview_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <com.zoobe.sdk.cache.extra.ExtendedImageView android:id="@id/image_preview_character" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <View android:id="@id/image_preview_overlay" android:background="?zoobe_creator_scene_overlay" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</com.zoobe.sdk.ui.views.CreatorSceneView>

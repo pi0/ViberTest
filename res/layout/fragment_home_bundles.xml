@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?zoobe_home_bundleselect" android:layout_width="fill_parent" android:layout_height="@dimen/home_tabbar_btn_height_zoobe"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/shop_btn_holder" android:layout_width="@dimen/home_tabbar_btn_width_zoobe" android:layout_height="@dimen/home_tabbar_btn_height_zoobe" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <ImageButton android:id="@id/shop_btn" android:visibility="gone" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="?zoobe_home_shopBtn" />
+        <ImageButton android:id="@id/shop_btn_new" android:visibility="gone" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="?zoobe_home_shopBtn_new" />
+        <ImageView android:id="@id/shop_btn_badge" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/a_nlabel_ic_enabled" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <com.zoobe.sdk.ui.widgets.CustomHorizontalScrollView android:id="@id/bundles_scroller" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/shop_btn_holder" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="horizontal" android:id="@id/bundles_holder" android:layout_width="wrap_content" android:layout_height="@dimen/home_tabbar_btn_height_zoobe" android:divider="?zoobe_home_bundleselect_separator" android:showDividers="middle|end|beginning" />
+    </com.zoobe.sdk.ui.widgets.CustomHorizontalScrollView>
+    <ImageView android:layout_width="20.0dip" android:layout_height="fill_parent" android:src="?zoobe_home_shopBtn_shadow" android:layout_toLeftOf="@id/shop_btn_holder" android:layout_alignTop="@id/shop_btn_holder" android:layout_alignBottom="@id/shop_btn_holder" />
+</RelativeLayout>

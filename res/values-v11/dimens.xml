@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="contacts_item_root_right_margin">32.0dip</dimen>
+    <dimen name="contacts_item_dir_right_margin">32.0dip</dimen>
+    <dimen name="contacts_item_filter_right_padding">32.0dip</dimen>
+    <dimen name="contacts_item_fav_right_padding">32.0dip</dimen>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/doodle_brush" android:background="?doodleButtonBackground" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_doodle_menu_brush" android:scaleType="center" android:layout_weight="1.0" android:onClick="onBrushSelectorClick" />
+    <ImageView android:id="@id/doodle_eraser" android:background="?doodleButtonBackground" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_doodle_menu_eraser" android:scaleType="center" android:layout_weight="1.0" android:onClick="onEraserSelectorClick" />
+    <ImageView android:id="@id/doodle_color" android:background="?doodleButtonBackground" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/doodle_color_picker" android:scaleType="center" android:layout_weight="1.0" android:onClick="onColorSelectorClick" />
+    <ImageView android:id="@id/doodle_image" android:background="?doodleButtonBackground" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_doodle_menu_image" android:scaleType="center" android:layout_weight="1.0" android:onClick="onBackgroundChangeClick" />
+    <ImageView android:id="@id/doodle_clear" android:background="?doodleButtonBackground" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_doodle_menu_clear" android:scaleType="center" android:layout_weight="1.0" android:onClick="onClearClick" />
+</LinearLayout>

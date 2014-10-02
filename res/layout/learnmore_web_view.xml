@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/root_layout" android:background="@color/solid_30" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/mainLayout" android:background="@color/solid" android:padding="1.0dip" android:layout_width="@dimen/pop_up_max_width" android:layout_height="@dimen/web_view_max_height">
+        <WebView android:id="@id/webview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include layout="@layout/error_no_connection_layout" />
+    </RelativeLayout>
+</LinearLayout>

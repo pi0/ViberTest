@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<smswhitelist>
+    <device manufacturer="Samsung" model="GT-I9100" model_name="Galaxy S II" />
+    <device manufacturer="Samsung" model="SGH-T999" model_name="Galaxy SIII" />
+    <device manufacturer="Samsung" model="GT-I8190" model_name="Galaxy SIII mini" />
+    <device manufacturer="Samsung" model="GT-I8190L" model_name="Galaxy SIII mini" />
+    <device manufacturer="Samsung" model="GT-I8190N" model_name="Galaxy SIII mini" />
+    <device manufacturer="Samsung" model="GT-S5360" model_name="Galaxy Y" />
+    <device manufacturer="Samsung" model="SGH-I317" model_name="Galaxy Note II" />
+    <device manufacturer="Samsung" model="GT-N7100" model_name="Galaxy Note II" />
+    <device manufacturer="Samsung" model="GT-N7000" model_name="Galaxy Note" />
+    <device manufacturer="Samsung" model="GT-S5830" model_name="Galaxy Ace" />
+    <device manufacturer="Samsung" model="GT-I9505" model_name="Galaxy S IV" />
+    <device manufacturer="Samsung" model="SGH-I337" model_name="Galaxy S IV" />
+    <device manufacturer="Samsung" model="GT-I9000" model_name="Galaxy S" />
+    <device manufacturer="Samsung" model="GT-S5830i" model_name="Galaxy Ace" />
+    <device manufacturer="Samsung" model="SPH-L710" model_name="Galaxy SIII" />
+    <device manufacturer="Samsung" model="SGH-T989" model_name="Galaxy SII" />
+    <device manufacturer="Samsung" model="Galaxy Nexus" model_name="Galaxy Nexus" />
+    <device manufacturer="Samsung" model="GT-N7105" model_name="Galaxy Note II" />
+    <device manufacturer="Samsung" model="GT-I9500" model_name="Galaxy S IV" />
+    <device manufacturer="Samsung" model="GT-S5300" model_name="Galaxy Pocket" />
+    <device manufacturer="Samsung" model="GT-S5839i" model_name="Galaxy Ace" />
+    <device manufacturer="Samsung" model="SGH-T999V" model_name="Galaxy SIII" />
+    <device manufacturer="SonyEricsson" model="ST25i" model_name="Xperia U" />
+    <device manufacturer="LGE" model="Nexus 4" model_name="Nexus 4" />
+    <device manufacturer="Motorola" model="MOTXT912B" model_name="Droid Razr 4G" />
+    <device manufacturer="HTC" model="PJ83100" model_name="One X" />
+    <device manufacturer="SonyEricsson" model="LT18i" model_name="Xperia Arc" />
+</smswhitelist>

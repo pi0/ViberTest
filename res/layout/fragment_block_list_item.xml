@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="10.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="56.0dip" android:layout_marginLeft="6.0dip" android:layout_toLeftOf="@id/unblock" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <com.viber.voip.ui.ViberTextView android:textSize="18.0sp" android:textColor="@color/sub_text" android:layout_gravity="center_vertical" android:id="@id/number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <com.viber.voip.ui.ViberTextView android:textSize="14.0sp" android:textColor="@color/main_text" android:ellipsize="end" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/unblock" android:layout_width="wrap_content" android:layout_height="56.0dip" android:layout_marginLeft="8.0dip" android:layout_alignParentRight="true">
+        <com.viber.voip.ui.ViberTextView android:textSize="16.0sp" android:textColor="@color/negative" android:gravity="center" android:layout_gravity="center_vertical" android:background="@drawable/unblock_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unblock" />
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/main_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/photo_container" android:paddingLeft="@dimen/contact_details_photo_top_left_margin" android:paddingTop="@dimen/contact_details_photo_top_left_margin" android:paddingRight="9.0dip" android:layout_width="179.0dip" android:layout_height="170.0dip">
+        <com.viber.voip.widget.AvatarView android:id="@id/photo" android:layout_width="140.0dip" android:layout_height="140.0dip" android:src="@drawable/_ics_ic_contact_picture_big" android:scaleType="centerCrop" app:tint="@color/avatar_tint_selector" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/photo_container">
+        <include layout="@layout/contact_details_list" />
+        <include layout="@layout/contact_details_empty" />
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.viber.voip.messages.ui.UnpressableLinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/header_viewstub" android:layout="@layout/msg_list_header" android:inflatedId="@id/msg_header_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@id/message_container" android:paddingLeft="@dimen/msg_border_padding" android:paddingRight="@dimen/msg_border_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/avatar_and_checkbox_holder" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+            <CheckBox android:id="@id/check" android:padding="0.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:layout_marginLeft="4.0dip" android:button="?android:listChoiceIndicatorMultiple" android:layout_toRightOf="@id/avatar" android:layout_centerVertical="true" />
+            <com.viber.voip.widget.AvatarView android:id="@id/avatar" android:layout_width="@dimen/conversation_user_photo_size" android:layout_height="@dimen/conversation_user_photo_size" android:layout_marginLeft="4.0dip" android:scaleType="centerCrop" android:layout_alignParentTop="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/sticker_holder" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/avatar_and_checkbox_holder">
+            <include android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/msg_list_left_controls" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <include layout="@layout/sticker_view" />
+                <include android:layout_gravity="right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginRight="6.0dip" layout="@layout/msg_list_time_location" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</com.viber.voip.messages.ui.UnpressableLinearLayout>

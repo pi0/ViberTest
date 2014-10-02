@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/top_bar" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_alignParentTop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/abs__search_plate" android:background="@drawable/_ics_textfield_activated" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/phone_type_field_margin" android:layout_marginRight="@dimen/phone_type_field_margin" android:layout_toLeftOf="@id/overflow_menu_top">
+        <com.viber.voip.widget.PhoneTypeField android:id="@id/type_field" android:background="@null" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cursorVisible="false" android:maxLines="1" android:scrollHorizontally="true" android:singleLine="true" android:editable="true" android:freezesText="true" android:layout_weight="1.0" android:inputType="phone" android:textIsSelectable="true" style="@style/PhoneInputStyle" />
+        <ImageView android:layout_gravity="right|center" android:id="@id/abs__search_close_btn" android:background="?list_selector" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:focusable="true" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/_ics_clear_search" android:layout_weight="0.0" android:contentDescription="@string/abs__searchview_description_clear" />
+    </LinearLayout>
+</FrameLayout>

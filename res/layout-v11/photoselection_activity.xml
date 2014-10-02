@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/backdrop" android:background="@color/popup_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <view android:id="@id/photo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" class="com.viber.voip.user.TransformableImageView" />
+    <com.viber.voip.ui.ViberTextView android:textSize="@dimen/add_photo_text_size" android:textColor="@color/weak_text" android:gravity="center" android:id="@id/user_add_pic_text_view" android:paddingBottom="@dimen/user_add_pic_text_view_padding_bottom" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/add_photo_two_lines" />
+</FrameLayout>

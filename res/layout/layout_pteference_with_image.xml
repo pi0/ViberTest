@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/root" android:background="@drawable/more_item_bg" android:paddingLeft="@dimen/preference_item_padding_side" android:paddingRight="?android:scrollbarSize" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minHeight="?android:listPreferredItemHeight">
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="6.0dip" android:layout_weight="1.0" android:layout_toLeftOf="@id/widget_frame">
+            <com.viber.voip.widget.AutoFitTextView android:textColor="@color/main_text" android:ellipsize="marquee" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Group" android:singleLine="true" style="@style/more_item_text_style" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/widget_frame" android:layout_width="@dimen/conversation_info_settings_height" android:layout_height="@dimen/conversation_info_settings_height" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <ImageView android:id="@id/image_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:id="@id/bottom_divider" android:background="@color/dividers" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/root" android:layout_alignParentBottom="true" />
+</RelativeLayout>

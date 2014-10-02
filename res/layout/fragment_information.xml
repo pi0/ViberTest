@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scroll" android:background="?zoobe_info_bg" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/info_light_height_zoobe">
+            <View android:background="?zoobe_info_floodlight" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/info_text_margin_left" android:layout_marginTop="@dimen/info_text_margin_top" android:layout_marginRight="@dimen/info_text_margin_right">
+                    <TextView android:gravity="left" android:id="@id/step_1_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zoobe_info_step_1" style="?zoobe_info_step_numeral" />
+                    <TextView android:gravity="left" android:id="@id/step_1_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zoobe_info_steplabel_choose" style="?zoobe_info_step_title" />
+                </LinearLayout>
+                <com.zoobe.sdk.cache.extra.LoadingImageView android:layout_gravity="center" android:id="@id/step_1_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/info_image_padding_left" android:layout_marginTop="@dimen/info_image_padding_top" android:layout_marginRight="@dimen/info_image_padding_right" android:layout_marginBottom="@dimen/info_image_padding_bottom" />
+            </LinearLayout>
+            <View android:background="?zoobe_info_separator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/info_sep_padding_left" android:layout_marginRight="@dimen/info_sep_padding_right" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/info_text_margin_left" android:layout_marginRight="@dimen/info_text_margin_right">
+                    <TextView android:gravity="left" android:id="@id/step_2_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zoobe_info_step_2" style="?zoobe_info_step_numeral" />
+                    <TextView android:gravity="left" android:id="@id/step_2_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zoobe_info_steplabel_record" style="?zoobe_info_step_title" />
+                </LinearLayout>
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/info_image_padding_left" android:layout_marginTop="@dimen/info_image_padding_top_small" android:layout_marginRight="@dimen/info_image_padding_right" android:layout_marginBottom="@dimen/info_image_padding_bottom">
+                    <com.zoobe.sdk.cache.extra.LoadingImageView android:layout_gravity="center" android:id="@id/step_2_image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:gravity="left" android:id="@id/step_2_rec" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zoobe_info_imagelabel_record" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="?zoobe_info_recordingLabel" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View android:background="?zoobe_info_separator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/info_sep_padding_left" android:layout_marginRight="@dimen/info_sep_padding_right" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/info_text_margin_left" android:layout_marginRight="@dimen/info_text_margin_right">
+                    <TextView android:gravity="left" android:id="@id/step_3_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zoobe_info_step_3" style="?zoobe_info_step_numeral" />
+                    <TextView android:gravity="left" android:id="@id/step_3_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zoobe_info_steplabel_watchandsend" style="?zoobe_info_step_title" />
+                </LinearLayout>
+                <com.zoobe.sdk.cache.extra.LoadingImageView android:layout_gravity="center" android:id="@id/step_3_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/info_image_padding_left" android:layout_marginTop="@dimen/info_image_padding_top_large" android:layout_marginRight="@dimen/info_image_padding_right" android:layout_marginBottom="@dimen/info_image_padding_bottom" />
+            </LinearLayout>
+            <View android:background="?zoobe_info_separator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/info_sep_padding_left" android:layout_marginRight="@dimen/info_sep_padding_right" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center" android:id="@id/powered_by" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zoobe_info_poweredby" style="?zoobe_info_footer_text" />
+                <Button android:layout_gravity="center" android:id="@id/about_btn" android:background="?zoobe_info_logo" android:layout_width="@dimen/info_about_width" android:layout_height="@dimen/info_about_height" android:layout_marginTop="@dimen/info_about_padding_top" />
+                <TextView android:gravity="center" android:id="@id/zoobe_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/info_about_padding_top" android:text="" style="?zoobe_info_footer_text" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

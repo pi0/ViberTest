@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plural_msg_call_viber_out">
+        <item quantity="other">Viber Out -puhelut</item>
+        <item quantity="one">Viber Out -puhelu</item>
+    </plurals>
+    <plurals name="plural_msg_call_incoming">
+        <item quantity="other">Saapuvat puhelut</item>
+        <item quantity="one">Saapuva puhelu</item>
+    </plurals>
+    <plurals name="plural_msg_call_outgoing">
+        <item quantity="other">Lähtevät puhelut</item>
+        <item quantity="one">Ulosmenevä puhelu</item>
+    </plurals>
+    <plurals name="plural_msg_call_missed">
+        <item quantity="other">Vastaamattomat puhelut</item>
+        <item quantity="one">Vastaamaton puhelu</item>
+    </plurals>
+    <plurals name="plural_msg_call_transferred">
+        <item quantity="other">Siirretyt puhelut</item>
+        <item quantity="one">Siirretty puhelu</item>
+    </plurals>
+    <plurals name="plural_msg_call_answered_on_another_device">
+        <item quantity="other">Toisella laitteella vastatut puhelut</item>
+        <item quantity="one">Vastasi toisella laitteella</item>
+    </plurals>
+</resources>

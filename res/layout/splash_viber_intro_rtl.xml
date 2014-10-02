@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/viber_intro_layout" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.viber.voip.ui.ViberTextView android:textSize="18.0sp" android:textColor="@color/sub_text" android:gravity="right" android:id="@id/first_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/splash_list_s1" android:singleLine="false" />
+    <com.viber.voip.ui.ViberTextView android:textSize="18.0sp" android:textColor="@color/sub_text" android:gravity="right" android:id="@id/second_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/splash_list_s2" android:singleLine="false" />
+    <com.viber.voip.ui.ViberTextView android:textSize="18.0sp" android:textColor="@color/sub_text" android:gravity="right" android:id="@id/third_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/splash_list_s3" android:singleLine="false" />
+</LinearLayout>

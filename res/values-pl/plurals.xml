@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plural_msg_call_viber_out">
+        <item quantity="other">Połączenia Viber Out</item>
+        <item quantity="one">Połączenie Viber Out</item>
+    </plurals>
+    <plurals name="plural_msg_call_incoming">
+        <item quantity="other">Połączenia przychodzące</item>
+        <item quantity="one">Połączenie przychodzące</item>
+    </plurals>
+    <plurals name="plural_msg_call_outgoing">
+        <item quantity="other">Połączenia wychodzące</item>
+        <item quantity="one">Połączenie wychodzące</item>
+    </plurals>
+    <plurals name="plural_msg_call_missed">
+        <item quantity="other">Nieodebrane połączenia</item>
+        <item quantity="one">Nieodebrane połączenie</item>
+    </plurals>
+    <plurals name="plural_msg_call_transferred">
+        <item quantity="other">Przekierowane połączenia</item>
+        <item quantity="one">Przekazane</item>
+    </plurals>
+    <plurals name="plural_msg_call_answered_on_another_device">
+        <item quantity="other">Połączenie odebrane na innym urządzeniu</item>
+        <item quantity="one">Odpowiedź udzielona na innym urządzeniu</item>
+    </plurals>
+</resources>

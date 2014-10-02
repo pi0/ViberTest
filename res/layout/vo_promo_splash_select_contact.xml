@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/tap_container" android:background="#e6000000" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.viber.voip.ui.ViberTextView android:textSize="26.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/vo_promo_splash_contacts_margin_caption" android:text="@string/vo_promo_caption_try_viber_out" />
+    <com.viber.voip.ui.ViberTextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="@dimen/vo_promo_splash_contacts_margin_select_contact_text" android:layout_marginRight="20.0dip" android:text="@string/vo_promo_select_contact" />
+    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/vo_promo_splash_contacts_margin_select_contact_picture" android:src="@drawable/vo_promo_select_contact_logo" />
+    <com.viber.voip.ui.ViberTextView android:textSize="14.0sp" android:textColor="#66ffffff" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="@dimen/vo_promo_splash_contacts_margin_tap_to_close" android:layout_marginRight="30.0dip" android:text="@string/vo_promo_tap_to_close" />
+</LinearLayout>

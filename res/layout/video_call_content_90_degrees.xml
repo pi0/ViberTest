@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/video_call_content_90_degrees" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:viber="http://schemas.android.com/apk/res/com.viber.voip">
+    <RelativeLayout android:layout_gravity="right" android:id="@id/video_call_title" android:background="@color/solid_30" android:layout_width="56.0dip" android:layout_height="fill_parent">
+        <com.viber.voip.phone.VideoCallTitleName android:textSize="32.0sp" android:textColor="#fff6f6f6" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginTop="32.0dip" android:singleLine="true" android:layout_above="@id/chronometer" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:fontFamily="sans-serif-light" viber:rotation="90" />
+        <com.viber.voip.phone.VideoCallTitleChronometer android:textSize="13.0sp" android:textColor="#fff6f6f6" android:id="@id/chronometer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="32.0dip" android:format="@string/chronometer_initial_format" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:fontFamily="sans-serif-light" viber:rotation="90" />
+        <com.viber.voip.phone.VideoCallMenuButton android:id="@id/phone_call_secure" android:background="@null" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="6.0dip" android:src="@drawable/btn_call_secure_trusted" android:text="@string/viber_out" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" viber:rotation="90" />
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="left" android:orientation="vertical" android:id="@id/video_call_menu" android:layout_width="61.0dip" android:layout_height="fill_parent" android:layout_marginLeft="14.0dip" android:weightSum="1.0">
+        <com.viber.voip.phone.VideoCallMenuButton android:id="@id/chat" android:background="@null" android:layout_width="fill_parent" android:layout_height="0.0dip" android:src="@drawable/_ics_video_call_chat" android:layout_weight="0.16" viber:rotation="90" />
+        <com.viber.voip.phone.VideoCallMenuButton android:id="@id/video_off" android:background="@null" android:layout_width="fill_parent" android:layout_height="0.0dip" android:src="@drawable/_ics_video_call_video_off" android:layout_weight="0.16" viber:rotation="90" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.36">
+            <com.viber.voip.phone.VideoCallMenuButton android:id="@id/hangup" android:background="@drawable/_ics_video_call_hangup_land_bg" android:layout_width="fill_parent" android:layout_height="185.0dip" android:src="@drawable/phone_end_call_icon_90" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <com.viber.voip.phone.VideoCallMenuButton android:id="@id/mute" android:background="@null" android:layout_width="fill_parent" android:layout_height="0.0dip" android:src="@drawable/_ics_video_call_mute" android:layout_weight="0.16" viber:rotation="90" />
+        <com.viber.voip.phone.VideoCallMenuButton android:id="@id/transfer" android:background="@null" android:layout_width="fill_parent" android:layout_height="0.0dip" android:src="@drawable/_ics_video_call_transfer" android:layout_weight="0.16" viber:rotation="90" />
+    </LinearLayout>
+</FrameLayout>

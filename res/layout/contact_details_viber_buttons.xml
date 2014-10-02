@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/two_viber_buttons_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+        <com.viber.voip.ui.ViberTextView android:textSize="@dimen/viber_buttons_text_size" android:id="@id/left_button" android:layout_width="0.0dip" android:layout_height="@dimen/viber_buttons_height" android:layout_marginLeft="10.0dip" android:maxWidth="@dimen/viber_buttons_width" android:text="left button" android:singleLine="true" android:layout_weight="0.5" style="@style/ContactDetails.ViberButton" />
+        <com.viber.voip.ui.ViberTextView android:textSize="@dimen/viber_buttons_text_size" android:id="@id/right_button" android:layout_width="0.0dip" android:layout_height="@dimen/viber_buttons_height" android:layout_marginLeft="22.0dip" android:layout_marginRight="10.0dip" android:maxWidth="@dimen/viber_buttons_width" android:text="right button" android:singleLine="true" android:layout_weight="0.5" style="@style/ContactDetails.ViberButton" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/one_viber_buttons_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.viber.voip.ui.ViberTextView android:textSize="@dimen/viber_buttons_text_size" android:id="@id/middle_button" android:layout_width="@dimen/viber_button_middle_width" android:layout_height="@dimen/viber_buttons_height" android:text="middle button" android:singleLine="true" style="@style/ContactDetails.ViberButton" />
+    </LinearLayout>
+    <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/checking_progress" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+</merge>

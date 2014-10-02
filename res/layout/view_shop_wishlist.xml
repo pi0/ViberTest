@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@null" android:paddingBottom="@dimen/shop_list_item_margin_v_zoobe" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bundle_image" android:layout_width="@dimen/shop_list_item_img_width_zoobe" android:layout_height="@dimen/shop_list_item_img_height_zoobe" android:layout_marginLeft="@dimen/shop_list_item_border_zoobe" android:layout_marginTop="@dimen/shop_list_item_border_zoobe" android:src="?zoobe_shop_list_wish_img" android:scaleType="centerCrop" android:layout_alignParentLeft="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/shop_list_item_text_padding_zoobe" android:layout_toRightOf="@id/bundle_image" android:layout_centerVertical="true">
+        <TextView android:gravity="left" android:id="@id/bundle_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zoobe_shop_makewishcell_title" style="?zoobe_shop_list_wish_title" />
+        <TextView android:gravity="left" android:id="@id/bundle_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zoobe_shop_makewishcell_subtitle" style="?zoobe_shop_list_wish_subtitle" />
+    </LinearLayout>
+</RelativeLayout>

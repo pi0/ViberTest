@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="?zoobe_home" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:name="com.zoobe.sdk.ui.fragments.BundleSelectorFragment" android:id="@id/fragment_bundles" android:layout_width="wrap_content" android:layout_height="@dimen/home_tabbar_btn_height_zoobe" android:layout_alignParentBottom="true" />
+    <fragment android:name="com.zoobe.sdk.ui.fragments.StorySelectorFragment" android:id="@id/fragment_stories" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/fragment_bundles" />
+</RelativeLayout>

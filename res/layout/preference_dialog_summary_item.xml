@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:padding="5.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.viber.voip.ui.ViberTextView android:textSize="18.0sp" android:layout_gravity="center_horizontal" android:id="@id/item_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:layout_weight="1.0" />
+        <com.viber.voip.ui.ViberTextView android:textSize="14.0sp" android:layout_gravity="center_horizontal" android:id="@id/item_summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <RadioButton android:layout_gravity="center_vertical" android:id="@id/check_box" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" />
+</LinearLayout>

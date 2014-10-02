@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plural_msg_call_viber_out">
+        <item quantity="other">Apeluri Viber Out</item>
+        <item quantity="one">Apel Viber Out</item>
+    </plurals>
+    <plurals name="plural_msg_call_incoming">
+        <item quantity="other">Apeluri primite</item>
+        <item quantity="one">Apel primit</item>
+    </plurals>
+    <plurals name="plural_msg_call_outgoing">
+        <item quantity="other">Apeluri efectuate</item>
+        <item quantity="one">Apel efectuat</item>
+    </plurals>
+    <plurals name="plural_msg_call_missed">
+        <item quantity="other">Apeluri pierdute</item>
+        <item quantity="one">Apel pierdut</item>
+    </plurals>
+    <plurals name="plural_msg_call_transferred">
+        <item quantity="other">Apeluri transferate</item>
+        <item quantity="one">Apel transferat</item>
+    </plurals>
+    <plurals name="plural_msg_call_answered_on_another_device">
+        <item quantity="other">Apeluri transferate pe alt dispozitiv</item>
+        <item quantity="one">S-a răspuns pe un alt dispozitiv</item>
+    </plurals>
+</resources>

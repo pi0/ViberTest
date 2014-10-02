@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/_ics_ic_ab_search" android:id="@id/menu_search" android:orderInCategory="1" android:title="@string/menu_search" android:showAsAction="always|collapseActionView" android:iconifiedByDefault="true" android:actionViewClass="com.actionbarsherlock.widget.SearchView" />
+    <item android:icon="@drawable/ic_ab_new_contact" android:id="@id/menu_new_contact" android:orderInCategory="2" android:title="@string/menu_new_contact" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_menu_more" android:id="@id/menu_more_options" android:orderInCategory="3" android:title="@string/more_options" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_menu_details_delete" android:id="@id/menu_debug_options" android:title="Debug options">
+        <menu>
+            <item android:id="@id/menu_run_sync_account" android:title="Run Sync Account" />
+            <item android:id="@id/menu_remove_contacts" android:title="Remove all" />
+            <item android:id="@id/menu_remove_viber_contacts" android:title="Remove viber" />
+            <item android:id="@id/menu_reset_first_sync" android:title="Reset sync" />
+            <item android:id="@id/menu_show_sync_screen" android:title="Show sync screen" />
+            <item android:id="@id/menu_show_sync_viber_faild_screen" android:title="Show sync viber faild screen" />
+            <item android:id="@id/menu_show_no_contacts_screen" android:title="Show no contacts screen" />
+            <item android:id="@id/menu_show_no_viber_contacts_screen" android:title="Show no viber contacts screen" />
+            <item android:id="@id/menu_show_no_contacts_found_screen" android:title="Show no contacts found screen" />
+            <item android:id="@id/menu_remove_screen" android:title="Close additional screens" />
+            <item android:id="@id/menu_show_top_loading_view" android:title="Open/Close loading bar" />
+            <item android:id="@id/menu_clear_images" android:title="Remove cached images" />
+            <item android:id="@id/menu_open_block_list" android:title="@string/block_list" />
+            <item android:id="@id/menu_show_dialog_602" android:title="Show dialog 602 (Payment succeeded)" />
+            <item android:id="@id/menu_rate_facebook_like_dialogs" android:title="Rate &amp; Facebook Like Dialogs" />
+            <item android:id="@id/menu_set_show_compose_group_promo" android:title="Set show compose group promo" />
+            <item android:id="@id/menu_reset_show_desktop_promo" android:title="Reset show desktop promo" />
+        </menu>
+    </item>
+</menu>

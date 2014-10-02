@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plural_msg_call_viber_out">
+        <item quantity="other">Hovory Viber Out</item>
+        <item quantity="one">Hovor Viber Out</item>
+    </plurals>
+    <plurals name="plural_msg_call_incoming">
+        <item quantity="other">Příchozí hovory</item>
+        <item quantity="one">Příchozí hovor</item>
+    </plurals>
+    <plurals name="plural_msg_call_outgoing">
+        <item quantity="other">Odchozí hovory</item>
+        <item quantity="one">Odchozí hovor</item>
+    </plurals>
+    <plurals name="plural_msg_call_missed">
+        <item quantity="other">Zmeškané hovory</item>
+        <item quantity="one">Zmeškaný hovor</item>
+    </plurals>
+    <plurals name="plural_msg_call_transferred">
+        <item quantity="other">Přesměrované hovory</item>
+        <item quantity="one">Přesměrovaný hovor</item>
+    </plurals>
+    <plurals name="plural_msg_call_answered_on_another_device">
+        <item quantity="other">Hovory přijaté v jiném zařízení</item>
+        <item quantity="one">Přijato v jiném zařízení</item>
+    </plurals>
+</resources>

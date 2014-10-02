@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/messages_list" android:background="@color/dark_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/emptyProgress" android:layout_width="@dimen/empty_fragment_view_progress_dialog_size" android:layout_height="@dimen/empty_fragment_view_progress_dialog_size" android:layout_centerInParent="true" />
+    <ScrollView android:id="@*android:id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <ViewStub android:id="@id/empty_stub" android:layout="@layout/_ics_layout_empty_public_groups" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+    <com.viber.voip.ui.ViberListView android:scrollbarStyle="outsideOverlay" android:id="@*android:id/list" android:padding="@dimen/vibes_list_divider_height" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@*android:color/transparent" android:drawSelectorOnTop="false" android:cacheColorHint="#00000000" android:divider="@*android:color/transparent" android:dividerHeight="@dimen/vibes_list_divider_height" android:fastScrollEnabled="false" android:smoothScrollbar="true" android:overScrollMode="never" android:fastScrollAlwaysVisible="false" />
+</RelativeLayout>

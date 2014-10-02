@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" android:paddingLeft="@dimen/public_group_patricipant_item_horizontal_padding" android:paddingRight="@dimen/public_group_patricipant_item_horizontal_padding" android:layout_width="wrap_content" android:layout_height="@dimen/public_group_participant_item_name_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.viber.voip.widget.AvatarView android:id="@id/image" android:layout_width="@dimen/public_group_info_participant_icon_size" android:layout_height="@dimen/public_group_info_participant_icon_size" android:src="@drawable/chat_head_default_avatar" android:scaleType="centerCrop" app:tint="@color/avatar_tint_selector" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/main_text" android:ellipsize="end" android:gravity="center" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="0.0dip" android:maxLines="2" android:layout_weight="1.0" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zoobe.sdk.ui.views.StoryView android:clickable="true" android:layout_width="@dimen/zoobe_image_story_width" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/story_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/home_pager_margin_top_zoobe" android:layout_alignParentTop="true">
+        <com.zoobe.sdk.ui.widgets.StorySpriteView android:id="@id/story_image_animated" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_centerInParent="true" />
+        <com.zoobe.sdk.cache.extra.LoadingImageView android:id="@id/story_image_still" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/speech_bubble" android:layout_width="@dimen/home_pager_speechbubble_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/home_pager_speechbubble_margin" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <TextView android:id="@id/speech_bubble_text_placeholder" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="?zoobe_home_storyselect_speechbubble_text" />
+        <ImageView android:id="@id/speech_bubble_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="?zoobe_home_storyselect_speechbubble_image" android:scaleType="fitXY" android:layout_alignBottom="@id/speech_bubble_text_placeholder" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <TextView android:id="@id/speech_bubble_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="?zoobe_home_storyselect_speechbubble_text" />
+    </RelativeLayout>
+</com.zoobe.sdk.ui.views.StoryView>

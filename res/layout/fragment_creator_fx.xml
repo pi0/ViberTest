@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <com.zoobe.sdk.ui.widgets.ZoobeTextView android:id="@id/fx_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zoobe_message_fx_tabtitle" android:layout_centerHorizontal="true" style="?zoobe_creator_fx_tabtitle" />
+        <RelativeLayout android:id="@id/fx_level_bar_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/creator_fx_slider_margin_horizontal" android:layout_marginTop="?zoobe_creator_fx_slider_margin_top" android:layout_marginRight="@dimen/creator_fx_slider_margin_horizontal" android:layout_marginBottom="?zoobe_creator_fx_slider_margin_bottom" android:layout_below="@id/fx_title">
+            <ImageView android:id="@id/fx_level_bar_bg" android:layout_width="fill_parent" android:layout_height="@dimen/creator_fx_slider_bar_height" android:src="?zoobe_creator_fx_slider_bar_off" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_centerInParent="true" />
+            <SeekBar android:id="@id/fx_level_bar" android:paddingLeft="@dimen/creator_fx_slider_thumb_padding" android:paddingRight="@dimen/creator_fx_slider_thumb_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:progressDrawable="@*android:color/transparent" android:thumb="?zoobe_creator_fx_slider_thumb_off" android:layout_alignParentLeft="true" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <com.zoobe.sdk.ui.widgets.GlowTextView android:id="@id/fx_btn_low" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zoobe_message_fx_buttonlow_text" android:layout_below="@id/fx_level_bar_container" android:layout_alignLeft="@id/fx_level_bar_container" style="?zoobe_creator_fx_levelBtn" />
+        <com.zoobe.sdk.ui.widgets.GlowTextView android:id="@id/fx_btn_off" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zoobe_message_fx_buttonoff_text" android:layout_below="@id/fx_level_bar_container" android:layout_centerHorizontal="true" style="?zoobe_creator_fx_levelBtn" />
+        <com.zoobe.sdk.ui.widgets.GlowTextView android:id="@id/fx_btn_high" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zoobe_message_fx_buttonhigh_text" android:layout_below="@id/fx_level_bar_container" android:layout_alignRight="@id/fx_level_bar_container" style="?zoobe_creator_fx_levelBtn" />
+    </RelativeLayout>
+</RelativeLayout>

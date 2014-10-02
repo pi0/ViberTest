@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/locations_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.viber.voip.messages.ui.view.ViberMapView android:id="@id/mapview" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/header" android:apiKey="0RLA0GEjNgg5n6moYMUKpZAYsCGLtxi38t9lKpQ" />
+    <FrameLayout android:id="@id/move_to_my_btn" android:background="@drawable/_ics_move_to_my_bg" android:layout_width="52.0dip" android:layout_height="52.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="20.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <ImageView android:layout_gravity="center" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/_ics_move_to_my" android:layout_below="@id/header" />
+    </FrameLayout>
+</RelativeLayout>

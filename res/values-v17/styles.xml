@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ActionBarStyle" parent="@style/Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/_ics_ab</item>
+        <item name="android:titleTextStyle">@style/ActionBarTitleStyle.Normal</item>
+        <item name="android:subtitleTextStyle">@style/ActionBarSubtitleStyle.Normal</item>
+        <item name="android:indeterminateProgressStyle">@style/IndeterminateProgress</item>
+        <item name="android:backgroundStacked">@drawable/_ics_ab</item>
+        <item name="android:backgroundSplit">@drawable/actionbar_bg_split</item>
+        <item name="android:layoutDirection">ltr</item>
+    </style>
+</resources>

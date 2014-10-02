@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<devices>
+    <device model="MB525" status="1" />
+    <device model="Milestone" status="1" />
+    <device model="HTC Wildfire" status="0" />
+    <device model="HTC Hero" status="0" />
+    <device model="Desire HD" status="1" />
+    <device model="HTC Desire" status="1" />
+    <device model="Nexus S" status="1" />
+    <device model="GT-I9000" status="1" />
+    <device model="HTC Vision" status="1" />
+    <device model="Nexus One" status="1" />
+    <device model="HTC Incredible S" status="1" />
+    <device model="HTC Desire S" status="1" />
+    <device model="GT-S5830" status="1" />
+</devices>

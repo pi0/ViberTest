@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/dividers" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/sticker_package_list_margin" android:layout_marginRight="@dimen/sticker_package_list_margin" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <TextView android:textSize="18.0sp" android:textColor="@color/primary_text_light" android:gravity="left|center" android:layout_gravity="left|center" android:id="@id/btn_sync" android:background="@drawable/_ics_list_selector" android:paddingLeft="24.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/market_settings_btn_sync_stickers" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffaaaaaa" android:layout_gravity="left|center" android:id="@id/downloading_label" android:paddingLeft="24.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/market_settings_btn_sync_stickers" />
+        <ProgressBar android:layout_gravity="right|center" android:id="@id/downloading_progress" android:paddingRight="24.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateOnly="true" />
+    </FrameLayout>
+    <View android:background="@color/dividers" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/sticker_package_list_margin" android:layout_marginRight="@dimen/sticker_package_list_margin" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/primary_text_light" android:gravity="left|center" android:id="@id/btn_support" android:background="@drawable/_ics_list_selector" android:paddingLeft="24.0dip" android:layout_width="fill_parent" android:layout_height="56.0dip" android:text="@string/market_settings_btn_support" />
+    <View android:background="@color/dividers" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/sticker_package_list_margin" android:layout_marginRight="@dimen/sticker_package_list_margin" />
+</LinearLayout>

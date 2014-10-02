@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@*android:id/list" android:background="@color/conversation_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/_ics_list_selector_transparent" android:divider="@drawable/divider" android:dividerHeight="1.0px" android:layout_above="@id/block_number" android:layout_alignParentTop="true" />
+    <LinearLayout android:gravity="center" android:id="@id/block_number" android:background="@drawable/block_number_bg" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:layout_alignParentBottom="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_block_number" />
+        <com.viber.voip.ui.ViberTextView android:textSize="18.0sp" android:textColor="@color/negative" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:text="@string/block_number" android:fontFamily="sans-serif-light" />
+    </LinearLayout>
+</RelativeLayout>

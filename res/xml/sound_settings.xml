@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="Sound Settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="Audio unit">
+        <ListPreference android:entries="@array/sound_settings_audio_driver_entries" android:title="Audio driver" android:key="sound_settings_audio_driver" android:entryValues="@array/sound_settings_audio_driver_values" />
+        <ListPreference android:enabled="false" android:entries="@array/sound_settings_hw_agc_entries" android:title="HW AGC (if supported)" android:key="sound_settings_hw_agc_key" android:entryValues="@array/sound_settings_hw_agc_values" />
+        <ListPreference android:enabled="false" android:entries="@array/sound_settings_hw_iir_entries" android:title="HW IIR (if supported)" android:key="sound_settings_hw_iir_key" android:entryValues="@array/sound_settings_hw_iir_values" />
+        <ListPreference android:enabled="false" android:entries="@array/sound_settings_hw_ns_entries" android:title="HW NS (if supported)" android:key="sound_settings_hw_ns_key" android:entryValues="@array/sound_settings_hw_ns_values" />
+        <ListPreference android:enabled="false" android:entries="@array/sound_settings_sw_agc_entries" android:title="SW AGC Effect (if supported)" android:key="sound_settings_sw_agc_key" android:entryValues="@array/sound_settings_sw_agc_values" />
+        <ListPreference android:enabled="false" android:entries="@array/sound_settings_sw_aec_entries" android:title="SW AEC Effect (if supported)" android:key="sound_settings_sw_aec_key" android:entryValues="@array/sound_settings_sw_aec_values" />
+        <ListPreference android:enabled="false" android:entries="@array/sound_settings_sw_ns_entries" android:title="SW NS Effect (if supported)" android:key="sound_settings_sw_ns_key" android:entryValues="@array/sound_settings_sw_ns_values" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="Filters/Earpiece mode">
+        <ListPreference android:entries="@array/sound_settings_aec_entries" android:title="AEC" android:key="sound_settings_aec_key" android:entryValues="@array/sound_settings_aec_values" />
+        <ListPreference android:entries="@array/sound_settings_agc_entries" android:title="Automatic Gain Control" android:key="sound_settings_agc_key" android:entryValues="@array/sound_settings_agc_values" />
+        <ListPreference android:entries="@array/sound_settings_agc_entries" android:title="RX Automatic Gain Control" android:key="sound_settings_rxagc_key" android:entryValues="@array/sound_settings_agc_values" />
+        <ListPreference android:entries="@array/sound_settings_ns_entries" android:title="Noise Suppression" android:key="sound_settings_ns_key" android:entryValues="@array/sound_settings_ns_values" />
+        <ListPreference android:entries="@array/sound_settings_ns_entries" android:title="RX Noise Suppression" android:key="sound_settings_rxns_key" android:entryValues="@array/sound_settings_ns_values" />
+        <ListPreference android:entries="@array/sound_settings_vad_entries" android:title="Voice Activity Detection" android:key="sound_settings_vad_key" android:entryValues="@array/sound_settings_vad_values" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="Filters/LoudSpeaker mode">
+        <ListPreference android:entries="@array/sound_settings_aec_entries" android:title="AEC" android:key="sound_settings_speaker_aec_key" android:entryValues="@array/sound_settings_aec_values" />
+        <ListPreference android:entries="@array/sound_settings_agc_entries" android:title="Automatic Gain Control" android:key="sound_settings_speaker_agc_key" android:entryValues="@array/sound_settings_agc_values" />
+        <ListPreference android:entries="@array/sound_settings_agc_entries" android:title="RX Automatic Gain Control" android:key="sound_settings_speaker_rxagc_key" android:entryValues="@array/sound_settings_agc_values" />
+        <ListPreference android:entries="@array/sound_settings_ns_entries" android:title="Noise Suppression" android:key="sound_settings_speaker_ns_key" android:entryValues="@array/sound_settings_ns_values" />
+        <ListPreference android:entries="@array/sound_settings_ns_entries" android:title="RX Noise Suppression" android:key="sound_settings_speaker_rxns_key" android:entryValues="@array/sound_settings_ns_values" />
+        <ListPreference android:entries="@array/sound_settings_vad_entries" android:title="Voice Activity Detection" android:key="sound_settings_speaker_vad_key" android:entryValues="@array/sound_settings_vad_values" />
+    </PreferenceScreen>
+    <ListPreference android:title="Voice Codec" android:key="sound_settings_codec_key" />
+    <PreferenceScreen android:title="VVE debug">
+        <ListPreference android:entries="@array/vve_debug_voice_rtpdebug_entries" android:title="Voice rtpdump" android:key="sound_settings_vve_debug_voice_rtpdebug_key" android:defaultValue="0" android:entryValues="@array/vve_debug_voice_rtpdebug_values" />
+        <ListPreference android:entries="@array/vve_debug_video_rtpdebug_entries" android:title="Video rtpdump" android:key="sound_settings_vve_debug_video_rtpdebug_key" android:defaultValue="0" android:entryValues="@array/vve_debug_video_rtpdebug_values" />
+        <ListPreference android:entries="@array/vve_debug_video_capture_entries" android:title="Video capture" android:key="sound_settings_vve_debug_video_capture_key" android:defaultValue="0" android:entryValues="@array/vve_debug_video_capture_values" />
+        <CheckBoxPreference android:title="Clear previous dumps" android:key="sound_settings_vve_debug_clear_key" android:defaultValue="0" />
+    </PreferenceScreen>
+    <ListPreference android:entries="@array/sound_settings_htc_hwaec_entries" android:title="HTC Hardware AEC control" android:key="sound_settings_htc_hwaec" android:defaultValue="0" android:entryValues="@array/sound_settings_htc_hwaec_values" />
+    <ListPreference android:entries="@array/sound_settings_video_entries" android:title="Experimental video support" android:key="sound_settings_video" android:defaultValue="1" android:entryValues="@array/sound_settings_video_values" />
+</PreferenceScreen>
